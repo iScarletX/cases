@@ -32,7 +32,7 @@ window.CASES = {
    {name:'陆衡',role:'水门闸工',description:'与沈微澜：传令\n与现场判断\n洪峰将至\n守住水门'},
    {name:'顾砚秋',role:'核验吏',description:'与沈微澜：原图\n与核验责任\n核验证词\n再定闸道'}
   ],selectedCharacter:0,
-  characterLayout:{box:[114,237,925,421],widths:[233,176,176],expanded:465,gap:76},
+  characterLayout:{box:[114,237,925,421],widths:[233,176,176],expanded:465,gaps:[76,36]},
   completeBox:[107,177,445,105],otherBox:[104,296,282,61],recommendLabel:[103,364,190,45],
   recommendations:['雪渡无声','长街卖花人','山城午后'],recommendBoxes:[[102,422,418,91],[103,521,417,91],[103,621,417,89]],selectedRecommendation:0
  },
@@ -88,7 +88,7 @@ window.CASES = {
    {name:'梁见声',role:'码头送货员，\n协助匿名证人\n转移',description:'码头送货员。\n协助匿名证人转移，\n留下未说完的话，\n等待有人听见。'},
    {name:'苏曼',role:'前新闻剪接员，\n曾为免曝露证人\n而删去后半句',description:'前新闻剪接员。\n曾为免曝露证人，\n而删去后半句。\n原带仍保存着证词。'}
   ],selectedCharacter:0,
-  characterLayout:{box:[118,217,950,365],widths:[224,180,181],expanded:501,gap:52},
+  characterLayout:{box:[118,217,950,365],widths:[224,180,181],expanded:501,gaps:[52,36]},
   completeBox:[143,152,408,98],otherBox:[750,148,280,74],recommendLabel:[510,470,210,42],
   recommendations:['空港最后一班','山城邮差','无人签收'],recommendBoxes:[[123,555,280,108],[447,555,279,108],[773,555,277,108]],selectedRecommendation:1
  },
@@ -106,7 +106,7 @@ window.CASES = {
    {name:'夏承',role:'夜班司机',description:'与林照：共同面对\n偏线记录\n\n记录每一班车\n保留原始证明'},
    {name:'唐岑',role:'评审联络员',description:'与林照：选择提交\n与说明的路径\n\n公开原始记录\n争取纠错'}
   ],selectedCharacter:0,
-  characterLayout:{box:[111,242,861,361],widths:[165,150,151],expanded:448,gap:65},
+  characterLayout:{box:[111,242,861,361],widths:[165,150,151],expanded:448,gaps:[65,46]},
   completeBox:[104,178,465,90],otherBox:[103,280,255,74],recommendLabel:[104,369,193,45],
   recommendations:['未寄出的夏天','远山来信','第七码头'],recommendBoxes:[[102,430,322,88],[103,526,321,88],[103,622,321,88]],selectedRecommendation:0
  }

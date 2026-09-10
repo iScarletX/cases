@@ -3,7 +3,7 @@
  const stage=document.getElementById('stage'),viewport=document.getElementById('viewport');
  const dialog=document.getElementById('dialog'),dialogBody=document.getElementById('dialog-body');
  const boardNames={menu:'主菜单',choice:'剧情选择',route:'故事路线',character:'角色列表',ending:'结局完成'};
- let caseId,board,config,selectedRoute,selectedCharacter,lastFocus,selectedChoice=0;
+ let caseId,board,config,selectedRoute,selectedCharacter,pinnedCharacter,lastFocus,selectedChoice=0;
  const asset=name=>`assets/${caseId}/${name}`;
  const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const lines=s=>escape(s).replace(/\n/g,'<br>');
@@ -56,7 +56,7 @@
  }
  function routeFrame(title,i){
   const e=button('route-node',title,()=>selectRoute(i,true));e.dataset.node=i;e.setAttribute('aria-pressed',String(i===selectedRoute));
-  e.innerHTML=`<div class="route-shell"><div class="route-window">${i===0?`<img src="${asset('choice-background.jpg')}" alt="">`:''}</div><span class="route-title">${escape(title)}</span><i class="route-stamp" aria-hidden="true">${caseId==='c03'?String(i+1).padStart(2,'0'):caseId==='c05'?'●':caseId==='c04'?'◉':'⊕'}</i></div><i class="top-clip one" aria-hidden="true"></i><i class="top-clip two" aria-hidden="true"></i>`;
+  e.innerHTML=`<div class="route-shell"><div class="route-window">${i===0?`<img src="${asset('route-photo.png')}" alt="">`:''}</div><span class="route-title">${escape(title)}</span><i class="route-stamp" aria-hidden="true">${caseId==='c03'?String(i+1).padStart(2,'0'):caseId==='c05'?'●':caseId==='c04'?'◉':'⊕'}</i></div><i class="top-clip one" aria-hidden="true"></i><i class="top-clip two" aria-hidden="true"></i>`;
   if(caseId==='c04'||caseId==='c05'){
    const frame=element('img','sculpted-frame');frame.src=asset('route-frame.png');frame.alt='';e.prepend(frame);
   }
@@ -88,7 +88,7 @@
   const layout=config.characterLayout;const group=element('div','characters');place(group,layout.box);stage.append(group);
   config.characters.forEach((c,i)=>{
    const item=element('article','character');item.dataset.character=i;
-   const front=button('character-front',c.name+'，'+c.role.replace(/\n/g,''),()=>expandCharacter(selectedCharacter===i?-1:i));
+   const front=button('character-front',c.name+'，'+c.role.replace(/\n/g,''),()=>{pinnedCharacter=i;expandCharacter(i);});
    front.setAttribute('aria-controls','character-detail-'+i);front.setAttribute('aria-expanded',String(i===selectedCharacter));
    if(caseId==='c04'||caseId==='c05'){
     front.innerHTML=`<img class="char-art" src="${asset('char-art-'+i+'.png')}" alt=""><span class="sr-only">${escape(c.name)} ${escape(c.role)}</span>`;
@@ -97,8 +97,11 @@
    const detail=element('div','character-detail',`<h2>${lines(c.detailRole||c.role)}</h2><p>${lines(c.description)}</p>`);detail.id='character-detail-'+i;
    item.append(front,detail);
    if((caseId==='c04'||caseId==='c05')&&i===0){const open=element('img','char-open-art');open.src=asset('char-open.png');open.alt='';item.append(open);}
+   const collapse=button('character-collapse','收起'+c.name+'的详情',()=>{pinnedCharacter=-1;expandCharacter(-1);front.focus({preventScroll:true});});collapse.textContent='×';collapse.title='收起详情';item.append(collapse);
    group.append(item);
-   item.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')expandCharacter(i);});front.addEventListener('focus',()=>expandCharacter(i));
+   item.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')expandCharacter(i);});
+   item.addEventListener('pointerleave',e=>{if(e.pointerType!=='touch')expandCharacter(pinnedCharacter);});
+   front.addEventListener('focus',()=>expandCharacter(i));
   });
   expandCharacter(selectedCharacter);
  }
@@ -109,7 +112,7 @@
   stage.querySelectorAll('.character').forEach((item,n)=>{
    const expanded=n===i,w=layout.widths[n]+(expanded?extra:0);
    item.style.left=offset*scale+'px';item.style.width=w*scale+'px';item.style.setProperty('--front-width',layout.widths[n]*scale+'px');
-   item.classList.toggle('expanded',expanded);item.querySelector('button').setAttribute('aria-expanded',String(expanded));item.querySelector('.character-detail').setAttribute('aria-hidden',String(!expanded));
+   item.classList.toggle('expanded',expanded);item.querySelector('button').setAttribute('aria-expanded',String(expanded));item.querySelector('.character-detail').setAttribute('aria-hidden',String(!expanded));item.querySelector('.character-collapse').tabIndex=expanded?0:-1;
    offset+=w+(layout.gaps?layout.gaps[n]||0:layout.gap);
   });
  }
@@ -151,21 +154,22 @@
   const portrait=innerWidth<700&&innerHeight>innerWidth;
   const scale=portrait?.5:Math.min(innerWidth/1920,innerHeight/1080);
   const width=1920*scale,height=1080*scale;
-  stage.style.transform=`scale(${scale})`;stage.style.marginLeft=portrait?'0':Math.max(0,(innerWidth-width)/2)+'px';stage.style.marginTop=Math.max(0,(innerHeight-height)/2)+'px';
+  stage.style.transform=`scale(${scale})`;
+  const frame=document.getElementById('scene-frame');Object.assign(frame.style,{width:width+'px',height:height+'px',marginLeft:portrait?'0':Math.max(0,(innerWidth-width)/2)+'px',marginTop:Math.max(0,(innerHeight-height)/2)+'px'});
   viewport.style.setProperty('--scene-width',width+'px');viewport.style.setProperty('--scene-height',height+'px');viewport.classList.toggle('pan-scene',portrait);
  }
  function render(){
   const params=new URLSearchParams(location.search);caseId=Object.hasOwn(CASES,params.get('case'))?params.get('case'):'c01';board=Object.hasOwn(boardNames,params.get('board'))?params.get('board'):'menu';config=CASES[caseId];
-  selectedRoute=config.selectedRoute;selectedCharacter=config.selectedCharacter;selectedChoice=0;
+  selectedRoute=config.selectedRoute;selectedCharacter=config.selectedCharacter;pinnedCharacter=selectedCharacter;selectedChoice=0;
   if(dialog.open)dialog.close();stage.replaceChildren();stage.className=caseId+' board-'+board;
   stage.style.setProperty('--accent',config.accent);stage.style.setProperty('--ink',config.ink);stage.style.setProperty('--paper',config.paper);stage.style.setProperty('--paper-image',`url("${asset('paper.png')}")`);
   stage.style.backgroundImage=`url("${asset(board+'-background.jpg')}")`;stage.setAttribute('aria-label',config.title+'：'+boardNames[board]);document.title=config.title+' · '+boardNames[board];
   ({menu:renderMenu,choice:renderChoice,route:renderRoute,character:renderCharacters,ending:renderEnding})[board]();addBack();resize();
-  requestAnimationFrame(()=>{viewport.scrollLeft=board==='menu'&&(caseId==='c04'||caseId==='c05')?viewport.scrollWidth-viewport.clientWidth:0;});
+  requestAnimationFrame(()=>{viewport.scrollLeft=viewport.classList.contains('pan-scene')&&board==='menu'&&(caseId==='c04'||caseId==='c05')?viewport.scrollWidth-viewport.clientWidth:0;});
  }
  document.addEventListener('keydown',e=>{
   if(dialog.open)return;
-  if(e.key==='Escape'){if(board==='character'&&selectedCharacter>=0)expandCharacter(-1);else if(board!=='menu')navigate('menu');e.preventDefault();}
+  if(e.key==='Escape'){if(board==='character'&&selectedCharacter>=0){pinnedCharacter=-1;expandCharacter(-1);}else if(board!=='menu')navigate('menu');e.preventDefault();}
   if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(e.key)){
    const buttons=[...stage.querySelectorAll('button:not(.back-button)')];const i=buttons.indexOf(document.activeElement);if(!buttons.length)return;
    let next=e.key==='Home'?0:e.key==='End'?buttons.length-1:(i+(e.key==='ArrowLeft'||e.key==='ArrowUp'?-1:1)+buttons.length)%buttons.length;

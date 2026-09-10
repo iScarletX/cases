@@ -128,14 +128,12 @@
     "caseId": "c01",
     "source": "input/cases/乙游3D/02-choice-board.png",
     "crop": {
-      "x": 1249,
-      "y": 187,
-      "width": 621,
-      "height": 84
+      "x": 423,
+      "y": 191,
+      "width": 394,
+      "height": 51
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c01/choice-0.png",
@@ -198,15 +196,15 @@
     "caseId": "c01",
     "source": "input/cases/乙游3D/03-route-board.png",
     "crop": {
-      "x": 1091,
-      "y": 198,
-      "width": 296,
-      "height": 263
+      "x": 273,
+      "y": 389,
+      "width": 168,
+      "height": 153
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title"
     ]
   },
   {
@@ -214,15 +212,17 @@
     "caseId": "c01",
     "source": "input/cases/乙游3D/03-route-board.png",
     "crop": {
-      "x": 1509,
-      "y": 198,
-      "width": 305,
-      "height": 268
+      "x": 273,
+      "y": 389,
+      "width": 168,
+      "height": 153
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title",
+      "material color state c01",
+      "selected frame edge"
     ]
   },
   {
@@ -298,14 +298,12 @@
     "caseId": "c01",
     "source": "input/cases/乙游3D/05-ending-board.png",
     "crop": {
-      "x": 65,
-      "y": 789,
-      "width": 250,
-      "height": 117
+      "x": 114,
+      "y": 247,
+      "width": 251,
+      "height": 114
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c01/other.png",
@@ -326,14 +324,12 @@
     "caseId": "c01",
     "source": "input/cases/乙游3D/05-ending-board.png",
     "crop": {
-      "x": 805,
-      "y": 789,
-      "width": 224,
-      "height": 63
+      "x": 113,
+      "y": 413,
+      "width": 313,
+      "height": 76
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c01/rec-0.png",
@@ -571,14 +567,12 @@
     "caseId": "c02",
     "source": "input/cases/写实古风/02-choice-board.png",
     "crop": {
-      "x": 1278,
-      "y": 226,
-      "width": 536,
-      "height": 120
+      "x": 475,
+      "y": 161,
+      "width": 368,
+      "height": 86
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c02/choice-0.png",
@@ -641,15 +635,15 @@
     "caseId": "c02",
     "source": "input/cases/写实古风/03-route-board.png",
     "crop": {
-      "x": 1440,
-      "y": 229,
-      "width": 301,
-      "height": 185
+      "x": 392,
+      "y": 405,
+      "width": 292,
+      "height": 179
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title"
     ]
   },
   {
@@ -657,15 +651,17 @@
     "caseId": "c02",
     "source": "input/cases/写实古风/03-route-board.png",
     "crop": {
-      "x": 1440,
-      "y": 489,
-      "width": 301,
-      "height": 185
+      "x": 392,
+      "y": 405,
+      "width": 292,
+      "height": 179
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title",
+      "material color state c02",
+      "selected frame edge"
     ]
   },
   {
@@ -741,14 +737,12 @@
     "caseId": "c02",
     "source": "input/cases/写实古风/05-ending-board.png",
     "crop": {
-      "x": 1156,
-      "y": 225,
-      "width": 534,
-      "height": 128
+      "x": 102,
+      "y": 175,
+      "width": 453,
+      "height": 110
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c02/other.png",
@@ -783,14 +777,12 @@
     "caseId": "c02",
     "source": "input/cases/写实古风/05-ending-board.png",
     "crop": {
-      "x": 85,
-      "y": 889,
-      "width": 216,
-      "height": 62
+      "x": 100,
+      "y": 359,
+      "width": 198,
+      "height": 49
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c02/rec-0.png",
@@ -1000,14 +992,12 @@
     "caseId": "c03",
     "source": "input/cases/半写实真人/02-choice-board.png",
     "crop": {
-      "x": 1282,
-      "y": 176,
-      "width": 588,
-      "height": 49
+      "x": 343,
+      "y": 113,
+      "width": 463,
+      "height": 39
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c03/choice-0.png",
@@ -1070,15 +1060,16 @@
     "caseId": "c03",
     "source": "input/cases/半写实真人/03-route-board.png",
     "crop": {
-      "x": 1090,
-      "y": 196,
-      "width": 302,
-      "height": 227
+      "x": 302,
+      "y": 359,
+      "width": 145,
+      "height": 112
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title",
+      "material color state gray"
     ]
   },
   {
@@ -1086,15 +1077,15 @@
     "caseId": "c03",
     "source": "input/cases/半写实真人/03-route-board.png",
     "crop": {
-      "x": 1509,
-      "y": 196,
-      "width": 306,
-      "height": 229
+      "x": 302,
+      "y": 359,
+      "width": 145,
+      "height": 112
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title"
     ]
   },
   {
@@ -1184,14 +1175,12 @@
     "caseId": "c03",
     "source": "input/cases/半写实真人/05-ending-board.png",
     "crop": {
-      "x": 64,
-      "y": 786,
-      "width": 312,
-      "height": 137
+      "x": 97,
+      "y": 233,
+      "width": 263,
+      "height": 112
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c03/other.png",
@@ -1201,7 +1190,7 @@
       "x": 557,
       "y": 802,
       "width": 224,
-      "height": 62
+      "height": 53
     },
     "operations": [
       "remove connected Board surround"
@@ -1212,14 +1201,12 @@
     "caseId": "c03",
     "source": "input/cases/半写实真人/05-ending-board.png",
     "crop": {
-      "x": 805,
-      "y": 802,
-      "width": 224,
-      "height": 62
+      "x": 97,
+      "y": 385,
+      "width": 239,
+      "height": 67
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c03/recommendation-label.png",
@@ -1231,9 +1218,7 @@
       "width": 150,
       "height": 40
     },
-    "operations": [
-      "clip individual component outline"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c03/rec-0.png",
@@ -1471,14 +1456,12 @@
     "caseId": "c04",
     "source": "input/cases/国漫3D/02-choice-board.png",
     "crop": {
-      "x": 1353,
-      "y": 170,
-      "width": 480,
-      "height": 80
+      "x": 810,
+      "y": 106,
+      "width": 502,
+      "height": 81
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c04/choice-0.png",
@@ -1541,15 +1524,15 @@
     "caseId": "c04",
     "source": "input/cases/国漫3D/03-route-board.png",
     "crop": {
-      "x": 1198,
-      "y": 198,
-      "width": 299,
-      "height": 169
+      "x": 294,
+      "y": 383,
+      "width": 176,
+      "height": 112
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title"
     ]
   },
   {
@@ -1557,15 +1540,16 @@
     "caseId": "c04",
     "source": "input/cases/国漫3D/03-route-board.png",
     "crop": {
-      "x": 1540,
-      "y": 198,
-      "width": 290,
-      "height": 169
+      "x": 294,
+      "y": 383,
+      "width": 176,
+      "height": 112
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title",
+      "material color state c04"
     ]
   },
   {
@@ -1655,14 +1639,12 @@
     "caseId": "c04",
     "source": "input/cases/国漫3D/05-ending-board.png",
     "crop": {
-      "x": 1255,
-      "y": 162,
-      "width": 551,
-      "height": 139
+      "x": 111,
+      "y": 144,
+      "width": 344,
+      "height": 94
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c04/other.png",
@@ -1928,14 +1910,12 @@
     "caseId": "c05",
     "source": "input/cases/复古港风/02-choice-board.png",
     "crop": {
-      "x": 1284,
-      "y": 159,
-      "width": 445,
-      "height": 58
+      "x": 395,
+      "y": 570,
+      "width": 394,
+      "height": 48
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c05/choice-0.png",
@@ -1998,15 +1978,15 @@
     "caseId": "c05",
     "source": "input/cases/复古港风/03-route-board.png",
     "crop": {
-      "x": 1203,
-      "y": 187,
-      "width": 290,
-      "height": 193
+      "x": 315,
+      "y": 376,
+      "width": 183,
+      "height": 123
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title"
     ]
   },
   {
@@ -2014,15 +1994,16 @@
     "caseId": "c05",
     "source": "input/cases/复古港风/03-route-board.png",
     "crop": {
-      "x": 1542,
-      "y": 187,
-      "width": 291,
-      "height": 193
+      "x": 315,
+      "y": 376,
+      "width": 183,
+      "height": 123
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title",
+      "material color state c05"
     ]
   },
   {
@@ -2112,14 +2093,12 @@
     "caseId": "c05",
     "source": "input/cases/复古港风/05-ending-board.png",
     "crop": {
-      "x": 1292,
+      "x": 144,
       "y": 151,
-      "width": 537,
-      "height": 133
+      "width": 403,
+      "height": 98
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c05/other.png",
@@ -2385,27 +2364,25 @@
     "caseId": "c06",
     "source": "input/cases/现代都市/02-choice-board.png",
     "crop": {
-      "x": 1260,
-      "y": 226,
-      "width": 548,
-      "height": 77
+      "x": 482,
+      "y": 169,
+      "width": 335,
+      "height": 46
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c06/choice-0.png",
     "caseId": "c06",
     "source": "input/cases/现代都市/02-choice-board.png",
     "crop": {
-      "x": 1260,
-      "y": 489,
-      "width": 548,
-      "height": 84
+      "x": 144,
+      "y": 727,
+      "width": 394,
+      "height": 61
     },
     "operations": [
-      "remove connected Board surround"
+      "folded corner state gray"
     ]
   },
   {
@@ -2413,41 +2390,37 @@
     "caseId": "c06",
     "source": "input/cases/现代都市/02-choice-board.png",
     "crop": {
-      "x": 1260,
-      "y": 624,
-      "width": 548,
-      "height": 84
+      "x": 144,
+      "y": 727,
+      "width": 394,
+      "height": 61
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c06/choice-1.png",
     "caseId": "c06",
     "source": "input/cases/现代都市/02-choice-board.png",
     "crop": {
-      "x": 85,
-      "y": 947,
-      "width": 504,
-      "height": 83
+      "x": 715,
+      "y": 727,
+      "width": 394,
+      "height": 61
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c06/choice-1-selected.png",
     "caseId": "c06",
     "source": "input/cases/现代都市/02-choice-board.png",
     "crop": {
-      "x": 670,
-      "y": 947,
-      "width": 504,
-      "height": 83
+      "x": 715,
+      "y": 727,
+      "width": 394,
+      "height": 61
     },
     "operations": [
-      "remove connected Board surround"
+      "folded corner state amber"
     ]
   },
   {
@@ -2455,15 +2428,15 @@
     "caseId": "c06",
     "source": "input/cases/现代都市/03-route-board.png",
     "crop": {
-      "x": 1275,
-      "y": 230,
-      "width": 239,
-      "height": 163
+      "x": 356,
+      "y": 373,
+      "width": 209,
+      "height": 143
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title"
     ]
   },
   {
@@ -2471,15 +2444,17 @@
     "caseId": "c06",
     "source": "input/cases/现代都市/03-route-board.png",
     "crop": {
-      "x": 1600,
-      "y": 230,
-      "width": 239,
-      "height": 163
+      "x": 356,
+      "y": 373,
+      "width": 209,
+      "height": 143
     },
     "operations": [
-      "remove connected Board surround",
+      "clip individual component outline",
       "open transparent image window",
-      "replace shared title ink with same-component paper samples"
+      "clear shared title area for live DOM title",
+      "material color state c06",
+      "selected frame edge"
     ]
   },
   {
@@ -2555,14 +2530,12 @@
     "caseId": "c06",
     "source": "input/cases/现代都市/05-ending-board.png",
     "crop": {
-      "x": 1154,
-      "y": 224,
-      "width": 651,
-      "height": 133
+      "x": 101,
+      "y": 175,
+      "width": 467,
+      "height": 95
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c06/other.png",
@@ -2597,14 +2570,12 @@
     "caseId": "c06",
     "source": "input/cases/现代都市/05-ending-board.png",
     "crop": {
-      "x": 85,
-      "y": 889,
-      "width": 226,
-      "height": 57
+      "x": 100,
+      "y": 367,
+      "width": 198,
+      "height": 49
     },
-    "operations": [
-      "remove connected Board surround"
-    ]
+    "operations": []
   },
   {
     "asset": "assets/c06/rec-0.png",

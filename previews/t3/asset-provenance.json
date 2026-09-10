@@ -119,7 +119,7 @@
       84
     ],
     "processing": {
-      "clearOutside": true
+      "polygon": "8,5 271,5 278,12 278,72 273,81 27,81 3,63 1,20"
     }
   },
   {
@@ -133,7 +133,7 @@
       84
     ],
     "processing": {
-      "clearOutside": true
+      "polygon": "8,5 271,5 278,12 278,72 273,81 27,81 3,63 1,20"
     }
   },
   {
@@ -147,7 +147,7 @@
       85
     ],
     "processing": {
-      "clearOutside": true
+      "polygon": "8,5 271,5 278,12 278,72 273,81 27,81 3,63 1,20"
     }
   },
   {
@@ -161,7 +161,7 @@
       85
     ],
     "processing": {
-      "clearOutside": true
+      "polygon": "8,5 271,5 278,12 278,72 273,81 27,81 3,63 1,20"
     }
   },
   {
@@ -175,7 +175,7 @@
       82
     ],
     "processing": {
-      "clearOutside": true
+      "polygon": "30,9 85,6 128,9 172,5 217,8 267,5 319,10 368,7 425,5 477,7 523,9 570,5 598,16 615,38 607,65 575,75 526,74 482,78 433,72 390,76 344,71 294,78 248,74 201,77 156,72 109,78 62,72 25,73 4,60 4,35"
     }
   },
   {
@@ -232,7 +232,8 @@
     ],
     "processing": {
       "clearOutside": true
-    }
+    },
+    "annotationCleanup": "Replaced annotation leader in the right label margin with adjacent paper texture; state stamp is live CSS"
   },
   {
     "asset": "assets/c01/rec-0-1.png",
@@ -246,7 +247,8 @@
     ],
     "processing": {
       "clearOutside": true
-    }
+    },
+    "annotationCleanup": "Replaced annotation leader in the right label margin with adjacent paper texture; state stamp is live CSS"
   },
   {
     "asset": "assets/c01/rec-image-0.png",
@@ -272,7 +274,8 @@
     ],
     "processing": {
       "clearOutside": true
-    }
+    },
+    "annotationCleanup": "Replaced annotation leader in the right label margin with adjacent paper texture; state stamp is live CSS"
   },
   {
     "asset": "assets/c01/rec-1-1.png",
@@ -286,7 +289,8 @@
     ],
     "processing": {
       "clearOutside": true
-    }
+    },
+    "annotationCleanup": "Replaced annotation leader in the right label margin with adjacent paper texture; state stamp is live CSS"
   },
   {
     "asset": "assets/c01/rec-image-1.png",
@@ -312,7 +316,8 @@
     ],
     "processing": {
       "clearOutside": true
-    }
+    },
+    "annotationCleanup": "Replaced annotation leader in the right label margin with adjacent paper texture; state stamp is live CSS"
   },
   {
     "asset": "assets/c01/rec-2-1.png",
@@ -326,7 +331,8 @@
     ],
     "processing": {
       "clearOutside": true
-    }
+    },
+    "annotationCleanup": "Replaced annotation leader in the right label margin with adjacent paper texture; state stamp is live CSS"
   },
   {
     "asset": "assets/c01/rec-image-2.png",
@@ -403,10 +409,10 @@
     "rect": [
       535,
       581,
-      100,
+      55,
       32
     ],
-    "processing": {}
+    "processing": "Unlettered paper sample, row and column illumination normalization for seamless repeating material"
   },
   {
     "asset": "assets/c01/bgm.wav",
@@ -815,12 +821,12 @@
     "source": "cases/写实古风/04-character-board.png",
     "operation": "individual component crop",
     "rect": [
-      380,
-      602,
-      140,
+      397,
+      603,
+      36,
       32
     ],
-    "processing": {}
+    "processing": "Unlettered paper sample, row and column illumination normalization for seamless repeating material"
   },
   {
     "asset": "assets/c02/bgm.wav",
@@ -1229,12 +1235,12 @@
     "source": "cases/半写实真人/04-character-board.png",
     "operation": "individual component crop",
     "rect": [
-      395,
+      415,
       528,
-      180,
+      40,
       22
     ],
-    "processing": {}
+    "processing": "Unlettered paper sample, row and column illumination normalization for seamless repeating material"
   },
   {
     "asset": "assets/c03/bgm.wav",
@@ -1408,17 +1414,15 @@
   },
   {
     "asset": "assets/c04/question.png",
-    "source": "cases/国漫3D/02-choice-board.png",
-    "operation": "individual component crop",
-    "rect": [
-      1355,
-      175,
-      474,
-      69
-    ],
-    "processing": {
-      "clearOutside": true
-    }
+    "source": "cases/国漫3D/choice-formal-layer.png",
+    "operation": "individual static question component crop from transparent layer",
+    "rect": {
+      "left": 993,
+      "top": 0,
+      "width": 678,
+      "height": 108
+    },
+    "processing": "Original alpha retained"
   },
   {
     "asset": "assets/c04/completion.png",
@@ -1643,12 +1647,12 @@
     "source": "cases/国漫3D/04-character-board.png",
     "operation": "individual component crop",
     "rect": [
-      350,
-      565,
-      190,
+      372,
+      560,
+      40,
       10
     ],
-    "processing": {}
+    "processing": "Unlettered paper sample, row and column illumination normalization for seamless repeating material"
   },
   {
     "asset": "assets/c04/bgm.wav",
@@ -1822,17 +1826,15 @@
   },
   {
     "asset": "assets/c05/question.png",
-    "source": "cases/复古港风/02-choice-board.png",
-    "operation": "individual component crop",
-    "rect": [
-      1285,
-      161,
-      443,
-      54
-    ],
-    "processing": {
-      "clearOutside": true
-    }
+    "source": "cases/复古港风/choice-formal-layer.png",
+    "operation": "individual static question component crop from transparent layer",
+    "rect": {
+      "left": 516,
+      "top": 727,
+      "width": 638,
+      "height": 86
+    },
+    "processing": "Original alpha retained"
   },
   {
     "asset": "assets/c05/completion.png",
@@ -2059,10 +2061,10 @@
     "rect": [
       385,
       544,
-      155,
+      38,
       10
     ],
-    "processing": {}
+    "processing": "Unlettered paper sample, row and column illumination normalization for seamless repeating material"
   },
   {
     "asset": "assets/c05/bgm.wav",
@@ -2211,14 +2213,12 @@
     "source": "cases/现代都市/02-choice-board.png",
     "operation": "individual component crop",
     "rect": [
-      84,
-      951,
-      508,
-      78
+      718,
+      730,
+      388,
+      55
     ],
-    "processing": {
-      "clearOutside": true
-    }
+    "processing": "Tight individual option crop with polygon exterior mask, avoiding sample annotation leader"
   },
   {
     "asset": "assets/c06/choice-1-1.png",
@@ -2471,12 +2471,12 @@
     "source": "cases/现代都市/04-character-board.png",
     "operation": "individual component crop",
     "rect": [
-      325,
+      365,
       550,
-      170,
+      34,
       22
     ],
-    "processing": {}
+    "processing": "Unlettered paper sample, row and column illumination normalization for seamless repeating material"
   },
   {
     "asset": "assets/c06/bgm.wav",
@@ -2710,5 +2710,63 @@
       242
     ],
     "processing": {}
+  },
+  {
+    "asset": "assets/c04/detail-skin.png",
+    "source": "cases/国漫3D/character-formal-layer.png",
+    "operation": "Individual open side-page frame, printed interior replaced with same-case unlettered material; live DOM copy fills the page",
+    "rect": {
+      "left": 365,
+      "top": 402,
+      "width": 731,
+      "height": 482
+    },
+    "fill": {
+      "left": 84,
+      "top": 37,
+      "width": 585,
+      "height": 414
+    }
+  },
+  {
+    "asset": "assets/c05/detail-skin.png",
+    "source": "cases/复古港风/character-formal-layer.png",
+    "operation": "Individual open side-page frame, printed interior replaced with same-case unlettered material; live DOM copy fills the page",
+    "rect": {
+      "left": 478,
+      "top": 328,
+      "width": 542,
+      "height": 537
+    },
+    "fill": {
+      "left": 69,
+      "top": 46,
+      "width": 415,
+      "height": 440
+    }
+  },
+  {
+    "asset": "icons/arrow-left.svg",
+    "sourceType": "installed library",
+    "source": "lucide (ISC / MIT license in icons/LICENSE.txt)",
+    "operation": "Serialized official icon node data; neutral navigation utility, no case art"
+  },
+  {
+    "asset": "icons/x.svg",
+    "sourceType": "installed library",
+    "source": "lucide (ISC / MIT license in icons/LICENSE.txt)",
+    "operation": "Serialized official icon node data; neutral navigation utility, no case art"
+  },
+  {
+    "asset": "icons/volume-2.svg",
+    "sourceType": "installed library",
+    "source": "lucide (ISC / MIT license in icons/LICENSE.txt)",
+    "operation": "Serialized official icon node data; neutral navigation utility, no case art"
+  },
+  {
+    "asset": "icons/volume-x.svg",
+    "sourceType": "installed library",
+    "source": "lucide (ISC / MIT license in icons/LICENSE.txt)",
+    "operation": "Serialized official icon node data; neutral navigation utility, no case art"
   }
 ]

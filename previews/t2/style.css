@@ -51,11 +51,12 @@ button:disabled{cursor:default}
 .route-water .route-caption{font-size:37px;background:#cee2e8;border:2px solid #6c959f;border-radius:14px;font-weight:600}
 .route-cassette .route-caption{font-size:29px;font-weight:700;color:#201306}
 .route-jade .is-selected .route-caption{color:#75422b}
-.route-letter .is-selected::after{content:"+";position:absolute;right:5%;bottom:4%;width:25px;height:25px;border:3px double #368190;border-radius:50%;color:#30768a;font:700 24px/18px sans-serif;background:#f2edda}
+.route-letter :is(.is-selected,.is-preview)::after{content:"+";position:absolute;right:5%;bottom:4%;width:25px;height:25px;border:3px double #368190;border-radius:50%;color:#30768a;font:700 24px/18px sans-serif;background:#f2edda}
 .route-evidence .node-number{position:absolute;left:4%;top:9%;width:28px;height:28px;border-radius:50%;background:#777c7b;color:white;font:18px/28px sans-serif}
-.route-evidence .is-selected .node-number{background:#345c68}
-.route-evidence .is-selected .route-caption::after{content:"";position:absolute;width:80%;height:2px;background:#315d71;bottom:3px}
-.route-jade .is-selected::after{content:"田";position:absolute;right:4%;bottom:6%;font-size:20px;line-height:28px;width:28px;height:28px;border:2px solid #f4d689;border-radius:50%;background:#d76534;color:#fae3ad}
+.route-evidence :is(.is-selected,.is-preview) .node-number{background:#345c68}
+.route-evidence :is(.is-selected,.is-preview) .route-caption::after{content:"";position:absolute;width:80%;height:2px;background:#315d71;bottom:3px}
+.route-jade :is(.is-selected,.is-preview)::after{content:"田";position:absolute;right:4%;bottom:6%;font-size:20px;line-height:28px;width:28px;height:28px;border:2px solid #f4d689;border-radius:50%;background:#d76534;color:#fae3ad}
+.route-cassette :is(.is-selected,.is-preview)::after{content:"";position:absolute;right:10%;top:12%;width:12px;height:12px;border-radius:50%;background:#fa4d18;border:2px solid #ffcb5c;box-shadow:0 0 6px #ff9e24}
 .character-front{position:absolute;border:0;background:transparent;padding:0;color:inherit;z-index:2}
 .character-front img{object-fit:fill}
 .character-detail{position:absolute;z-index:1;overflow:visible;pointer-events:none}
@@ -82,7 +83,7 @@ button:disabled{cursor:default}
 .utility svg,.close svg{width:21px;height:21px;pointer-events:none}
 dialog{color:var(--ink);background:var(--paper);border:2px solid #908a7b;padding:36px 32px 28px;width:min(620px,calc(100vw - 32px));max-height:calc(100svh - 32px);border-radius:6px;box-shadow:0 18px 70px #0007;overflow:auto;font-family:"Songti SC","STSong",serif}
 dialog::backdrop{background:#10141896;backdrop-filter:blur(3px)}
-dialog .close{position:absolute;right:8px;top:8px;width:36px;height:36px;background:#f4f1e7;color:#303a3b;border-color:#aaa38f;backdrop-filter:none}
+dialog .close{position:absolute;right:8px;top:8px;width:44px;height:44px;background:#f4f1e7;color:#303a3b;border-color:#aaa38f;backdrop-filter:none}
 dialog h2{font-size:27px;line-height:1.5;margin:6px 30px 18px 0;color:#253034}
 dialog p{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:18px;line-height:1.8;white-space:pre-line;margin:14px 0}
 dialog .dialog-art{display:block;max-width:100%;width:100%;max-height:260px;object-fit:contain;margin:15px auto}
@@ -114,6 +115,7 @@ dialog .dialog-scene{width:100%;aspect-ratio:16/9;object-fit:cover;border:1px so
  .route{position:relative;width:960px;height:540px;transform:none}
  .route .route-caption{font-size:21px!important}
  .route .route-node:focus-visible{outline-width:2px;outline-offset:2px}
+ .route .route-line-hit{stroke-width:88}
  .route .node-number{font-size:10px;line-height:15px;width:15px;height:15px}
  .route-jade .is-selected::after{font-size:10px;line-height:15px;width:15px;height:15px}
  .route-letter .is-selected::after{font-size:12px;line-height:10px;width:15px;height:15px;border-width:2px}
@@ -127,7 +129,7 @@ dialog .dialog-scene{width:100%;aspect-ratio:16/9;object-fit:cover;border:1px so
  .character-detail .detail-copy p{font-size:18px!important;line-height:1.65}
  .character-detail .default-detail-art{display:none}
  .character-detail .mobile-character-copy{display:block}
- .detail-close{opacity:1;right:4%;top:10px;width:36px;height:36px}
+ .detail-close{opacity:1;right:4%;top:10px;width:44px;height:44px}
  .ending-items{display:flex;flex-direction:column;align-items:flex-start;padding:95px 20px 35px;gap:15px}
  .ending-items .sprite,.ending-items .recommendation-label{position:relative!important;left:auto!important;top:auto!important;flex:none}
  .ending-items .complete{width:100%!important;height:95px!important;margin-bottom:18px}
@@ -138,7 +140,7 @@ dialog .dialog-scene{width:100%;aspect-ratio:16/9;object-fit:cover;border:1px so
  .case-c01 .ending-items .recommendation,.case-c03 .ending-items .recommendation{height:155px!important}
  .case-c04 .ending-items .recommendation{height:165px!important}
  .utility{opacity:.9;top:max(10px,env(safe-area-inset-top));right:10px;gap:4px}
- .utility button{width:40px;height:44px}
+ .utility button{width:44px;height:44px}
  dialog{padding:32px 20px 22px}
  dialog h2{font-size:23px}
 }

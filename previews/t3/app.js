@@ -62,7 +62,7 @@
   stage.innerHTML=`<img class="scene" src="${asset(board+'-background.jpg')}" alt=""><div class="screen" id="screen">${({menu:renderMenu,choice:renderChoice,route:renderRoute,character:renderCharacters,ending:renderEnding})[board]()}</div>${toolbar()}<div id="overlays"></div>`;
   document.title=`${story.title} · ${{menu:'主菜单',choice:'剧情选择',route:'故事路线',character:'角色列表',ending:'结局完成'}[board]}`;
   fit();
-  const initial=stage.querySelector(board==='menu'?'[data-initial]':board==='choice'?'[data-choice="0"]':board==='route'?`[data-node="${state.route}"]`:board==='character'?`[data-character="${state.character}"]`:'[data-go="route"]');
+  const initial=stage.querySelector(board==='menu'?'[data-initial]':board==='choice'?'[data-choice="0"]':board==='route'?`[data-node="${state.route}"]`:board==='character'?`[data-character="${state.character}"]`:['c02','c06'].includes(caseId)?'[data-rec="0"]':'[data-go="route"]');
   initial?.focus({preventScroll:true});
   requestAnimationFrame(()=>{stage.classList.add('ready');drawConnections();});
  }
@@ -89,6 +89,12 @@
   const rects=[...layer.querySelectorAll('.route-node')].map(e=>{const r=e.getBoundingClientRect();return{x:(r.left-base.left)*scale,y:(r.top-base.top)*scale,w:r.width*scale,h:r.height*scale};});
   svg.querySelector('.wires').innerHTML=story.edges.map(([a,b],i)=>{
    const from=rects[a],to=rects[b];let x1=from.x+from.w-3,y1=from.y+from.h*.5,x2=to.x+3,y2=to.y+to.h*.5;
+   if(!mobile&&['c04','c05'].includes(caseId)){
+    const dx=to.x+to.w/2-(from.x+from.w/2),dy=to.y+to.h/2-(from.y+from.h/2);
+    const t1=Math.min((from.w*.46)/Math.abs(dx||1),(from.h*.42)/Math.abs(dy||1));
+    const t2=Math.min((to.w*.46)/Math.abs(dx||1),(to.h*.42)/Math.abs(dy||1));
+    x1=from.x+from.w/2+dx*t1;y1=from.y+from.h/2+dy*t1;x2=to.x+to.w/2-dx*t2;y2=to.y+to.h/2-dy*t2;
+   }
    if(mobile){x1=from.x+from.w*.5;y1=from.y+from.h;x2=to.x+to.w*.5;y2=to.y;}
    let d=`M${x1} ${y1} L${x2} ${y2}`;
    if(caseId==='c01'&&!mobile){const mid=(x1+x2)/2;d=`M${x1} ${y1}H${mid-28}Q${mid} ${y1} ${mid} ${y1+(y2>y1?28:-28)}V${y2+(y2>y1?-28:28)}Q${mid} ${y2} ${mid+28} ${y2}H${x2}`;if(Math.abs(y2-y1)<30)d=`M${x1} ${y1}L${x2} ${y2}`;}
@@ -149,7 +155,9 @@
   const button=e.target.closest('[data-character]');if(button)expandCharacter(Number(button.dataset.character));
  });
  stage.addEventListener('focusin',e=>{if(e.target.matches('[data-character]'))expandCharacter(Number(e.target.dataset.character));});
+ stage.addEventListener('pointerdown',()=>document.body.classList.remove('keyboard-input'));
  document.addEventListener('keydown',e=>{
+  document.body.classList.add('keyboard-input');
   if(e.key==='Escape'){e.preventDefault();if(stack.length)popModal();else if(board==='character'&&state.character>=0)expandCharacter(state.character,true);else if(board!=='menu')navigate('menu');return;}
   const root=stack.length?stack.at(-1).overlay:stage;
   const controls=[...root.querySelectorAll('button:not(:disabled),input,a[href]')].filter(x=>x.offsetWidth&&x.offsetHeight&&!x.closest('[inert]'));

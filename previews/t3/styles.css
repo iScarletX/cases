@@ -52,6 +52,8 @@ button:disabled{cursor:default}
 .character-unit.expanded .portrait-button{width:40%}
 .portrait-window{display:block;min-height:0;flex:1;border:2px solid #8a8072;padding:2px;border-radius:5px;background:#eeebe6;overflow:hidden}
 .portrait-window img{width:100%;height:100%;object-fit:fill;display:block}
+.portrait-button:focus-visible{outline:none}
+.keyboard-input .portrait-button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
 .character-name{font-size:76px;font-weight:600;line-height:1.1;padding-top:12px;white-space:nowrap;flex:none}
 .character-role{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:43px;font-weight:600;line-height:1.25;margin-top:12px;flex:none}
 .character-details{position:relative;align-self:stretch;flex:1;min-width:0;background:var(--paper-color) var(--paper);background-size:200px auto;border:4px solid #8b795f;border-left-width:16px;border-radius:3px;padding:8% 4% 4%;box-shadow:inset 0 0 0 4px #e3d8c5;overflow:hidden}
@@ -89,10 +91,10 @@ button:disabled{cursor:default}
 .c01 .character-unit{flex-basis:18.5%;transform:skewY(-4deg)}
 .c01 .character-unit.expanded{flex-basis:53%;flex-grow:0}
 .c01 .character-unit.expanded .portrait-button{width:40%}
-.c01 .portrait-button{padding:8% 10% 6%;border-bottom:12px ridge #9f8a6d;box-shadow:inset 0 0 0 2px #f7ebd5}
+.c01 .portrait-button{padding:48px 30px 37px;border-bottom:12px ridge #9f8a6d;box-shadow:inset 0 0 0 2px #f7ebd5}
 .c01 .portrait-window,.c01 .character-name,.c01 .character-role{transform:skewY(4deg)}
 .c01 .character-name{font-size:81px}
-.c01 .character-role{font-size:44px}
+.c01 .character-role{font-size:40px;white-space:nowrap}
 .c01 .card-rod{display:block;position:absolute;left:-10%;right:-10%;top:-13px;height:38px;background:linear-gradient(#b5a389,#f4ead7 40%,#c4b294 70%,#84745c);border-radius:18px;border-left:27px ridge #8f7859;border-right:27px ridge #8f7859;box-shadow:0 3px 4px #0008}
 .c01 .character-details{border-left:34px ridge #9a8264;border-bottom:12px ridge #9f8a6d;padding:11% 4% 6%}
 .c01 .character-details:before{content:"";position:absolute;top:-13px;left:0;right:-3%;height:38px;background:linear-gradient(#c4b496,#eee3ce,#988568);border-radius:18px}
@@ -109,22 +111,22 @@ button:disabled{cursor:default}
 .c02 .menu-button{aspect-ratio:3.45}
 .c02 .question{left:36.8%;top:1%;width:32.7%;height:12.4%}
 .c02 .choices{left:7.1%;right:6.8%;bottom:1.6%}
-.c02 .choice-button{width:44.1%;height:176px}
-.c02 .route-title{font-size:40px;font-weight:600}
+.c02 .choice-button{width:44.1%;height:192px}
+.c02 .route-title{font-size:45px;font-weight:600}
 .c02 .wire{stroke:#25422e;stroke-width:4}
 .c02 .wire.selected{stroke:#f09b5c;filter:drop-shadow(0 0 5px #ffaa69)}
 .c02 .node-stamp{color:#bc4826}
-.c02 .characters{left:5%;right:4.5%;top:14%;height:73%;gap:7.5%}
+.c02 .characters{left:5%;right:4.5%;top:14%;height:73%;gap:6%}
 .c02 .character-unit{flex-basis:18.5%}
 .c02 .character-unit.expanded{flex-basis:51%;flex-grow:0}
 .c02 .character-unit.expanded .portrait-button{width:50%}
-.c02 .portrait-button{border-left:24px ridge #77786f;padding:5% 7% 4%;box-shadow:inset 0 0 0 7px #c8beac}
+.c02 .portrait-button{border-left:24px ridge #77786f;padding:26px 25px 25px;box-shadow:inset 0 0 0 7px #c8beac}
 .c02 .portrait-window{border:0;padding:0;border-radius:0;background:none}
-.c02 .character-name{font-size:69px;text-align:center;margin-top:8px;line-height:1.3}
+.c02 .character-name{font-size:76px;text-align:center;margin-top:8px;line-height:1.3}
 .c02 .character-role{font-size:43px;text-align:center;font-family:"Kaiti SC","STKaiti",serif;margin-top:2px;border-top:1px solid #897d67;padding-top:9px}
 .c02 .expanded .character-role{display:none}
 .c02 .character-details{border:4px solid #837d6c;padding:7% 4%;box-shadow:inset 0 0 0 6px #cec5b5}
-.c02 .detail-content{font:500 44px/1.7 "Kaiti SC","STKaiti","Songti SC",serif}
+.c02 .detail-content{font:600 49px/1.7 "Kaiti SC","STKaiti","Songti SC",serif}
 .c02 .detail-content h2{font:600 70px/1.2 "Kaiti SC","STKaiti",serif;padding:8px 0 26px}
 .c02 .completion{left:4%;top:3%;width:45%;height:18%}
 .c02 .other-button{left:4.2%;top:24%;width:28.8%;height:10%}
@@ -140,7 +142,7 @@ button:disabled{cursor:default}
 .c03 .question{left:25.3%;top:1.5%;width:38.4%;height:5.4%}
 .c03 .choices{left:3.7%;right:3.7%;bottom:1.8%}
 .c03 .choice-button{width:33.8%;height:134px}
-.c03 .route-title{font-size:36px;font-weight:600}
+.c03 .route-title{font-size:40px;font-weight:600}
 .c03 .node-stamp{left:5%;top:6%;bottom:auto;right:auto;color:#f4f4ee;font-family:Arial,sans-serif;font-size:25px;background:#385e6c;padding:4px;opacity:1}
 .c03 .wire{stroke-width:3;stroke:#53595e85}
 .c03 .wire.selected{stroke:#427e96;filter:drop-shadow(0 1px 0 #e0ecec)}
@@ -148,7 +150,7 @@ button:disabled{cursor:default}
 .c03 .character-unit{flex-basis:14.6%}
 .c03 .character-unit.expanded{flex-basis:50%;flex-grow:0}
 .c03 .character-unit.expanded .portrait-button{width:46%}
-.c03 .portrait-button{padding:10% 9% 10% 13%;border:0;border-left:24px solid #6b6d6a;box-shadow:inset 0 0 0 3px #c5c4bd;clip-path:polygon(0 0,89% 0,100% 7%,100% 94%,91% 100%,0 100%)}
+.c03 .portrait-button{padding:48px 30px 34px;border:0;border-left:24px solid #6b6d6a;box-shadow:inset 0 0 0 3px #c5c4bd;clip-path:polygon(0 0,89% 0,100% 7%,100% 94%,91% 100%,0 100%)}
 .c03 .portrait-window{border:6px ridge #eeece4;clip-path:polygon(8% 0,93% 0,100% 4%,100% 96%,93% 100%,7% 100%,0 96%,0 4%);padding:8px;background:#eeedeb;border-radius:0}
 .c03 .character-name{font-size:55px;text-align:center;padding-top:22px}
 .c03 .character-role{font-size:38px;font-weight:400;text-align:center;margin-top:15px;border-top:2px solid #a4a199;padding-top:14px;white-space:nowrap}
@@ -165,12 +167,12 @@ button:disabled{cursor:default}
 .c03 .rec-button{width:27%;height:287px}
 
 .c04{--accent:#28c5db;--ink:#062842;--paper-color:#cadfe5}
-.c04 .menu-options{left:73.8%;top:58%;width:24.2%;gap:28px}
-.c04 .menu-button{aspect-ratio:2.9}
+.c04 .menu-options{left:76.5%;top:58.5%;width:21.5%;gap:26px}
+.c04 .menu-button{aspect-ratio:3.75}
 .c04 .question{left:60.1%;top:.5%;width:39.4%;height:10.5%}
 .c04 .choices{left:8.5%;right:8.2%;bottom:.7%}
 .c04 .choice-button{width:41%;height:108px}
-.c04 .route-title{font-size:34px;border:2px solid #83a4ac;border-radius:8px;background:#cee0e3;font-weight:600}
+.c04 .route-title{font-size:38px;border:2px solid #83a4ac;border-radius:8px;background:#cee0e3;font-weight:600}
 .c04 .wire{stroke:#9baead;stroke-width:6;filter:drop-shadow(0 1px 1px #312b1b)}
 .c04 .wire.selected{stroke:#22d7fd;filter:drop-shadow(0 0 2px #96f6ff)}
 .c04 .node-stamp{top:18%;right:15%;bottom:auto;color:#17c9ce;display:none}
@@ -202,21 +204,21 @@ button:disabled{cursor:default}
 .c05 .question{left:31.3%;top:78%;width:37.8%;height:8%}
 .c05 .choices{left:10.1%;right:10.1%;bottom:2%}
 .c05 .choice-button{width:41%;height:96px}
-.c05 .route-title{font-size:32px;color:#160e08;background:#d5c6a8;font-weight:600;border:2px solid #857156;border-radius:3px}
+.c05 .route-title{font-size:38px;color:#160e08;background:#d5c6a8;font-weight:600;border:2px solid #857156;border-radius:3px}
 .c05 .node-stamp{top:11%;right:7.5%;bottom:auto;color:#fa2510;text-shadow:0 0 5px #ffd826}
 .c05 .wire{stroke:#796443;stroke-width:4;filter:drop-shadow(0 1px 1px #0008)}
 .c05 .wire.selected{stroke:#e8641a;filter:drop-shadow(0 0 1px #ffd338)}
 .c05 .characters{left:5%;right:4.8%;top:18%;height:62%;align-items:flex-end;gap:5.7%}
 .c05 .character-unit{flex-basis:18.2%;height:100%}
 .c05 .character-unit.expanded{flex-basis:53%;flex-grow:0;height:79%}
-.c05 .character-unit.expanded .portrait-button{width:46%}
-.c05 .character-details{border:7px ridge #947655;border-left:35px ridge #745137;border-radius:0 25px 25px 0;padding:5% 5%;box-shadow:inset 0 0 0 18px #d0b894,inset 0 0 0 20px #a7745a;background-size:200px auto}
-.c05 .detail-content{font:600 40px/1.36 "Songti SC",serif;color:#41200f}
+.c05 .character-unit.expanded .portrait-button{width:44%}
+.c05 .character-details{border:7px ridge #947655;border-left:35px ridge #745137;border-radius:0 25px 25px 0;padding:5% 4%;box-shadow:inset 0 0 0 18px #d0b894,inset 0 0 0 20px #a7745a;background-size:200px auto}
+.c05 .detail-content{font:600 39px/1.36 "Songti SC",serif;color:#41200f;white-space:nowrap}
 .c05 .detail-content h2{font-size:43px;line-height:1.35;margin-bottom:22px;padding:0 0 28px;border-color:#b47459}
 .c05 .completion{left:7.8%;top:7.9%;width:38%;height:16%}
 .c05 .other-button{left:65%;top:7.4%;width:27%;height:11.5%}
 .c05 .recommendations{left:5.7%;right:6.8%;bottom:6%}
-.c05 .recommendations h2{font:700 54px/1.3 "Songti SC",serif;color:#63200c;margin-bottom:70px}
+.c05 .recommendations h2{font:700 56px/1.3 "Songti SC",serif;color:#63200c;margin-bottom:90px}
 .c05 .rec-button{width:30%;height:185px}
 .c05 .art-button:hover{filter:drop-shadow(0 8px 3px #0005)}
 .c05 .choice-button:hover{filter:drop-shadow(0 3px 2px #0002)}
@@ -231,18 +233,18 @@ button:disabled{cursor:default}
 .c06 .node-stamp{display:none}
 .c06 .wire{stroke:#444e56;stroke-width:4}
 .c06 .wire.selected{stroke:#b67c26}
-.c06 .characters{left:5.1%;right:5.5%;top:15.5%;height:67%;gap:7.4%}
+.c06 .characters{left:5.1%;right:5.5%;top:15.5%;height:67%;gap:5.7%}
 .c06 .character-unit{flex-basis:17.5%}
 .c06 .character-unit.expanded{flex-basis:53.5%;flex-grow:0}
 .c06 .character-unit.expanded .portrait-button{width:39%}
-.c06 .portrait-button{border:12px ridge #6a7161;border-right-width:24px;padding:7% 5% 3%;border-radius:3px;background:#535b4e;box-shadow:4px 0 2px #242c27}
+.c06 .portrait-button{border:12px ridge #6a7161;border-right-width:24px;padding:21px 14px 10px;border-radius:3px;background:#535b4e;box-shadow:4px 0 2px #242c27}
 .c06 .portrait-window{border:9px ridge #73776a;padding:2px;border-radius:21px;background:white}
 .c06 .character-name{background:#e1d9c3 var(--paper);font:800 70px/1.3 "PingFang SC",sans-serif;text-align:center;margin-top:12px;padding:8px 0 0}
 .c06 .character-role{background:#e1d9c3 var(--paper);font:700 39px/1.2 "PingFang SC",sans-serif;text-align:center;margin:0;padding:0 0 4px;white-space:nowrap}
 .c06 .expanded .character-role{display:none}
 .c06 .expanded .character-name{padding:8px 0 18px;font-size:80px}
 .c06 .character-details{align-self:center;height:95%;padding:5% 5%;border:6px solid #8e8264;border-right:14px ridge #b29153;border-left:8px solid #656851;background-size:210px auto;box-shadow:inset 0 0 0 3px #b2a588}
-.c06 .detail-content{font:700 45px/1.5 "PingFang SC",sans-serif}
+.c06 .detail-content{font:700 49px/1.5 "PingFang SC",sans-serif}
 .c06 .detail-content h2{font:800 61px/1.3 "PingFang SC",sans-serif;margin-bottom:9px;padding-bottom:18px;white-space:nowrap}
 .c06 .detail-content .relation{line-height:1.4;padding:21px 0 28px}
 .c06 .card-fastener{position:absolute;width:11px;height:58px;background:linear-gradient(90deg,#8f662c,#f8c16a,#80521a);border:2px solid #644413;right:-21px;top:38%;border-radius:3px}
@@ -255,6 +257,7 @@ button:disabled{cursor:default}
 .c06 .recommendation-image{width:44%;border:4px ridge #d0cdbf;border-radius:5px}
 .c06 .rebuilt-rec span{font-family:"Songti SC",serif;font-size:51px;font-weight:700}
 .c06 .rebuilt-rec:hover,.c06 .rebuilt-rec[data-selected="true"]{border-color:#eb9d1f}
+.board-choice .utilities{top:13%;right:1%}
 
 .modal-backdrop{position:absolute;inset:0;display:grid;place-items:center;padding:7%;background:#12191485;z-index:20}
 .modal{position:relative;max-width:980px;width:75%;max-height:95%;overflow:auto;background:var(--paper-color) var(--paper);background-size:240px auto;color:var(--ink);padding:65px;border:7px double var(--accent);border-radius:7px;box-shadow:0 25px 70px #0008}

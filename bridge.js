@@ -1,7 +1,7 @@
 (()=>{
  if(window.parent===window)return;
  const channel='board-benchmark-v1';
- let applying=false,pointer,hovered=[],lastEvent,queued=false;
+ let applying=false,pointer,hovered=[],hoverTarget,lastEvent,queued=false;
  const send=payload=>window.parent.postMessage({channel,...payload},'*');
  const selector='button,a,[role="button"],[role="tab"],input,select,[tabindex]';
  const text=el=>(el?.getAttribute('aria-label')||el?.textContent||'').replace(/\s+/g,'').trim().slice(0,120);
@@ -17,12 +17,26 @@
   pointer=document.createElement('span');pointer.dataset.benchmarkPointer='true';pointer.style.cssText='position:fixed;width:13px;height:13px;border:2px solid white;background:#617856;border-radius:50%;box-shadow:0 0 0 1px #22332270;pointer-events:none;z-index:2147483647;display:none;transform:translate(-50%,-50%)';document.documentElement.append(pointer);
   send({type:'ready'});
  }
- function clear(){for(const el of hovered)el.removeAttribute('data-benchmark-hover');hovered=[];if(pointer)pointer.style.display='none';}
+ function setHover(target,data={x:0,y:0}){
+  const next=[];for(let el=target;el&&el!==document.documentElement;el=el.parentElement)next.push(el);
+  const options={clientX:data.x*innerWidth,clientY:data.y*innerHeight,pointerType:'mouse',pointerId:1,isPrimary:true};
+  const emit=(el,type,bubbles,relatedTarget)=>el.dispatchEvent(type.startsWith('pointer')?new PointerEvent(type,{...options,bubbles,relatedTarget}):new MouseEvent(type,{...options,bubbles,relatedTarget}));
+  if(hoverTarget!==target){
+   if(hoverTarget){emit(hoverTarget,'pointerout',true,target);emit(hoverTarget,'mouseout',true,target);}
+   for(const el of hovered.filter(el=>!next.includes(el))){el.removeAttribute('data-benchmark-hover');emit(el,'pointerleave',false,target);emit(el,'mouseleave',false,target);}
+   if(target){emit(target,'pointerover',true,hoverTarget);emit(target,'mouseover',true,hoverTarget);}
+   for(const el of next.filter(el=>!hovered.includes(el)).reverse()){el.setAttribute('data-benchmark-hover','');emit(el,'pointerenter',false,hoverTarget);emit(el,'mouseenter',false,hoverTarget);}
+   hoverTarget=target;
+  }
+  hovered=next;
+  if(target){emit(target,'pointermove',true,null);emit(target,'mousemove',true,null);}
+ }
+ function clear(){setHover(null);if(pointer)pointer.style.display='none';}
  function locate(data){const candidates=Array.from(document.querySelectorAll(selector)).filter(el=>el.getClientRects().length);return(data.label&&candidates.find(el=>text(el)===data.label))||document.elementFromPoint(data.x*innerWidth,data.y*innerHeight);}
  function details(e){const target=e.target.closest?.(selector);return {x:e.clientX/innerWidth,y:e.clientY/innerHeight,label:text(target)};}
  document.addEventListener('pointermove',e=>{if(applying||!e.isTrusted)return;clear();lastEvent=details(e);if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;if(lastEvent){send({type:'pointer',...lastEvent});lastEvent=null;}});},{passive:true});
- document.addEventListener('pointerleave',()=>{if(!applying)send({type:'clear'});});
- document.addEventListener('mouseout',e=>{if(!e.relatedTarget&&!applying)send({type:'clear'});});
+ document.addEventListener('pointerleave',e=>{if(!applying&&e.isTrusted)send({type:'clear'});});
+ document.addEventListener('mouseout',e=>{if(e.isTrusted&&!e.relatedTarget&&!applying)send({type:'clear'});});
  document.addEventListener('click',e=>{if(!applying&&e.isTrusted)send({type:'click',...details(e)});},true);
  window.addEventListener('message',e=>{
   const data=e.data;if(e.source!==window.parent||data?.channel!==channel)return;
@@ -32,9 +46,8 @@
   try{
    const target=locate(data);if(!target)return;
    if(data.type==='click'){const actionable=target.closest?.(selector)||target;actionable.click?.();return;}
-   clear();for(let el=target;el&&el!==document.documentElement;el=el.parentElement){el.setAttribute('data-benchmark-hover','');hovered.push(el);}
+   setHover(target,data);
    if(pointer){pointer.style.display='block';pointer.style.left=data.x*innerWidth+'px';pointer.style.top=data.y*innerHeight+'px';}
-   target.dispatchEvent(new PointerEvent('pointerover',{bubbles:true,clientX:data.x*innerWidth,clientY:data.y*innerHeight}));target.dispatchEvent(new MouseEvent('mouseover',{bubbles:true,clientX:data.x*innerWidth,clientY:data.y*innerHeight}));
   }finally{applying=false;}
  });
  if(document.readyState==='complete')setUp();else window.addEventListener('load',setUp,{once:true});

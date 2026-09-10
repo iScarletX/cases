@@ -10,8 +10,8 @@
   <script src="app.js" defer></script>
 </head>
 <body>
-  <main id="viewport"><div id="stage" aria-label="故事场景"></div></main>
+  <main id="viewport"><div id="scene-frame"><div id="stage" aria-label="故事场景"></div></div></main>
   <dialog id="dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="关闭" title="关闭">×</button><div id="dialog-body"></div></dialog>
   <div class="sr-only" id="announcement" role="status" aria-live="polite"></div>
-</body>
+<script src="../../bridge.js" data-comparison-instrumentation="true"></script></body>
 </html>
