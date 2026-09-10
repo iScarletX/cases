@@ -1849,6 +1849,66 @@
       "height": 84
     }
   },
+  "assets/c01/route-photo.png": {
+    "source": "cases/乙游3D/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 88,
+      "top": 421,
+      "width": 143,
+      "height": 79
+    }
+  },
+  "assets/c02/route-photo.png": {
+    "source": "cases/写实古风/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 123,
+      "top": 419,
+      "width": 190,
+      "height": 106
+    }
+  },
+  "assets/c03/route-photo.png": {
+    "source": "cases/半写实真人/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 104,
+      "top": 377,
+      "width": 121,
+      "height": 67
+    }
+  },
+  "assets/c04/route-photo.png": {
+    "source": "cases/国漫3D/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 137,
+      "top": 533,
+      "width": 90,
+      "height": 34
+    }
+  },
+  "assets/c05/route-photo.png": {
+    "source": "cases/复古港风/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 140,
+      "top": 484,
+      "width": 110,
+      "height": 48
+    }
+  },
+  "assets/c06/route-photo.png": {
+    "source": "cases/现代都市/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 141,
+      "top": 393,
+      "width": 133,
+      "height": 75
+    }
+  },
   "assets/c04/char-art-0.png": {
     "source": "cases/国漫3D/UI组件源/character-direct-cards-original.png",
     "operation": "individual portrait/photo/material crop",
