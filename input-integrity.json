@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-09-10T03:25:03.881Z",
+  "inputSha256": "21ea176cfc422753d956f89507d46c130310e70b4d6ff4b8b0f149ec6ace1f0e",
+  "checks": [
+    {
+      "id": "t1",
+      "assetDifferences": [],
+      "skillDifferences": [],
+      "taskMatches": true,
+      "passed": true
+    },
+    {
+      "id": "t2",
+      "assetDifferences": [],
+      "skillDifferences": [],
+      "taskMatches": true,
+      "passed": true
+    },
+    {
+      "id": "t3",
+      "assetDifferences": [],
+      "skillDifferences": [],
+      "taskMatches": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

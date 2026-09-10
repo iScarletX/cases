@@ -1,0 +1,152 @@
+[
+  {
+    "caseId": "c01",
+    "board": "menu",
+    "url": "index.html?case=c01&board=menu"
+  },
+  {
+    "caseId": "c01",
+    "board": "choice",
+    "url": "index.html?case=c01&board=choice"
+  },
+  {
+    "caseId": "c01",
+    "board": "route",
+    "url": "index.html?case=c01&board=route"
+  },
+  {
+    "caseId": "c01",
+    "board": "character",
+    "url": "index.html?case=c01&board=character"
+  },
+  {
+    "caseId": "c01",
+    "board": "ending",
+    "url": "index.html?case=c01&board=ending"
+  },
+  {
+    "caseId": "c02",
+    "board": "menu",
+    "url": "index.html?case=c02&board=menu"
+  },
+  {
+    "caseId": "c02",
+    "board": "choice",
+    "url": "index.html?case=c02&board=choice"
+  },
+  {
+    "caseId": "c02",
+    "board": "route",
+    "url": "index.html?case=c02&board=route"
+  },
+  {
+    "caseId": "c02",
+    "board": "character",
+    "url": "index.html?case=c02&board=character"
+  },
+  {
+    "caseId": "c02",
+    "board": "ending",
+    "url": "index.html?case=c02&board=ending"
+  },
+  {
+    "caseId": "c03",
+    "board": "menu",
+    "url": "index.html?case=c03&board=menu"
+  },
+  {
+    "caseId": "c03",
+    "board": "choice",
+    "url": "index.html?case=c03&board=choice"
+  },
+  {
+    "caseId": "c03",
+    "board": "route",
+    "url": "index.html?case=c03&board=route"
+  },
+  {
+    "caseId": "c03",
+    "board": "character",
+    "url": "index.html?case=c03&board=character"
+  },
+  {
+    "caseId": "c03",
+    "board": "ending",
+    "url": "index.html?case=c03&board=ending"
+  },
+  {
+    "caseId": "c04",
+    "board": "menu",
+    "url": "index.html?case=c04&board=menu"
+  },
+  {
+    "caseId": "c04",
+    "board": "choice",
+    "url": "index.html?case=c04&board=choice"
+  },
+  {
+    "caseId": "c04",
+    "board": "route",
+    "url": "index.html?case=c04&board=route"
+  },
+  {
+    "caseId": "c04",
+    "board": "character",
+    "url": "index.html?case=c04&board=character"
+  },
+  {
+    "caseId": "c04",
+    "board": "ending",
+    "url": "index.html?case=c04&board=ending"
+  },
+  {
+    "caseId": "c05",
+    "board": "menu",
+    "url": "index.html?case=c05&board=menu"
+  },
+  {
+    "caseId": "c05",
+    "board": "choice",
+    "url": "index.html?case=c05&board=choice"
+  },
+  {
+    "caseId": "c05",
+    "board": "route",
+    "url": "index.html?case=c05&board=route"
+  },
+  {
+    "caseId": "c05",
+    "board": "character",
+    "url": "index.html?case=c05&board=character"
+  },
+  {
+    "caseId": "c05",
+    "board": "ending",
+    "url": "index.html?case=c05&board=ending"
+  },
+  {
+    "caseId": "c06",
+    "board": "menu",
+    "url": "index.html?case=c06&board=menu"
+  },
+  {
+    "caseId": "c06",
+    "board": "choice",
+    "url": "index.html?case=c06&board=choice"
+  },
+  {
+    "caseId": "c06",
+    "board": "route",
+    "url": "index.html?case=c06&board=route"
+  },
+  {
+    "caseId": "c06",
+    "board": "character",
+    "url": "index.html?case=c06&board=character"
+  },
+  {
+    "caseId": "c06",
+    "board": "ending",
+    "url": "index.html?case=c06&board=ending"
+  }
+]

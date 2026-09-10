@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="color-scheme" content="light"><meta name="description" content="三种游戏界面 Skill 的 Board 还原与交互评测">
+ <title>游戏界面评测 | Board Study</title>
+ <link rel="stylesheet" href="styles.css">
+ <script defer src="lucide.min.js"></script><script defer src="metrics.js"></script><script defer src="data.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+ <header class="site-header">
+  <a class="brand" href="#overview"><i data-lucide="panels-top-left"></i><span>界面研究室<small>BOARD STUDY</small></span></a>
+  <nav aria-label="主导航"><a href="#overview" data-nav="overview">评测总览</a><a href="#compare" data-nav="compare">逐张对比</a></nav>
+  <button class="icon-button" id="export-data" title="导出评分与盲选记录" aria-label="导出评分与盲选记录"><i data-lucide="download"></i></button>
+ </header>
+ <main id="app"></main>
+ <dialog id="detail-dialog" class="detail-dialog"><div id="detail-content"></div></dialog>
+ <dialog id="reference-dialog" class="reference-dialog">
+  <div class="dialog-top"><h2 id="reference-title">Board 原图</h2><div class="toolbar-actions"><button class="icon-button" id="image-fit" title="适应窗口" aria-label="适应窗口"><i data-lucide="scan"></i></button><button class="icon-button" id="image-zoom" title="原始尺寸" aria-label="原始尺寸"><i data-lucide="zoom-in"></i></button><button class="icon-button" data-close="reference-dialog" title="关闭" aria-label="关闭原图"><i data-lucide="x"></i></button></div></div>
+  <div class="reference-image-wrap" id="reference-image-wrap"><img id="reference-image" alt="当前 Board 原图"></div>
+ </dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+</body></html>

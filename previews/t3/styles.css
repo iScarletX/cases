@@ -1,0 +1,348 @@
+*{box-sizing:border-box;letter-spacing:0}
+:root{font-family:"Songti SC","STSong","SimSun",serif;color:#272c2e;background:#111;font-synthesis:none}
+html,body{margin:0;width:100%;min-height:100%;overflow:hidden}
+body{height:100svh;display:flex;align-items:center;justify-content:center}
+button{font:inherit;color:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
+button:focus{outline:none}
+button:focus-visible{outline:3px solid var(--accent,#327684);outline-offset:5px}
+button:disabled{cursor:default}
+#viewport{position:relative;flex:none}
+.stage{width:1920px;height:1080px;position:relative;transform-origin:top left;overflow:hidden;isolation:isolate;--accent:#427884;--ink:#27363b;--paper-color:#e9e2d4}
+.scene{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;z-index:-2}
+.screen{position:absolute;inset:0}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.mobile-title{display:none}
+.utilities{position:absolute;right:1.3%;top:1.5%;display:flex;gap:12px;z-index:8}
+.icon-button{width:46px;height:46px;display:grid;place-items:center;background:#f0eee3c7;border:1px solid #736e6266;border-radius:50%;box-shadow:0 2px 5px #0002;opacity:.48;transition:opacity .15s,background .15s}
+.icon-button:hover,.icon-button:focus-visible{opacity:1;background:#f7f6ef}
+.icon{width:24px;height:24px}
+.art-button{padding:0;border:0;background:none;position:relative;display:block;filter:drop-shadow(0 3px 2px #0002);isolation:isolate}
+.art{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.art.active{opacity:0}
+.art-button:hover .normal,.art-button:focus-visible .normal,.art-button[data-selected="true"] .normal{opacity:0}
+.art-button:hover .active,.art-button:focus-visible .active,.art-button[data-selected="true"] .active{opacity:1}
+.art-button:focus-visible{outline:0;filter:drop-shadow(0 0 3px var(--accent))}
+.static-art{position:absolute}
+.static-art img{width:100%;height:100%;object-fit:fill;display:block}
+.menu-options{position:absolute;display:flex;flex-direction:column;align-items:stretch}
+.menu-button{width:100%;aspect-ratio:4/1;flex:none}
+.menu-options:not(:has(.menu-button:hover)):not(:has(.menu-button:focus-visible:not([data-initial]))) [data-initial] .active{opacity:1}
+.menu-options:not(:has(.menu-button:hover)):not(:has(.menu-button:focus-visible:not([data-initial]))) [data-initial] .normal{opacity:0}
+.question{left:32%;top:2%;width:42%;height:8%}
+.choices{position:absolute;left:7%;right:7%;bottom:1%;display:flex;justify-content:space-between;align-items:flex-end}
+.choice-button{width:36%;height:100px}
+.connections{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.route-layer{position:absolute;inset:0}
+.route-node{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);border:0;padding:0;background:transparent;filter:drop-shadow(0 4px 3px #0003)}
+.node-frame{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.node-frame.active{opacity:0}
+.route-node[data-selected="true"] .normal,.route-node:hover .normal,.route-node:focus-visible .normal{opacity:0}
+.route-node[data-selected="true"] .active,.route-node:hover .active,.route-node:focus-visible .active{opacity:1}
+.route-node:focus-visible{outline:0;filter:drop-shadow(0 0 4px var(--accent))}
+.route-thumb{position:absolute;left:var(--hx);top:var(--hy);width:var(--hw);height:var(--hh);object-fit:contain;padding:3%;z-index:-1}
+.route-title{position:absolute;left:var(--lx);top:var(--ly);width:var(--lw);height:var(--lh);display:flex;align-items:center;justify-content:center;background:var(--paper-color);font-size:43px;font-weight:600;white-space:nowrap;color:var(--ink);line-height:1.06;padding:0 2px}
+.node-stamp{position:absolute;right:6%;bottom:5%;font-size:25px;line-height:1;border-radius:50%;color:var(--accent);opacity:0;pointer-events:none}
+.route-node[data-selected="true"] .node-stamp,.route-node:focus-visible .node-stamp,.route-node:hover .node-stamp{opacity:1}
+.wire{fill:none;stroke:#747d789d;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}
+.wire.selected{stroke:var(--accent)}
+.characters{position:absolute;display:flex;align-items:stretch;justify-content:space-between;gap:3%;left:4.4%;right:3.5%;top:12%;height:77%}
+.character-unit{display:flex;align-items:stretch;min-width:0;flex:0 0 19%;position:relative;filter:drop-shadow(0 6px 3px #0004)}
+.character-unit.expanded{flex:1 1 auto}
+.portrait-button{position:relative;display:flex;flex-direction:column;text-align:left;align-items:stretch;min-width:0;width:100%;border:4px solid #8b795f;border-radius:3px;background:var(--paper-color) var(--paper);background-size:200px auto;box-shadow:inset 0 0 0 5px #e7ddca;padding:7% 9% 9%;z-index:1;flex:none;overflow:visible}
+.character-unit.expanded .portrait-button{width:40%}
+.portrait-window{display:block;min-height:0;flex:1;border:2px solid #8a8072;padding:2px;border-radius:5px;background:#eeebe6;overflow:hidden}
+.portrait-window img{width:100%;height:100%;object-fit:fill;display:block}
+.character-name{font-size:76px;font-weight:600;line-height:1.1;padding-top:12px;white-space:nowrap;flex:none}
+.character-role{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:43px;font-weight:600;line-height:1.25;margin-top:12px;flex:none}
+.character-details{position:relative;align-self:stretch;flex:1;min-width:0;background:var(--paper-color) var(--paper);background-size:200px auto;border:4px solid #8b795f;border-left-width:16px;border-radius:3px;padding:8% 4% 4%;box-shadow:inset 0 0 0 4px #e3d8c5;overflow:hidden}
+.character-details[hidden]{display:none}
+.detail-content{font-size:43px;line-height:1.75;font-family:"PingFang SC","Microsoft YaHei",sans-serif;text-align:left}
+.detail-content h2{font:600 49px/1.45 "Songti SC","SimSun",serif;margin:0 0 28px;padding:0 0 18px;border-bottom:1px solid #756950}
+.detail-content p{margin:0}
+.detail-content .relation{padding:20px 0 28px;border-bottom:1px solid #7a7164;line-height:1.7}
+.detail-content .relation:last-child{border-bottom:0}
+.card-rod{display:none}
+.completion{left:5.5%;top:10%;width:30%;height:20%}
+.other-button{position:absolute;left:5.5%;top:43%;width:32%;height:13%}
+.recommendations{position:absolute;left:1.3%;right:1.3%;bottom:1.5%}
+.recommendations h2{font-size:44px;margin:0 0 14px;line-height:1.1;text-align:center;font-family:"PingFang SC",sans-serif;font-weight:600;color:var(--ink)}
+.recommendation-list{display:flex;justify-content:space-between;gap:1.1%;align-items:stretch}
+.rec-button{width:32.4%;height:198px}
+.rebuilt-rec{position:relative;display:flex;align-items:center;border:7px solid #748271;background:#eeece1 var(--paper);background-size:190px auto;border-radius:5px;padding:6px;gap:5%;min-width:0;filter:drop-shadow(0 4px 3px #0005)}
+.recommendation-image{width:54%;height:100%;object-fit:cover;border:1px solid #f4f0dc;flex:none}
+.rebuilt-rec span{font-size:44px;font-weight:600;white-space:nowrap;color:#151a15;text-align:left}
+.rec-indicator{position:absolute;right:2%;bottom:7%;width:12px;height:12px;border-radius:50%;background:#7b6b58;opacity:.55}
+.rebuilt-rec:hover,.rebuilt-rec:focus-visible,.rebuilt-rec[data-selected="true"]{border-color:var(--accent);filter:drop-shadow(0 6px 3px #0006)}
+.rebuilt-rec:hover .rec-indicator,.rebuilt-rec:focus-visible .rec-indicator,.rebuilt-rec[data-selected="true"] .rec-indicator{background:var(--accent);box-shadow:0 0 8px var(--accent);opacity:1}
+
+/* Each reference has its own anchored composition and material rules. */
+.c01{--accent:#24768a;--ink:#263a40;--paper-color:#eae7db}
+.c01 .menu-options{left:1.6%;top:35.2%;width:22.8%;gap:35px}
+.c01 .menu-button{aspect-ratio:4.08}
+.c01 .question{left:33%;top:9%;width:34%;height:8%}
+.c01 .choices{left:13.1%;right:13.1%;bottom:.8%}
+.c01 .choice-button{width:33.6%;height:138px}
+.c01 .route-title{font-weight:500}
+.c01 .wire{stroke:#639aa5;stroke-width:9;filter:drop-shadow(0 2px 1px #3338)}
+.c01 .wire.selected{stroke:#16728b}
+.c01 .characters{top:12%;height:77%;left:2.8%;right:2.6%;gap:4.5%}
+.c01 .character-unit{flex-basis:18.5%;transform:skewY(-4deg)}
+.c01 .character-unit.expanded{flex-basis:53%;flex-grow:0}
+.c01 .character-unit.expanded .portrait-button{width:40%}
+.c01 .portrait-button{padding:8% 10% 6%;border-bottom:12px ridge #9f8a6d;box-shadow:inset 0 0 0 2px #f7ebd5}
+.c01 .portrait-window,.c01 .character-name,.c01 .character-role{transform:skewY(4deg)}
+.c01 .character-name{font-size:81px}
+.c01 .character-role{font-size:44px}
+.c01 .card-rod{display:block;position:absolute;left:-10%;right:-10%;top:-13px;height:38px;background:linear-gradient(#b5a389,#f4ead7 40%,#c4b294 70%,#84745c);border-radius:18px;border-left:27px ridge #8f7859;border-right:27px ridge #8f7859;box-shadow:0 3px 4px #0008}
+.c01 .character-details{border-left:34px ridge #9a8264;border-bottom:12px ridge #9f8a6d;padding:11% 4% 6%}
+.c01 .character-details:before{content:"";position:absolute;top:-13px;left:0;right:-3%;height:38px;background:linear-gradient(#c4b496,#eee3ce,#988568);border-radius:18px}
+.c01 .detail-content{transform:skewY(4deg);font-size:45px;line-height:1.68}
+.c01 .completion{left:5.8%;top:12.8%;width:25.5%;height:21%}
+.c01 .other-button{left:5.6%;top:43.7%;width:32%;height:13.5%}
+.c01 .recommendations{left:1%;right:1%;bottom:1.5%}
+.c01 .recommendations h2{text-align:left;margin-left:27%;font-size:45px}
+.c01 .rec-button{height:198px}
+.c01 .rec-button:hover,.c01 .other-button:hover{filter:drop-shadow(0 8px 3px #0005)}
+
+.c02{--accent:#d48651;--ink:#171d16;--paper-color:#e7e3d5}
+.c02 .menu-options{left:1.5%;top:52%;width:18.1%;gap:39px}
+.c02 .menu-button{aspect-ratio:3.45}
+.c02 .question{left:36.8%;top:1%;width:32.7%;height:12.4%}
+.c02 .choices{left:7.1%;right:6.8%;bottom:1.6%}
+.c02 .choice-button{width:44.1%;height:176px}
+.c02 .route-title{font-size:40px;font-weight:600}
+.c02 .wire{stroke:#25422e;stroke-width:4}
+.c02 .wire.selected{stroke:#f09b5c;filter:drop-shadow(0 0 5px #ffaa69)}
+.c02 .node-stamp{color:#bc4826}
+.c02 .characters{left:5%;right:4.5%;top:14%;height:73%;gap:7.5%}
+.c02 .character-unit{flex-basis:18.5%}
+.c02 .character-unit.expanded{flex-basis:51%;flex-grow:0}
+.c02 .character-unit.expanded .portrait-button{width:50%}
+.c02 .portrait-button{border-left:24px ridge #77786f;padding:5% 7% 4%;box-shadow:inset 0 0 0 7px #c8beac}
+.c02 .portrait-window{border:0;padding:0;border-radius:0;background:none}
+.c02 .character-name{font-size:69px;text-align:center;margin-top:8px;line-height:1.3}
+.c02 .character-role{font-size:43px;text-align:center;font-family:"Kaiti SC","STKaiti",serif;margin-top:2px;border-top:1px solid #897d67;padding-top:9px}
+.c02 .expanded .character-role{display:none}
+.c02 .character-details{border:4px solid #837d6c;padding:7% 4%;box-shadow:inset 0 0 0 6px #cec5b5}
+.c02 .detail-content{font:500 44px/1.7 "Kaiti SC","STKaiti","Songti SC",serif}
+.c02 .detail-content h2{font:600 70px/1.2 "Kaiti SC","STKaiti",serif;padding:8px 0 26px}
+.c02 .completion{left:4%;top:3%;width:45%;height:18%}
+.c02 .other-button{left:4.2%;top:24%;width:28.8%;height:10%}
+.c02 .recommendations{left:4%;right:auto;width:41.5%;bottom:3.2%}
+.c02 .recommendations h2{width:45%;font:600 46px/1.25 "Kaiti SC","STKaiti",serif;text-align:center;background:#eeece1 var(--paper);padding:6px;margin-bottom:25px}
+.c02 .recommendation-list{flex-direction:column;gap:18px}
+.c02 .rebuilt-rec{width:100%;height:173px}
+
+.c03{--accent:#2e5f72;--ink:#202d33;--paper-color:#eaeae4}
+.c03 .menu-options{left:6.1%;top:59%;width:19.5%;gap:37px}
+.c03 .menu-button{aspect-ratio:3.55}
+.c03 .menu-button:first-child{width:109%;margin-bottom:3px}
+.c03 .question{left:25.3%;top:1.5%;width:38.4%;height:5.4%}
+.c03 .choices{left:3.7%;right:3.7%;bottom:1.8%}
+.c03 .choice-button{width:33.8%;height:134px}
+.c03 .route-title{font-size:36px;font-weight:600}
+.c03 .node-stamp{left:5%;top:6%;bottom:auto;right:auto;color:#f4f4ee;font-family:Arial,sans-serif;font-size:25px;background:#385e6c;padding:4px;opacity:1}
+.c03 .wire{stroke-width:3;stroke:#53595e85}
+.c03 .wire.selected{stroke:#427e96;filter:drop-shadow(0 1px 0 #e0ecec)}
+.c03 .characters{left:1.6%;right:1.7%;top:12%;height:54.5%;gap:2%}
+.c03 .character-unit{flex-basis:14.6%}
+.c03 .character-unit.expanded{flex-basis:50%;flex-grow:0}
+.c03 .character-unit.expanded .portrait-button{width:46%}
+.c03 .portrait-button{padding:10% 9% 10% 13%;border:0;border-left:24px solid #6b6d6a;box-shadow:inset 0 0 0 3px #c5c4bd;clip-path:polygon(0 0,89% 0,100% 7%,100% 94%,91% 100%,0 100%)}
+.c03 .portrait-window{border:6px ridge #eeece4;clip-path:polygon(8% 0,93% 0,100% 4%,100% 96%,93% 100%,7% 100%,0 96%,0 4%);padding:8px;background:#eeedeb;border-radius:0}
+.c03 .character-name{font-size:55px;text-align:center;padding-top:22px}
+.c03 .character-role{font-size:38px;font-weight:400;text-align:center;margin-top:15px;border-top:2px solid #a4a199;padding-top:14px;white-space:nowrap}
+.c03 .expanded .character-role{display:none}
+.c03 .expanded .character-name{padding:24px 0 5px}
+.c03 .character-details{border:0;border-left:46px solid #6b6c66;padding:6.5% 4.5%;box-shadow:inset 0 0 0 3px #d5d3cd;clip-path:polygon(0 0,94% 0,100% 6%,100% 94%,94% 100%,0 100%)}
+.c03 .detail-content{font-size:35px;line-height:1.65}
+.c03 .detail-content h2{font:700 66px/1.2 "PingFang SC",sans-serif;white-space:nowrap;margin-bottom:28px}
+.c03 .card-fastener{position:absolute;top:0;left:7%;width:12px;height:60px;border:4px ridge #bbbeb8;border-radius:8px;box-shadow:3px 3px 4px #0006}
+.c03 .completion{left:3.5%;top:10%;width:28%;height:21%}
+.c03 .other-button{left:3.5%;top:37.7%;width:24.5%;height:12%}
+.c03 .recommendations{left:3.5%;right:3.5%;bottom:1.6%}
+.c03 .recommendations h2{text-align:left;font:600 41px/1.2 "Songti SC",serif;background:var(--paper-color);width:15.5%;padding:6px;margin-bottom:20px}
+.c03 .rec-button{width:27%;height:287px}
+
+.c04{--accent:#28c5db;--ink:#062842;--paper-color:#cadfe5}
+.c04 .menu-options{left:73.8%;top:58%;width:24.2%;gap:28px}
+.c04 .menu-button{aspect-ratio:2.9}
+.c04 .question{left:60.1%;top:.5%;width:39.4%;height:10.5%}
+.c04 .choices{left:8.5%;right:8.2%;bottom:.7%}
+.c04 .choice-button{width:41%;height:108px}
+.c04 .route-title{font-size:34px;border:2px solid #83a4ac;border-radius:8px;background:#cee0e3;font-weight:600}
+.c04 .wire{stroke:#9baead;stroke-width:6;filter:drop-shadow(0 1px 1px #312b1b)}
+.c04 .wire.selected{stroke:#22d7fd;filter:drop-shadow(0 0 2px #96f6ff)}
+.c04 .node-stamp{top:18%;right:15%;bottom:auto;color:#17c9ce;display:none}
+.c04 .characters{left:3.7%;right:4.7%;top:18%;height:64%;align-items:flex-end;gap:4%}
+.c04 .character-unit{flex-basis:17.5%;height:100%}
+.c04 .character-unit.expanded{flex-basis:57%;flex-grow:0;height:79%}
+.c04 .character-unit.expanded .portrait-button{width:32%}
+.complete-art{padding:0!important;background:none!important;border:0!important;box-shadow:none!important;clip-path:none!important}
+.complete-portrait{width:100%;height:100%;object-fit:fill;pointer-events:none}
+.art-identity{display:none;position:absolute;background:var(--paper-color) var(--paper);left:5%;right:5%;bottom:3%;height:19%;font-size:28px;padding:2% 3%;align-items:center;justify-content:center;text-align:center}
+.first-identity{display:flex}
+.expanded .first-identity{display:none}
+.expanded .art-identity:not(.first-identity){display:block;color:transparent;background:var(--paper-color) var(--paper)}
+.c04 .character-details{align-self:flex-end;height:86%;padding:3% 5%;border:14px ridge #a69772;border-radius:14px;background-size:270px auto;box-shadow:inset 0 0 0 4px #849fa8;overflow:visible}
+.c04 .character-details:before,.c04 .character-details:after{content:"";position:absolute;left:-65px;width:55px;height:16px;border:5px ridge #a38c62;background:#746244}
+.c04 .character-details:before{top:7%}.c04 .character-details:after{bottom:6%}
+.c04 .detail-content{font:600 42px/1.36 "Songti SC","SimSun",serif}
+.c04 .detail-content h2{font-size:43px;line-height:1.33;margin:0 0 18px;padding-bottom:24px;border-color:#6e776b}
+.c04 .completion{left:4.4%;top:7%;width:32%;height:14.5%}
+.c04 .other-button{left:55.5%;top:8%;width:23%;height:12%}
+.c04 .recommendations{left:4.3%;right:21%;bottom:21.5%}
+.c04 .recommendations h2{text-align:left;color:#f5f6e8;font:500 35px/1.2 "Songti SC",serif;margin-bottom:26px;text-shadow:0 1px 2px #071d35}
+.c04 .rec-button{width:30%;height:196px}
+.c04 .art-button:hover{filter:drop-shadow(0 6px 4px #0006)}
+
+.c05{--accent:#ba3d20;--ink:#501c10;--paper-color:#dac6a5}
+.c05 .menu-options{left:77.3%;top:57%;width:17.5%;gap:25px}
+.c05 .menu-button{aspect-ratio:2.65}
+.c05 .question{left:31.3%;top:78%;width:37.8%;height:8%}
+.c05 .choices{left:10.1%;right:10.1%;bottom:2%}
+.c05 .choice-button{width:41%;height:96px}
+.c05 .route-title{font-size:32px;color:#160e08;background:#d5c6a8;font-weight:600;border:2px solid #857156;border-radius:3px}
+.c05 .node-stamp{top:11%;right:7.5%;bottom:auto;color:#fa2510;text-shadow:0 0 5px #ffd826}
+.c05 .wire{stroke:#796443;stroke-width:4;filter:drop-shadow(0 1px 1px #0008)}
+.c05 .wire.selected{stroke:#e8641a;filter:drop-shadow(0 0 1px #ffd338)}
+.c05 .characters{left:5%;right:4.8%;top:18%;height:62%;align-items:flex-end;gap:5.7%}
+.c05 .character-unit{flex-basis:18.2%;height:100%}
+.c05 .character-unit.expanded{flex-basis:53%;flex-grow:0;height:79%}
+.c05 .character-unit.expanded .portrait-button{width:46%}
+.c05 .character-details{border:7px ridge #947655;border-left:35px ridge #745137;border-radius:0 25px 25px 0;padding:5% 5%;box-shadow:inset 0 0 0 18px #d0b894,inset 0 0 0 20px #a7745a;background-size:200px auto}
+.c05 .detail-content{font:600 40px/1.36 "Songti SC",serif;color:#41200f}
+.c05 .detail-content h2{font-size:43px;line-height:1.35;margin-bottom:22px;padding:0 0 28px;border-color:#b47459}
+.c05 .completion{left:7.8%;top:7.9%;width:38%;height:16%}
+.c05 .other-button{left:65%;top:7.4%;width:27%;height:11.5%}
+.c05 .recommendations{left:5.7%;right:6.8%;bottom:6%}
+.c05 .recommendations h2{font:700 54px/1.3 "Songti SC",serif;color:#63200c;margin-bottom:70px}
+.c05 .rec-button{width:30%;height:185px}
+.c05 .art-button:hover{filter:drop-shadow(0 8px 3px #0005)}
+.c05 .choice-button:hover{filter:drop-shadow(0 3px 2px #0002)}
+
+.c06{--accent:#d59122;--ink:#282b28;--paper-color:#eae7dc;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.c06 .menu-options{left:1.4%;top:52.2%;width:17%;gap:42px}
+.c06 .menu-button{aspect-ratio:3.7}
+.c06 .question{left:37.3%;top:1.5%;width:30%;height:7%}
+.c06 .choices{left:7.1%;right:6.8%;bottom:1%}
+.c06 .choice-button{width:41%;height:112px}
+.c06 .route-title{font-size:42px;font-weight:800}
+.c06 .node-stamp{display:none}
+.c06 .wire{stroke:#444e56;stroke-width:4}
+.c06 .wire.selected{stroke:#b67c26}
+.c06 .characters{left:5.1%;right:5.5%;top:15.5%;height:67%;gap:7.4%}
+.c06 .character-unit{flex-basis:17.5%}
+.c06 .character-unit.expanded{flex-basis:53.5%;flex-grow:0}
+.c06 .character-unit.expanded .portrait-button{width:39%}
+.c06 .portrait-button{border:12px ridge #6a7161;border-right-width:24px;padding:7% 5% 3%;border-radius:3px;background:#535b4e;box-shadow:4px 0 2px #242c27}
+.c06 .portrait-window{border:9px ridge #73776a;padding:2px;border-radius:21px;background:white}
+.c06 .character-name{background:#e1d9c3 var(--paper);font:800 70px/1.3 "PingFang SC",sans-serif;text-align:center;margin-top:12px;padding:8px 0 0}
+.c06 .character-role{background:#e1d9c3 var(--paper);font:700 39px/1.2 "PingFang SC",sans-serif;text-align:center;margin:0;padding:0 0 4px;white-space:nowrap}
+.c06 .expanded .character-role{display:none}
+.c06 .expanded .character-name{padding:8px 0 18px;font-size:80px}
+.c06 .character-details{align-self:center;height:95%;padding:5% 5%;border:6px solid #8e8264;border-right:14px ridge #b29153;border-left:8px solid #656851;background-size:210px auto;box-shadow:inset 0 0 0 3px #b2a588}
+.c06 .detail-content{font:700 45px/1.5 "PingFang SC",sans-serif}
+.c06 .detail-content h2{font:800 61px/1.3 "PingFang SC",sans-serif;margin-bottom:9px;padding-bottom:18px;white-space:nowrap}
+.c06 .detail-content .relation{line-height:1.4;padding:21px 0 28px}
+.c06 .card-fastener{position:absolute;width:11px;height:58px;background:linear-gradient(90deg,#8f662c,#f8c16a,#80521a);border:2px solid #644413;right:-21px;top:38%;border-radius:3px}
+.c06 .completion{left:3.7%;top:3%;width:46.8%;height:16.3%}
+.c06 .other-button{left:3.8%;top:21.8%;width:25.5%;height:13.3%}
+.c06 .recommendations{left:4%;right:auto;width:31.7%;bottom:3.2%}
+.c06 .recommendations h2{font:600 44px/1.2 "Songti SC",serif;background:#eae5d8;width:60%;text-align:left;padding:10px 25px;margin-bottom:36px}
+.c06 .recommendation-list{flex-direction:column;gap:21px}
+.c06 .rebuilt-rec{width:100%;height:163px;border:5px solid #8d8c80;border-radius:7px;box-shadow:inset 0 0 0 3px #f5f2e7;gap:5%}
+.c06 .recommendation-image{width:44%;border:4px ridge #d0cdbf;border-radius:5px}
+.c06 .rebuilt-rec span{font-family:"Songti SC",serif;font-size:51px;font-weight:700}
+.c06 .rebuilt-rec:hover,.c06 .rebuilt-rec[data-selected="true"]{border-color:#eb9d1f}
+
+.modal-backdrop{position:absolute;inset:0;display:grid;place-items:center;padding:7%;background:#12191485;z-index:20}
+.modal{position:relative;max-width:980px;width:75%;max-height:95%;overflow:auto;background:var(--paper-color) var(--paper);background-size:240px auto;color:var(--ink);padding:65px;border:7px double var(--accent);border-radius:7px;box-shadow:0 25px 70px #0008}
+.modal h2{font-size:51px;font-weight:700;line-height:1.4;margin:0 0 30px;padding-right:45px}
+.modal-close{position:absolute;top:13px;right:13px;opacity:1}
+.modal-actions{display:flex;justify-content:flex-end;gap:22px;flex-wrap:wrap;margin-top:40px}
+.command{padding:14px 33px;background:#f8f4e8;border:2px solid #847961;font-size:35px;border-radius:3px;min-height:65px}
+.command:hover,.command:focus-visible{background:#fffaf1;border-color:var(--accent);box-shadow:0 3px 0 var(--accent)}
+.chapter-preview img,.recommendation-preview{display:block;width:100%;max-height:520px;object-fit:contain;background:#0001}
+.choice-dialog-question{font-size:37px;line-height:1.6;margin:0}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+@media (max-width:700px) and (orientation:portrait){
+ html,body{overflow:auto;min-height:100svh;height:auto;background:#161c1b}
+ body{display:block}
+ #viewport{width:100%!important;height:auto!important;min-height:100svh}
+ .stage{width:100%;height:auto;min-height:100svh;transform:none!important;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);overflow:hidden}
+ .scene{object-fit:cover;object-position:center;position:absolute;height:100%;opacity:1}
+ .screen{position:relative;min-height:100svh;padding:75px 18px 32px}
+ .utilities{top:max(14px,env(safe-area-inset-top));right:max(14px,env(safe-area-inset-right));gap:9px;position:absolute}
+ .icon-button{width:40px;height:40px;opacity:.85}
+ .icon{width:21px;height:21px}
+ .mobile-title{display:block;position:relative;font:600 43px/1.2 "Songti SC",serif;max-width:88%;margin:14px 0;color:#f9f3df;text-shadow:0 2px 8px #161915,0 0 4px #1a1d1b}
+ .menu-options,.c01 .menu-options,.c02 .menu-options,.c03 .menu-options,.c04 .menu-options,.c05 .menu-options,.c06 .menu-options{position:absolute;top:auto;left:6%;right:auto;bottom:7%;width:220px;gap:15px}
+ .menu-button{height:66px;aspect-ratio:auto!important}
+ .c03 .menu-button:first-child{width:100%;margin:0}
+ .c04 .menu-options,.c05 .menu-options{left:auto;right:6%}
+ .c04 .menu-button{height:74px}.c05 .menu-button{height:80px}
+ .board-menu .scene{object-position:52% center}
+ .board-choice .screen{display:flex;flex-direction:column;justify-content:space-between;gap:38px}
+ .question,.c01 .question,.c02 .question,.c03 .question,.c04 .question,.c05 .question,.c06 .question{position:relative;top:auto;left:auto;right:auto;width:100%;height:64px;flex:none}
+ .c03 .question{height:42px}.c02 .question{height:80px}.c06 .question{height:48px}
+ .choices,.c01 .choices,.c02 .choices,.c03 .choices,.c04 .choices,.c05 .choices,.c06 .choices{position:relative;left:auto;right:auto;bottom:auto;display:flex;flex-direction:column;align-items:center;gap:18px;width:100%;margin-top:auto}
+ .choice-button,.c01 .choice-button,.c02 .choice-button,.c03 .choice-button,.c04 .choice-button,.c05 .choice-button,.c06 .choice-button{width:100%;height:68px}
+ .c01 .choice-button{width:90%;height:90px}.c02 .choice-button{height:98px}
+ .board-route .screen{padding:80px 15px 30px}
+ .route-layer{position:relative;inset:auto;min-height:1030px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(5,190px);gap:20px 0;align-items:center}
+ .route-node{position:relative;left:auto;top:auto;width:190px;height:165px;max-width:100%;justify-self:center;grid-column:1;z-index:2}
+ .route-node:nth-of-type(even){grid-column:2}
+ .route-node:nth-of-type(1){grid-row:1}.route-node:nth-of-type(2){grid-row:2}.route-node:nth-of-type(3){grid-row:3}.route-node:nth-of-type(4){grid-row:4}.route-node:nth-of-type(5){grid-row:5}
+ .route-title,.c01 .route-title,.c02 .route-title,.c03 .route-title,.c04 .route-title,.c05 .route-title,.c06 .route-title{font-size:19px;line-height:1.1;border-width:1px;white-space:normal}
+ .node-stamp,.c03 .node-stamp{font-size:12px;padding:2px}
+ .wire,.c01 .wire,.c02 .wire,.c03 .wire,.c04 .wire,.c05 .wire,.c06 .wire{stroke-width:2}
+ .board-character .screen{padding:80px 16px 40px}
+ .characters,.c01 .characters,.c02 .characters,.c03 .characters,.c04 .characters,.c05 .characters,.c06 .characters{position:relative;inset:auto;width:100%;height:auto;display:flex;flex-direction:column;gap:24px;align-items:center}
+ .character-unit,.c01 .character-unit,.c02 .character-unit,.c03 .character-unit,.c04 .character-unit,.c05 .character-unit,.c06 .character-unit{width:100%;height:360px;flex:none;transform:none;justify-content:center;align-items:stretch}
+ .character-unit.expanded,.c01 .character-unit.expanded,.c02 .character-unit.expanded,.c03 .character-unit.expanded,.c04 .character-unit.expanded,.c05 .character-unit.expanded,.c06 .character-unit.expanded{flex:none;width:100%;height:auto;display:flex;flex-wrap:wrap;justify-content:center}
+ .portrait-button,.c01 .character-unit.expanded .portrait-button,.c02 .character-unit.expanded .portrait-button,.c03 .character-unit.expanded .portrait-button,.c04 .character-unit.expanded .portrait-button,.c05 .character-unit.expanded .portrait-button,.c06 .character-unit.expanded .portrait-button{width:190px;height:360px;flex:none;padding:16px 16px 12px}
+ .c01 .character-unit.expanded .portrait-button{width:190px}
+ .portrait-window,.c01 .portrait-window,.c01 .character-name,.c01 .character-role{transform:none}
+ .character-name,.c01 .character-name,.c02 .character-name,.c03 .character-name,.c06 .character-name,.c06 .expanded .character-name{font-size:34px;padding:7px 0 3px;margin:0}
+ .character-role,.c01 .character-role,.c02 .character-role,.c03 .character-role,.c06 .character-role{font-size:20px;line-height:1.25;margin-top:5px;padding-top:3px}
+ .c01 .card-rod{height:19px;top:-7px;border-left-width:13px;border-right-width:13px}
+ .c01 .portrait-button{border-width:2px;border-bottom-width:6px}
+ .c02 .portrait-button{border-left-width:12px}
+ .c03 .portrait-button{border-left-width:12px}
+ .c03 .portrait-window{padding:3px;border-width:4px}
+ .c03 .card-fastener{width:7px;height:27px;border-width:2px}
+ .c06 .portrait-button{border-width:6px;border-right-width:12px;padding:10px}
+ .c06 .portrait-window{border-width:4px;border-radius:12px}
+ .c06 .card-fastener{width:7px;height:27px;right:-10px}
+ .character-details,.c01 .character-details,.c02 .character-details,.c03 .character-details,.c04 .character-details,.c05 .character-details,.c06 .character-details{width:100%;flex:0 0 100%;height:auto;min-height:160px;padding:24px;margin-top:12px;border:4px ridge #998e74;border-radius:4px;clip-path:none;background-size:200px auto;box-shadow:inset 0 0 0 2px #c9bca3}
+ .character-details:before,.character-details:after{display:none!important}
+ .detail-content,.c01 .detail-content,.c02 .detail-content,.c03 .detail-content,.c04 .detail-content,.c05 .detail-content,.c06 .detail-content{font-size:20px;line-height:1.7;transform:none}
+ .detail-content h2,.c02 .detail-content h2,.c03 .detail-content h2,.c04 .detail-content h2,.c05 .detail-content h2,.c06 .detail-content h2{font-size:25px;line-height:1.4;white-space:normal;margin:0 0 15px;padding-bottom:14px}
+ .detail-content .relation,.c06 .detail-content .relation{padding:12px 0;line-height:1.6}
+ .c04 .complete-art,.c05 .complete-art{width:190px;height:360px}
+ .c04 .expanded .complete-art{height:320px}
+ .c05 .expanded .complete-art{height:285px;width:205px!important}
+ .art-identity{font-size:17px}
+ .completion,.c01 .completion,.c02 .completion,.c03 .completion,.c04 .completion,.c05 .completion,.c06 .completion{position:relative;left:auto;top:auto;width:100%;height:100px;margin:0 0 28px}
+ .c01 .completion,.c03 .completion{width:73%;height:126px}
+ .other-button,.c01 .other-button,.c02 .other-button,.c03 .other-button,.c04 .other-button,.c05 .other-button,.c06 .other-button{position:relative;left:auto;top:auto;width:78%;height:70px;margin-bottom:75px}
+ .recommendations,.c01 .recommendations,.c02 .recommendations,.c03 .recommendations,.c04 .recommendations,.c05 .recommendations,.c06 .recommendations{position:relative;left:auto;right:auto;bottom:auto;width:100%;margin-top:40px}
+ .recommendations h2,.c01 .recommendations h2,.c02 .recommendations h2,.c03 .recommendations h2,.c04 .recommendations h2,.c05 .recommendations h2,.c06 .recommendations h2{font:600 26px/1.3 "Songti SC",serif;width:auto;margin:0 0 20px;text-align:left;background:transparent;color:#fffaec;text-shadow:0 2px 4px #111;padding:0}
+ .recommendation-list,.c02 .recommendation-list,.c06 .recommendation-list{flex-direction:column;gap:18px}
+ .rec-button,.c01 .rec-button,.c03 .rec-button,.c04 .rec-button,.c05 .rec-button{width:100%;height:115px}
+ .c03 .rec-button{height:180px}.c04 .rec-button{height:175px}
+ .rebuilt-rec,.c02 .rebuilt-rec,.c06 .rebuilt-rec{height:102px;width:100%;border-width:4px;padding:4px;gap:5%}
+ .rebuilt-rec span,.c06 .rebuilt-rec span{font-size:25px}
+ .c02 .rebuilt-rec span{font-size:23px}
+ .rec-indicator{width:8px;height:8px}
+ .modal-backdrop{position:fixed;padding:18px;inset:0;min-height:100svh;z-index:100}
+ .modal{width:100%;max-width:500px;max-height:88svh;padding:50px 20px 22px;border-width:4px}
+ .modal h2{font-size:25px;line-height:1.5;margin-bottom:18px;padding-right:10px}
+ .modal-close{top:7px;right:7px}
+ .modal-actions{gap:12px;margin-top:25px;justify-content:stretch}
+ .command{padding:10px 16px;font-size:19px;min-height:46px;flex:1}
+ .choice-dialog-question{font-size:19px}
+ .recommendation-preview,.chapter-preview img{max-height:35svh}
+}

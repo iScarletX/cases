@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-10T02:23:19.747Z",
+  "source": "/Users/sixiang/Desktop/case集合",
+  "boardCount": 30,
+  "cases": [
+    {
+      "id": "c01",
+      "name": "乙游3D",
+      "directory": "cases/乙游3D",
+      "boards": [
+        {
+          "type": "menu",
+          "image": "cases/乙游3D/01-menu-board.png",
+          "background": "cases/乙游3D/01-menu-background.png"
+        },
+        {
+          "type": "choice",
+          "image": "cases/乙游3D/02-choice-board.png",
+          "background": "cases/乙游3D/02-choice-background.png"
+        },
+        {
+          "type": "route",
+          "image": "cases/乙游3D/03-route-board.png",
+          "background": "cases/乙游3D/03-route-background.png"
+        },
+        {
+          "type": "character",
+          "image": "cases/乙游3D/04-character-board.png",
+          "background": "cases/乙游3D/04-character-background.png"
+        },
+        {
+          "type": "ending",
+          "image": "cases/乙游3D/05-ending-board.png",
+          "background": "cases/乙游3D/05-ending-background.png"
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "name": "写实古风",
+      "directory": "cases/写实古风",
+      "boards": [
+        {
+          "type": "menu",
+          "image": "cases/写实古风/01-menu-board.png",
+          "background": "cases/写实古风/01-menu-background.png"
+        },
+        {
+          "type": "choice",
+          "image": "cases/写实古风/02-choice-board.png",
+          "background": "cases/写实古风/02-choice-background.png"
+        },
+        {
+          "type": "route",
+          "image": "cases/写实古风/03-route-board.png",
+          "background": "cases/写实古风/03-route-background.png"
+        },
+        {
+          "type": "character",
+          "image": "cases/写实古风/04-character-board.png",
+          "background": "cases/写实古风/04-character-background.png"
+        },
+        {
+          "type": "ending",
+          "image": "cases/写实古风/05-ending-board.png",
+          "background": "cases/写实古风/05-ending-background.png"
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "name": "半写实真人",
+      "directory": "cases/半写实真人",
+      "boards": [
+        {
+          "type": "menu",
+          "image": "cases/半写实真人/01-menu-board.png",
+          "background": "cases/半写实真人/01-menu-background.png"
+        },
+        {
+          "type": "choice",
+          "image": "cases/半写实真人/02-choice-board.png",
+          "background": "cases/半写实真人/02-choice-background.png"
+        },
+        {
+          "type": "route",
+          "image": "cases/半写实真人/03-route-board.png",
+          "background": "cases/半写实真人/03-route-background.png"
+        },
+        {
+          "type": "character",
+          "image": "cases/半写实真人/04-character-board.png",
+          "background": "cases/半写实真人/04-character-background.png"
+        },
+        {
+          "type": "ending",
+          "image": "cases/半写实真人/05-ending-board.png",
+          "background": "cases/半写实真人/05-ending-background.png"
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "name": "国漫3D",
+      "directory": "cases/国漫3D",
+      "boards": [
+        {
+          "type": "menu",
+          "image": "cases/国漫3D/01-menu-board.png",
+          "background": "cases/国漫3D/01-menu-background.png"
+        },
+        {
+          "type": "choice",
+          "image": "cases/国漫3D/02-choice-board.png",
+          "background": "cases/国漫3D/02-choice-background.png"
+        },
+        {
+          "type": "route",
+          "image": "cases/国漫3D/03-route-board.png",
+          "background": "cases/国漫3D/03-route-background.png"
+        },
+        {
+          "type": "character",
+          "image": "cases/国漫3D/04-character-board.png",
+          "background": "cases/国漫3D/04-character-background.png"
+        },
+        {
+          "type": "ending",
+          "image": "cases/国漫3D/05-ending-board.png",
+          "background": "cases/国漫3D/05-ending-background.png"
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "name": "复古港风",
+      "directory": "cases/复古港风",
+      "boards": [
+        {
+          "type": "menu",
+          "image": "cases/复古港风/01-menu-board.png",
+          "background": "cases/复古港风/01-menu-background.png"
+        },
+        {
+          "type": "choice",
+          "image": "cases/复古港风/02-choice-board.png",
+          "background": "cases/复古港风/02-choice-background.png"
+        },
+        {
+          "type": "route",
+          "image": "cases/复古港风/03-route-board.png",
+          "background": "cases/复古港风/03-route-background.png"
+        },
+        {
+          "type": "character",
+          "image": "cases/复古港风/04-character-board.png",
+          "background": "cases/复古港风/04-character-background.png"
+        },
+        {
+          "type": "ending",
+          "image": "cases/复古港风/05-ending-board.png",
+          "background": "cases/复古港风/05-ending-background.png"
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "name": "现代都市",
+      "directory": "cases/现代都市",
+      "boards": [
+        {
+          "type": "menu",
+          "image": "cases/现代都市/01-menu-board.png",
+          "background": "cases/现代都市/01-menu-background.png"
+        },
+        {
+          "type": "choice",
+          "image": "cases/现代都市/02-choice-board.png",
+          "background": "cases/现代都市/02-choice-background.png"
+        },
+        {
+          "type": "route",
+          "image": "cases/现代都市/03-route-board.png",
+          "background": "cases/现代都市/03-route-background.png"
+        },
+        {
+          "type": "character",
+          "image": "cases/现代都市/04-character-board.png",
+          "background": "cases/现代都市/04-character-background.png"
+        },
+        {
+          "type": "ending",
+          "image": "cases/现代都市/05-ending-board.png",
+          "background": "cases/现代都市/05-ending-background.png"
+        }
+      ]
+    }
+  ],
+  "excludedCases": [
+    {
+      "name": "Galgame",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "Q版3D",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "像素风",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "吉卜力",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "国漫2D",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "恶搞美漫",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "水墨国风",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "游戏CG",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "真人插画",
+      "reason": "No complete set of five canonical Boards"
+    },
+    {
+      "name": "赛博朋克",
+      "reason": "No complete set of five canonical Boards"
+    }
+  ],
+  "assetHashes": {
+    "cases/乙游3D/01-cover.png": "c0eb04c1b04447a093a04df94abadefd4078aff7682194d71df865f7f9eabe84",
+    "cases/乙游3D/01-menu-background.png": "c0eb04c1b04447a093a04df94abadefd4078aff7682194d71df865f7f9eabe84",
+    "cases/乙游3D/01-menu-board.png": "dc8ecbbac9dbb249872ffa0479aed416232b9b17dd638b7b3efa0b91a62f3879",
+    "cases/乙游3D/01-menu.png": "40e7a178a53899ea9958938f6efbb0753208baf66f2d1b05509752a544de8020",
+    "cases/乙游3D/01-menuboard.png": "dc8ecbbac9dbb249872ffa0479aed416232b9b17dd638b7b3efa0b91a62f3879",
+    "cases/乙游3D/02-choice-background.png": "d99b1702946d1e0a054d6780b2d48b62d12f750bf1f70a50a95a45efa0368e6a",
+    "cases/乙游3D/02-choice-board.png": "ca19aa17b95e788538494f0d6fc9d8e56de3fa51341a506099acc990171b9b20",
+    "cases/乙游3D/02-choice.png": "ac40a4c517479f6f05223b5a3ce52138ba80d62b8a801d0f70df09eaa26f789a",
+    "cases/乙游3D/02-choiceboard.png": "ca19aa17b95e788538494f0d6fc9d8e56de3fa51341a506099acc990171b9b20",
+    "cases/乙游3D/03-route-background.png": "afd464870e3cc10d850582eecae8cd6c49166547dfbe1fc433a9d4894e2aa2a7",
+    "cases/乙游3D/03-route-board.png": "e50f58a656d5461196307ef429118df03529e950f42e3aa8e0feced38f978b1a",
+    "cases/乙游3D/03-route.png": "0db345d83b5885dcc98ae56a1410a4b056bf233a486637c505b4c23b22e4323c",
+    "cases/乙游3D/03-routeboard.png": "3abf8c2f6ba808daf35c823051c972fdabc391477d1b0bc618edd57b219c0e1b",
+    "cases/乙游3D/04-character-background.png": "873e014dd80a54d11a4b8116347b067c8c1ed40262a2711c9e4ffe6907f726bf",
+    "cases/乙游3D/04-character-board.png": "d0f91714f5385f088fdf02eedce04b2999260c40cbbc63f8c39c5a3f6de1971a",
+    "cases/乙游3D/04-character.png": "8a3ad74025e5556bb60c2e80e98751c1c39b157a66c81761fef1ea91cf2e5331",
+    "cases/乙游3D/04-characterboard.png": "d0f91714f5385f088fdf02eedce04b2999260c40cbbc63f8c39c5a3f6de1971a",
+    "cases/乙游3D/05-ending-background.png": "814ca101b7765066bb26b31fdd874b03f31b3f15009def59c88621d5595d16b8",
+    "cases/乙游3D/05-ending-board.png": "0c223427ca46a5a60668385c66347f5f639db44ad6b518061ab1f00c5e4729d4",
+    "cases/乙游3D/05-ending.png": "478c2c698124b4f9c792a7f7052c67a6ad44c4312132585469f6024c64c1d1d2",
+    "cases/乙游3D/05-endingboard.png": "ee7b1cd9d9cf13ae3573b340ccbfd6f800e3f3de4f523921bfb8f582c83721c6",
+    "cases/乙游3D/BGM-CREDITS.md": "cf42e4625a856f5cf0aa14db135ae61ee90d201a7eb5c6072751cfb9bf3d7960",
+    "cases/乙游3D/_history/20260910-selective-route-ending-regeneration/03-route-board.png": "3abf8c2f6ba808daf35c823051c972fdabc391477d1b0bc618edd57b219c0e1b",
+    "cases/乙游3D/_history/20260910-selective-route-ending-regeneration/05-ending-board.png": "ee7b1cd9d9cf13ae3573b340ccbfd6f800e3f3de4f523921bfb8f582c83721c6",
+    "cases/乙游3D/bgm.wav": "18de6dcf010de7c20503f1fa8409c51bb655ae542cf82ff413a00f7463b957b4",
+    "cases/乙游3D/cover.png": "c0eb04c1b04447a093a04df94abadefd4078aff7682194d71df865f7f9eabe84",
+    "cases/写实古风/01-cover.png": "6ebbe46b013ff7cc92547dfbfe5a8d157a91a3f79553e75c2014a00cb4bd67c8",
+    "cases/写实古风/01-menu-background.png": "6ebbe46b013ff7cc92547dfbfe5a8d157a91a3f79553e75c2014a00cb4bd67c8",
+    "cases/写实古风/01-menu-board.png": "231b911e32f5021942f623430ac9dcb56fffe4b3df50158d41b9c4118dae75a5",
+    "cases/写实古风/02-choice-background.png": "d9bd3944cf5b49db7e4555c3f07433617fc0cab4dcd79f9e681f17096feda6cf",
+    "cases/写实古风/02-choice-board.png": "d14181c70cd15503ba000c71622cd7586ffddc9b64b89894e9ce7a7651cef968",
+    "cases/写实古风/03-route-background.png": "deeb55a81539aa128ef11e614888a8b8df2429fd83e39cb1256e49c7bfce4bdd",
+    "cases/写实古风/03-route-board.png": "e5b60314896b8da9e87dbba85138eb39d9a1f0a89933e982b7bd0371085157bd",
+    "cases/写实古风/04-character-background.png": "aa71a39515f5379aee8490cb03f44bac0b3cb63492fcbcbaa805deb382bfe649",
+    "cases/写实古风/04-character-board.png": "654ca51cd312c2312de5cd2d433d7756d0a7e2a0687a93437301fc83114d8aeb",
+    "cases/写实古风/05-ending-background.png": "c74790bccc11fae79b0b7f1f55f208877cfcd3a84a61caa4c8b1a63f29fe9365",
+    "cases/写实古风/05-ending-board.png": "f0c4251ccf46d8daeff8779d8be38247e4bacd2643faed41dd9066dd74249cf3",
+    "cases/写实古风/_history/board-regeneration-20260909-2108/01-menu-board.png": "aacd8d9479abc7f0a6d84dabce5c2532ac0831d8eef3065512ae745eebef779c",
+    "cases/写实古风/_history/board-regeneration-20260909-2108/03-route-board.png": "8ae3e370abc007762100aa4da9107cc781df3382298f951fabf192031777877d",
+    "cases/写实古风/_history/board-regeneration-20260909-2108/05-ending-board.png": "cf0e576836603c4eafeb3da1fd8b5d4c1b50f88d35e762885cf2bbe6b4b1c050",
+    "cases/写实古风/bgm.wav": "017cf0fb1be745c6143be0dbf1c1e922d7805d1d1a01e41a8efdc3549142c520",
+    "cases/半写实真人/01-cover.png": "7645e81cf968737d7a62eae854d80e4277cb3bc9749328f045e748baf0303ec2",
+    "cases/半写实真人/01-menu-background.png": "7645e81cf968737d7a62eae854d80e4277cb3bc9749328f045e748baf0303ec2",
+    "cases/半写实真人/01-menu-board.png": "e5fba048bffe4f37e574f17f4ae53f329e0996cccdc436e226dea8f6209d2992",
+    "cases/半写实真人/01-menu-full.png": "6b76450175c8f68ce1461f3f52281bec5080e07f49906fed9780f91aef35dd6e",
+    "cases/半写实真人/02-choice-background.png": "589f6cb09c1c975f4a628e51132ad76fc2a8a85941e4f07f4530dafa1ca7cc4f",
+    "cases/半写实真人/02-choice-board.png": "849d8063bfa4d38bd0282cd5da3cdc1f0f7cba69b034c12035e931fcdf9286dc",
+    "cases/半写实真人/02-choice-full.png": "215415d62b94b46a6971b83df60ab6757d27ebde6816b200dfee26c427687af9",
+    "cases/半写实真人/03-route-background.png": "26cdb38ae1f7a1d0bccfe67bc57df3833886f6eaf00c523de271dad66aad9519",
+    "cases/半写实真人/03-route-board.png": "96ee17497be34446790326a27a6a519906231b5bc7bdc0ab85f6ac8c57fe5d1a",
+    "cases/半写实真人/03-route-full.png": "cffa4bb56e6ba1ad0de73e8b7e2d31be71146b927fc3e0ca5f92928f23d7635f",
+    "cases/半写实真人/03-routeboard.png": "83b8292af40c23e7ea4ff1101d78f83a316ea35e614f21d23ddd2fa1fa36c301",
+    "cases/半写实真人/04-character-background.png": "2bb6fcea1442e3e662c8757bc32dac32c328a2c45b99d13ae60b2a5059bbced5",
+    "cases/半写实真人/04-character-board.png": "b1534e1797767426c43262b3d626c7b2af54d93849401a38579fcc0366f0c7be",
+    "cases/半写实真人/04-character.png": "acf93bf8fed273dfcf8acaa37bb6e12332b87d3cbe2af884daea0bdf55684b1d",
+    "cases/半写实真人/04-characterboard.png": "b1534e1797767426c43262b3d626c7b2af54d93849401a38579fcc0366f0c7be",
+    "cases/半写实真人/05-ending-background.png": "87240dc0b1d1ed3a1a5e66db1e0b841090f3c557c7ffb874c22eb658eb24c84b",
+    "cases/半写实真人/05-ending-board.png": "f5f6d21d361b25e4a725713275fa5a8d7140b50c5d93c25e325e360356791130",
+    "cases/半写实真人/05-ending.png": "95f3ec78eea66c0ca26e851c6462ced9d2453d7eb799ee214a0f8d5b93c79b88",
+    "cases/半写实真人/05-endingboard.png": "2443bc7e08b87ca48e02e590b88bfb21c46dd52a649f7f08dfe5eb86d01165ab",
+    "cases/半写实真人/BGM-CREDITS.md": "840f5db1a5e89ede4d66ea590793b6a2c2b525a2d0675cc181df6c53ffdba5a7",
+    "cases/半写实真人/_history/20260910-before-rich-paper-revision/03-route-board.png": "3d828c39896d8cf8c1176033a7210ba61da45b2a65c1c9d99f5fb51bc51ca489",
+    "cases/半写实真人/_history/20260910-before-rich-paper-revision/05-ending-board.png": "95b6c4251c8e23971f27534d2e4365adb8f61631b6f25f45835d3ae59109605e",
+    "cases/半写实真人/_history/20260910-selective-route-ending-regeneration/03-route-board.png": "83b8292af40c23e7ea4ff1101d78f83a316ea35e614f21d23ddd2fa1fa36c301",
+    "cases/半写实真人/_history/20260910-selective-route-ending-regeneration/05-ending-board.png": "da9f04f4860cbcda9cdba07f57851bc8f45ce8e9d724346150c1cff0dd555190",
+    "cases/半写实真人/bgm.wav": "d1588310ede6db109975f22f398abdcf8c21dfb35ad359996a65ca62888ddcd0",
+    "cases/半写实真人/cover.png": "7645e81cf968737d7a62eae854d80e4277cb3bc9749328f045e748baf0303ec2",
+    "cases/国漫3D/01-cover.png": "8fd3d8a8eb5233238d7a76df06ab5ed7eee2f388e3a24afd5046fe6be9247c6e",
+    "cases/国漫3D/01-menu-background.png": "8fd3d8a8eb5233238d7a76df06ab5ed7eee2f388e3a24afd5046fe6be9247c6e",
+    "cases/国漫3D/01-menu-board.png": "83df900b1e369e45d816dd4bdcd6f9aceedff9ba2d111373f7b20a7775198764",
+    "cases/国漫3D/02-choice-background.png": "4a8a5e308f42428e008f38e76edfd33b24dee0a65899e95bd6a5136ab7611071",
+    "cases/国漫3D/02-choice-board.png": "00008e98ee5d2c6fab36281415e533a8d9f67b1a7db248c4f28b05fe59c33e0f",
+    "cases/国漫3D/03-route-background.png": "a680668989863f31b5edf0316732a6d04d96322fa5331a4fbcd647b0752978f1",
+    "cases/国漫3D/03-route-board.png": "1dc451f314c049c99b66a051a9a9a7de3ffff2d88e72b5a8f3fa10d6ae67cae7",
+    "cases/国漫3D/04-character-background.png": "acf35c25f4e305879ec978141d9742d4fa21cfef3c01cdc069f584012630d2f7",
+    "cases/国漫3D/04-character-board.png": "c84a445ff91dc513c392580637c3468bdf151acd7c53c57dfcb76b9d6217da84",
+    "cases/国漫3D/05-ending-background.png": "201534ce1659ffeabe203801a500f1cd745b432886c1cc96e5bb00e32da271f5",
+    "cases/国漫3D/05-ending-board.png": "dbe0727d9875e2e296f5950813bb4cef24068bfd9d0e6640dee8a87bdffa3cd2",
+    "cases/国漫3D/UI组件源/character-direct-cards-original.png": "1fe67efd7ad4a7b96891d50ff154f83e4d555b6c7420499dfed109ad8bd97cae",
+    "cases/国漫3D/UI组件源/choice-components-prompt-only-original.png": "6690d9fbab4cef7704ca23fb52782738baa013f39287afe47d3eb482b0c8af0c",
+    "cases/国漫3D/UI组件源/menu-components-prompt-only-original.png": "3a3576762d163303bbc5a96fbb5b527c30d2b9bd05de7c790f9aea8340910fc4",
+    "cases/国漫3D/_history/2026-09-10-hover-board-fix/01-menu-board.png": "ba2270e63c61456e3229e601d930038fb88dd133c8871c0ab7ce2fa6adaf655f",
+    "cases/国漫3D/_history/2026-09-10-hover-board-fix/05-ending-board.png": "3f536aacc9c2ad407764622c1abe7ee1be88c241ac570a4b66fab28326032ddd",
+    "cases/国漫3D/_history/2026-09-10-selective-regeneration/01-menu-board.png": "ba2270e63c61456e3229e601d930038fb88dd133c8871c0ab7ce2fa6adaf655f",
+    "cases/国漫3D/_history/2026-09-10-selective-regeneration/03-route-board.png": "0ed1c8e2afbb7ea203e3970dda9942583dd3c2bbada816496e5e66b4d54cb267",
+    "cases/国漫3D/_history/2026-09-10-selective-regeneration/05-ending-board.png": "3f536aacc9c2ad407764622c1abe7ee1be88c241ac570a4b66fab28326032ddd",
+    "cases/国漫3D/bgm.wav": "b7361e7d74db08d8f526be561a538d71db2985c3f81390051599e2667c746d75",
+    "cases/国漫3D/character-board.png": "c84a445ff91dc513c392580637c3468bdf151acd7c53c57dfcb76b9d6217da84",
+    "cases/国漫3D/character-formal-layer.png": "d932caa6e60e8cf2ed61c2afc7be5cf6082b7712374b3d4049e1c4bbd4184231",
+    "cases/国漫3D/character-full-effect.png": "10e43871b469f19ffd57783ea3235299c65393391852d34d8c774353f4768558",
+    "cases/国漫3D/choice-board.png": "00008e98ee5d2c6fab36281415e533a8d9f67b1a7db248c4f28b05fe59c33e0f",
+    "cases/国漫3D/choice-formal-layer.png": "d4493de354b32b2952d657a9d100e18a170a1a79fb15c3bd61585d399c793d63",
+    "cases/国漫3D/choice-full-effect.png": "fff4a8386d054cd87dd01b7bbd4a8f28e4543c60acdf3de6f2d3eab21cd937d9",
+    "cases/国漫3D/menu-board.png": "ba2270e63c61456e3229e601d930038fb88dd133c8871c0ab7ce2fa6adaf655f",
+    "cases/国漫3D/menu-formal-layer.png": "986af3e516b42e1e567934e1b203472d64630cc378dd9e26a23e372fd5357af3",
+    "cases/国漫3D/menu-full-effect.png": "ca8cf061e983ba7d950db7b3e4bbe5888b41b1080ba5e9298df599305cd5ab57",
+    "cases/复古港风/01-cover.png": "7bf9fdac658e4f5c0fc35aaebddc3b3e341bdc88b1436d37ac2050891cc8faec",
+    "cases/复古港风/01-menu-background.png": "7bf9fdac658e4f5c0fc35aaebddc3b3e341bdc88b1436d37ac2050891cc8faec",
+    "cases/复古港风/01-menu-board.png": "ff358749335df40f9c148f0f1d5e9604a816cd8257f67d624101d5f51d5eb777",
+    "cases/复古港风/02-choice-background.png": "64028943694e69db2140ba2977e23b649c9c747b53db71fdf9481f9a925870fe",
+    "cases/复古港风/02-choice-board.png": "a574534dcb9434a90fee466e8a75c534963c648a096d0536c138cd965d9ec696",
+    "cases/复古港风/03-route-background.png": "1b8f298e7d7341b0c4f186f23309fcc63491df9bd73e5e5f8d03a85b900665de",
+    "cases/复古港风/03-route-board.png": "f9447e60a237c46024cad6edc1ed055ddc5a48a69203f02f5ac470ccbc707ebb",
+    "cases/复古港风/04-character-background.png": "9891bfd693557a064d20077a222c0a09300361792f8e388d32da4282778879a1",
+    "cases/复古港风/04-character-board.png": "cc563fa5d8467fb7d652b2d4eacfe313c321285ae349b5d81853ca3b00c1cebc",
+    "cases/复古港风/05-ending-background.png": "a3a3f09446b781baa001ce3a8a2e45bae4dcc390d9ff76d34612b47d14957fcf",
+    "cases/复古港风/05-ending-board.png": "4d1c578a3d8e05c3190de56234c317ae077c3c8ec739276f3f088953eecf72cc",
+    "cases/复古港风/UI组件源/character-components-prompt-only-original.png": "e761b2905dd129d407d4fbe42a284b154f90e9b7664d028f2d7fd4798f28100b",
+    "cases/复古港风/UI组件源/choice-components-prompt-only-original.png": "19bc188d281f8d267ab703a030957d5cbcec6a038a614a85d982beb09df12679",
+    "cases/复古港风/UI组件源/ending-components-prompt-only-original.png": "2205d1b42c389f06be235e33b9a6b14a392c5e0ffa42c0a15a97524ef2af2e7f",
+    "cases/复古港风/UI组件源/menu-components-prompt-only-original.png": "a13ef6490eb72727c4f2972bc9734a1712d19a5fe64ca0c4dcd3ee247465af7e",
+    "cases/复古港风/UI组件源/route-components-prompt-only-original.png": "224ec311e4ec546656fc51bebcfefec08b92ce34109cb71612d381dfd740431a",
+    "cases/复古港风/_history/2026-09-10-hover-board-fix/05-ending-board.png": "e2317b5c9c5bb2ce9b3878a8932657165e162305bd185a42e28a9daf98b06e15",
+    "cases/复古港风/_history/2026-09-10-selective-regeneration/01-menu-board.png": "ca2fd4ba4f6d19754f76c79cd3fdf34b6061ac557cd8fa669478e81c665b1edf",
+    "cases/复古港风/_history/2026-09-10-selective-regeneration/03-route-board.png": "38e051f4ddde0229d557505ce89560315e8dd1b0ac33fe0128c80df974df4868",
+    "cases/复古港风/_history/2026-09-10-selective-regeneration/05-ending-board.png": "e2317b5c9c5bb2ce9b3878a8932657165e162305bd185a42e28a9daf98b06e15",
+    "cases/复古港风/bgm.wav": "ca4add2c64db73275b2504410b40b2f1ad34aec0249b88c337e9853308323b19",
+    "cases/复古港风/character-board.png": "cc563fa5d8467fb7d652b2d4eacfe313c321285ae349b5d81853ca3b00c1cebc",
+    "cases/复古港风/character-formal-layer.png": "1619b51eb3905dc1cdcc12a4ee487d8fe9dc50cd9717d0c2c75eb3e8ced4baf5",
+    "cases/复古港风/character-full-effect.png": "3659ffc6a77405527102f79d3ce19bb30edc2f201281ed05e3c2c51aa0ca35c4",
+    "cases/复古港风/choice-board.png": "a574534dcb9434a90fee466e8a75c534963c648a096d0536c138cd965d9ec696",
+    "cases/复古港风/choice-formal-layer.png": "a7959d7fe2432afaa517d65122986bad8c0aca70cba246dd72a40264d24efeb1",
+    "cases/复古港风/choice-full-effect.png": "017c2c5c103e998274eaabb12c37aca07fb17a3fb05abfa847b2b5844a6825aa",
+    "cases/复古港风/ending-board.png": "e2317b5c9c5bb2ce9b3878a8932657165e162305bd185a42e28a9daf98b06e15",
+    "cases/复古港风/ending-formal-layer.png": "e2b1e93c81f472a7d4cb2f91620e70f0d1633c9a9e5753b992cd928ad9da68d4",
+    "cases/复古港风/ending-full-effect.png": "dbc50a5ef1528ab9be8f26afd20ec07ff1ed0a986304bcc7f036c8aea6c71376",
+    "cases/复古港风/menu-board.png": "ca2fd4ba4f6d19754f76c79cd3fdf34b6061ac557cd8fa669478e81c665b1edf",
+    "cases/复古港风/menu-formal-layer.png": "2a485e2cde30564df400d8903955426e3bb390165069e4c411cee823bf8da865",
+    "cases/复古港风/menu-full-effect.png": "775e62e4d5f032c4e64d2788a2b283580327832d95f39fdb8004e0cc48b94df5",
+    "cases/复古港风/route-board.png": "38e051f4ddde0229d557505ce89560315e8dd1b0ac33fe0128c80df974df4868",
+    "cases/复古港风/route-formal-layer.png": "991f7b85d9741df0cfdc67b77df62d5c496c7db90fdb4f2afc24436c7066a459",
+    "cases/复古港风/route-full-effect.png": "a3b603b95fa5dfb87a5fbfcd5308cc6a6e113733106b7f26d5ed5ecd1287bad8",
+    "cases/现代都市/01-cover.png": "4f3c5561688d05298f76bf8868e9406b05b9ee54a77eee734d1ff4fcfcb84778",
+    "cases/现代都市/01-menu-background.png": "4f3c5561688d05298f76bf8868e9406b05b9ee54a77eee734d1ff4fcfcb84778",
+    "cases/现代都市/01-menu-board.png": "53a8fd4419269a25a6b945e2e88358779adbb5d3928b70c20d4915a71c6ad396",
+    "cases/现代都市/02-choice-background.png": "8db100ac291ffa5651fd3aac5829500bff9d81eb59cfa4c22ad7448d2d37b651",
+    "cases/现代都市/02-choice-board.png": "4f85c1666eef720cd14a47e953862e959d70bbe59e823d3acf8ad2f7abbc49d2",
+    "cases/现代都市/03-route-background.png": "45f40334874b39875984af78e11bd417437bd0219fc3a1ddfe4cdbad298d61e9",
+    "cases/现代都市/03-route-board.png": "17b6a7800baee476e5c51c57580c8a913d5fe70598d1a3a57ce882db71370396",
+    "cases/现代都市/04-character-background.png": "292705380406f28d79ed2d9b671ef8b8afcb165035a4a26b970cef2ecd0a918e",
+    "cases/现代都市/04-character-board.png": "b384bff23d7fd73e36ae8fc1d7777f51496aa5798856a59931666371391449f5",
+    "cases/现代都市/05-ending-background.png": "046edf55242e7eb6cf5ce4f502387e680fe08a1f1a8b9225b59b8972e1e64eb3",
+    "cases/现代都市/05-ending-board.png": "46dbe399d11ebf57a2a9139ee2a11b566bd529ef24ad9a55289d4f1cd7cb7322",
+    "cases/现代都市/bgm.wav": "6d74455c671291541c51bde21cf62302aa52f2240f6a56a238880d6d1331e977"
+  },
+  "assetSetSha256": "21ea176cfc422753d956f89507d46c130310e70b4d6ff4b8b0f149ec6ace1f0e"
+}
