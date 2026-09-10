@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
   "version": 1,
-  "generatedAt": "2026-09-10T06:36:09.046Z",
+  "generatedAt": "2026-09-10T07:17:35.350Z",
   "model": "GPT-6 Astra",
   "boardCount": 30,
   "inputSha256": "21ea176cfc422753d956f89507d46c130310e70b4d6ff4b8b0f149ec6ace1f0e",
@@ -77,7 +77,7 @@ window.BENCHMARK_DATA = {
       "id": "t1",
       "name": "game-ui-frontend",
       "ready": false,
-      "previewPath": null,
+      "previewPath": "previews/t1",
       "run": {
         "startedAt": "2026-09-10T02:23:47.644Z"
       },
