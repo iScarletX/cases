@@ -1,0 +1,63 @@
+{
+  "accepted": true,
+  "acceptedPages": 90,
+  "generatedAt": "2026-09-10T09:09:30.526Z",
+  "completionRule": "Board converted to a webpage is complete; quality is measured, not a repair gate.",
+  "timestamps": "Coordinator receipt timestamps, not candidate-authored completion timestamps.",
+  "noCandidateCorrections": true,
+  "noSkillCorrections": true,
+  "noAdditionalQualityGate": true,
+  "trials": [
+    {
+      "id": "t1",
+      "run": {
+        "startedAt": "2026-09-10T02:23:47.644Z",
+        "finishedAt": "2026-09-10T09:01:03.192Z",
+        "acceptedAt": "2026-09-10T09:01:03.192Z",
+        "originalFinishedAt": null,
+        "durationSeconds": 23835.548,
+        "meanSecondsPerBoard": 794.5182666666666,
+        "boardCount": 30,
+        "completionSource": "coordinator-acceptance",
+        "originalRunMetadata": {
+          "startedAt": "2026-09-10T02:23:47.644Z"
+        },
+        "acceptanceReason": "User explicitly defined completion as all 30 Boards converted to webpages and requested immediate acceptance without further quality gates. This timestamp records coordinator receipt, not a candidate-authored end marker."
+      }
+    },
+    {
+      "id": "t2",
+      "run": {
+        "startedAt": "2026-09-10T02:23:46.312Z",
+        "finishedAt": "2026-09-10T09:01:03.792Z",
+        "acceptedAt": "2026-09-10T09:01:03.792Z",
+        "originalFinishedAt": null,
+        "durationSeconds": 23837.48,
+        "meanSecondsPerBoard": 794.5826666666667,
+        "boardCount": 30,
+        "completionSource": "coordinator-acceptance",
+        "originalRunMetadata": {
+          "startedAt": "2026-09-10T02:23:46.312Z"
+        },
+        "acceptanceReason": "User explicitly defined completion as all 30 Boards converted to webpages and requested immediate acceptance without further quality gates. This timestamp records coordinator receipt, not a candidate-authored end marker."
+      }
+    },
+    {
+      "id": "t3",
+      "run": {
+        "startedAt": "2026-09-10T02:23:52.252Z",
+        "finishedAt": "2026-09-10T09:01:04.883Z",
+        "acceptedAt": "2026-09-10T09:01:04.883Z",
+        "originalFinishedAt": null,
+        "durationSeconds": 23832.631,
+        "meanSecondsPerBoard": 794.4210333333334,
+        "boardCount": 30,
+        "completionSource": "coordinator-acceptance",
+        "originalRunMetadata": {
+          "startedAt": "2026-09-10T02:23:52.252Z"
+        },
+        "acceptanceReason": "User explicitly defined completion as all 30 Boards converted to webpages and requested immediate acceptance without further quality gates. This timestamp records coordinator receipt, not a candidate-authored end marker."
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-09-10T09:09:30.526Z",
+  "expected": 90,
+  "scored": 90,
+  "accepted": 90,
+  "deliveryComplete": true,
+  "final": false,
+  "scoreBasis": "pre-acceptance-snapshot",
+  "finalVersionVerified": false,
+  "manualPreference": null,
+  "ranking": [
+    {
+      "rank": 1,
+      "skill": "game-ui-design",
+      "overall": 96,
+      "basis": "pre-acceptance-snapshot; indicative, not final-version verified"
+    },
+    {
+      "rank": 2,
+      "skill": "game-ui-ux",
+      "overall": 93.16666666666667,
+      "basis": "pre-acceptance-snapshot; indicative, not final-version verified"
+    },
+    {
+      "rank": 3,
+      "skill": "game-ui-frontend",
+      "overall": 91.89999999999999,
+      "basis": "pre-acceptance-snapshot; indicative, not final-version verified"
+    }
+  ],
+  "trials": [
+    {
+      "id": "t1",
+      "name": "game-ui-frontend",
+      "run": {
+        "startedAt": "2026-09-10T02:23:47.644Z",
+        "finishedAt": "2026-09-10T09:01:03.192Z",
+        "acceptedAt": "2026-09-10T09:01:03.192Z",
+        "originalFinishedAt": null,
+        "durationSeconds": 23835.548,
+        "meanSecondsPerBoard": 794.5182666666666,
+        "boardCount": 30,
+        "completionSource": "coordinator-acceptance",
+        "originalRunMetadata": {
+          "startedAt": "2026-09-10T02:23:47.644Z"
+        },
+        "acceptanceReason": "User explicitly defined completion as all 30 Boards converted to webpages and requested immediate acceptance without further quality gates. This timestamp records coordinator receipt, not a candidate-authored end marker."
+      },
+      "count": 30,
+      "expected": 30,
+      "overall": 91.89999999999999,
+      "passRate": 100,
+      "lowest": 83,
+      "components": {
+        "visual": 36.8,
+        "interaction": 36.733333333333334,
+        "usability": 18.366666666666667
+      },
+      "caseMeans": [
+        90.4,
+        90.6,
+        91.2,
+        94.2,
+        94.2,
+        90.8
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "game-ui-design",
+      "run": {
+        "startedAt": "2026-09-10T02:23:46.312Z",
+        "finishedAt": "2026-09-10T09:01:03.792Z",
+        "acceptedAt": "2026-09-10T09:01:03.792Z",
+        "originalFinishedAt": null,
+        "durationSeconds": 23837.48,
+        "meanSecondsPerBoard": 794.5826666666667,
+        "boardCount": 30,
+        "completionSource": "coordinator-acceptance",
+        "originalRunMetadata": {
+          "startedAt": "2026-09-10T02:23:46.312Z"
+        },
+        "acceptanceReason": "User explicitly defined completion as all 30 Boards converted to webpages and requested immediate acceptance without further quality gates. This timestamp records coordinator receipt, not a candidate-authored end marker."
+      },
+      "count": 30,
+      "expected": 30,
+      "overall": 96,
+      "passRate": 100,
+      "lowest": 93,
+      "components": {
+        "visual": 38.5,
+        "interaction": 38.06666666666667,
+        "usability": 19.433333333333334
+      },
+      "caseMeans": [
+        96.4,
+        96.4,
+        95.4,
+        95.2,
+        96,
+        96.6
+      ]
+    },
+    {
+      "id": "t3",
+      "name": "game-ui-ux",
+      "run": {
+        "startedAt": "2026-09-10T02:23:52.252Z",
+        "finishedAt": "2026-09-10T09:01:04.883Z",
+        "acceptedAt": "2026-09-10T09:01:04.883Z",
+        "originalFinishedAt": null,
+        "durationSeconds": 23832.631,
+        "meanSecondsPerBoard": 794.4210333333334,
+        "boardCount": 30,
+        "completionSource": "coordinator-acceptance",
+        "originalRunMetadata": {
+          "startedAt": "2026-09-10T02:23:52.252Z"
+        },
+        "acceptanceReason": "User explicitly defined completion as all 30 Boards converted to webpages and requested immediate acceptance without further quality gates. This timestamp records coordinator receipt, not a candidate-authored end marker."
+      },
+      "count": 30,
+      "expected": 30,
+      "overall": 93.16666666666667,
+      "passRate": 100,
+      "lowest": 81,
+      "components": {
+        "visual": 37,
+        "interaction": 36.63333333333333,
+        "usability": 19.533333333333335
+      },
+      "caseMeans": [
+        93,
+        92.4,
+        94.4,
+        92.8,
+        94.2,
+        92.2
+      ]
+    }
+  ]
+}

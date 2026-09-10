@@ -71,11 +71,25 @@
   if(route==='compare'){const p=new URLSearchParams(query);if(D.cases.some(c=>c.id===p.get('case')))state.caseId=p.get('case');if(TYPES.includes(p.get('board')))state.board=p.get('board');}
   document.querySelectorAll('nav a').forEach(a=>a.classList.remove('active'));
   if(route==='compare')compare();else{state.immersive=false;document.body.classList.remove('immersive');overview();}
+  releaseLabels(route);
   document.title=(route==='compare'?currentCase().name+' · '+LABELS[state.board]:'游戏界面评测')+' | Board Study';icons();
+ }
+ function releaseLabels(route){
+  const ranking=D.trials.map(t=>({name:t.name,score:M.summarize(D.scores,t.id,D.cases,TYPES).overall})).sort((a,b)=>b.score-a.score);
+  const heading=$('.page-heading');
+  if(heading)heading.insertAdjacentHTML('afterend',`<section class="release-note" aria-label="交付与评分状态"><strong>90 / 90 网页已交付</strong><p>分数与参考排序来自已评审快照；最终接收前存在代码和素材变更，未追加浏览器验收。候选网页及 Skill 未经协调者纠正。</p><p><a href="REPORT.md" target="_blank">完整报告</a> · <a href="scores.csv">90 项评分</a> · <a href="version-differences.json" target="_blank">版本差异</a>${route==='compare'?'':` · 参考排序：${ranking.map((r,i)=>`${i+1}. ${esc(r.name)} ${number(r.score)}`).join(' / ')}`}</p></section>`);
+  const status=$('.heading-meta .status');if(status)status.textContent='网页交付完成';
+  document.querySelectorAll('.summary-number > span').forEach(el=>el.textContent='快照评分 / 100');
+  document.querySelectorAll('.summary-stats small').forEach(el=>{if(el.textContent==='单轮用时')el.textContent='开始至接收';});
+  const heads=document.querySelectorAll('.timing-table th');if(heads[2])heads[2].textContent='协调者接收时间';
+  document.querySelectorAll('.timing-table tbody tr').forEach(el=>el.lastElementChild.textContent='1 次 / 已接收');
+  const evidence=$('.evidence-section h2');if(evidence)evidence.textContent='快照评审与最终变更';
+  if(!hidden())document.querySelectorAll('.score-mini span').forEach(el=>el.textContent='快照分 / 100');
  }
  function showScore(id,c,b){
   const r=row(id,c,b),value=M.total(r),caseName=D.cases.find(x=>x.id===c).name;
   $('#detail-content').innerHTML=`<div class="dialog-top"><h2>${esc(caseName)} · ${LABELS[b]}</h2><button class="icon-button" data-close="detail-dialog" aria-label="关闭评分" title="关闭">${icon('x')}</button></div><div class="detail-body"><div class="detail-total">${number(value)}<span>/ 100 · ${esc(trial(id).name)}</span></div>${components(r)}<ul class="detail-notes">${(r?.notes||['尚未评分']).map(n=>`<li>${esc(n)}</li>`).join('')}</ul><p class="detail-meta">${r?.reviewer==='manual'?'人工复核 · 本机保存':'模型评审 · 视觉审阅与浏览器验证'}${r?.crossCase?' · 跨 Case 素材，判定不通过':''}</p>${r?.evidence?.desktop?`<p class="detail-meta"><a href="${esc(r.evidence.desktop)}" target="_blank">桌面截图</a> · <a href="${esc(r.evidence.mobile)}" target="_blank">移动端截图</a></p>`:''}<details class="manual-form"><summary>人工复核</summary><form id="manual-score" data-target="${id}|${c}|${b}"><div class="manual-fields">${[['visual','视觉',40],['interaction','交互',40],['usability','可用',20]].map(([key,title,max])=>`<label>${title} / ${max}<input type="number" name="${key}" required min="0" max="${max}" step="1" value="${r?.[key]??''}"></label>`).join('')}</div><button class="text-button outline" type="submit">保存复核评分</button></form></details></div><div class="dialog-footer"><span class="detail-meta">通过线 80 分</span><button class="text-button primary" data-go="${c}|${b}">进入网页对比 ${icon('arrow-right')}</button></div>`;
+  if(r?.reviewer!=='manual')$('#detail-content .detail-meta').textContent='模型快照评分 · 截图为既有证据，最终接收版未追加浏览器验收';
   icons();$('#detail-dialog').showModal();
  }
  document.addEventListener('submit',e=>{if(e.target.id!=='manual-score')return;e.preventDefault();const [id,c,b]=e.target.dataset.target.split('|'),f=new FormData(e.target),record={...(row(id,c,b)||{}),trialId:id,caseId:c,board:b,visual:Number(f.get('visual')),interaction:Number(f.get('interaction')),usability:Number(f.get('usability')),reviewer:'manual',reviewedAt:new Date().toISOString(),status:'scored'};try{M.total(record);}catch{return toast('评分超出允许范围');}session.overrides[rowKey(id,c,b)]=record;persist();$('#detail-dialog').close();render();toast('复核评分已保存');});

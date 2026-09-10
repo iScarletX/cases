@@ -1,0 +1,12 @@
+{
+  "testedAt": "2026-09-10T08:05:14.268Z",
+  "base": "http://127.0.0.1:58118",
+  "checks": [
+    "actual menu hover synchronized across three implementations",
+    "optional click synchronized all three route navigations",
+    "actual character hover opens all three, including delayed pointerenter handlers",
+    "mobile comparison retains three nonblank fixed-scale frames without horizontal page overflow"
+  ],
+  "errors": [],
+  "passed": true
+}

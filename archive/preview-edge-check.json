@@ -1,0 +1,865 @@
+[
+  {
+    "trialId": "t1",
+    "caseId": "c01",
+    "taps": [
+      {
+        "label": "林澄，旧信修复师",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "before": "true",
+        "after": "true"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林澄，旧信修复师",
+        "expanded": "false"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "expanded": "true"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "林澄，旧信修复师",
+        "expanded": "false"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "expanded": "true"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t1",
+    "caseId": "c02",
+    "taps": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "before": "true",
+        "after": "true"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "expanded": "true"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "expanded": "false"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "expanded": "true"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "expanded": "false"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t1",
+    "caseId": "c03",
+    "taps": [
+      {
+        "label": "林序，司法画像师",
+        "before": "true",
+        "after": "true"
+      },
+      {
+        "label": "周衡，现场证人",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林序，司法画像师",
+        "expanded": "true"
+      },
+      {
+        "label": "周衡，现场证人",
+        "expanded": "false"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "expanded": "false"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "林序，司法画像师",
+        "expanded": "true"
+      },
+      {
+        "label": "周衡，现场证人",
+        "expanded": "false"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "expanded": "false"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t1",
+    "caseId": "c04",
+    "taps": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "before": "true",
+        "after": "true"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "expanded": "true"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "expanded": "false"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "expanded": "true"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "expanded": "false"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t1",
+    "caseId": "c05",
+    "taps": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "before": "true",
+        "after": "true"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "expanded": "true"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "expanded": "false"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "expanded": "true"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "expanded": "false"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t1",
+    "caseId": "c06",
+    "taps": [
+      {
+        "label": "林照，夜班调度员",
+        "before": "true",
+        "after": "true"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林照，夜班调度员",
+        "expanded": "true"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "expanded": "false"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "林照，夜班调度员",
+        "expanded": "true"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "expanded": "false"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t2",
+    "caseId": "c01",
+    "taps": [
+      {
+        "label": "林澄，旧信修复师",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林澄，旧信修复师",
+        "expanded": "false"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "expanded": "true"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "林澄，旧信修复师",
+        "expanded": "false"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "expanded": "false"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "expanded": "true"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t2",
+    "caseId": "c02",
+    "taps": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "expanded": "true"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "expanded": "false"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "expanded": "false"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "expanded": "true"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t2",
+    "caseId": "c03",
+    "taps": [
+      {
+        "label": "林序，司法画像师",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "周衡，现场证人",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林序，司法画像师",
+        "expanded": "true"
+      },
+      {
+        "label": "周衡，现场证人",
+        "expanded": "false"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "expanded": "false"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "林序，司法画像师",
+        "expanded": "false"
+      },
+      {
+        "label": "周衡，现场证人",
+        "expanded": "true"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "expanded": "false"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t2",
+    "caseId": "c04",
+    "taps": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "expanded": "true"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "expanded": "false"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "expanded": "false"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "expanded": "true"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t2",
+    "caseId": "c05",
+    "taps": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "expanded": "true"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "expanded": "false"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "expanded": "false"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "expanded": "true"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t2",
+    "caseId": "c06",
+    "taps": [
+      {
+        "label": "林照，夜班调度员",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林照，夜班调度员",
+        "expanded": "true"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "expanded": "false"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "expanded": "false"
+      }
+    ],
+    "afterClose": [
+      {
+        "label": "林照，夜班调度员",
+        "expanded": "false"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "expanded": "true"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "expanded": "false"
+      }
+    ],
+    "closeWorked": false,
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t3",
+    "caseId": "c01",
+    "taps": [
+      {
+        "label": "林澄，旧信修复师",
+        "before": "false",
+        "after": "false"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "before": "false",
+        "after": "false"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林澄，旧信修复师",
+        "expanded": "false"
+      },
+      {
+        "label": "裴砚，交接工程师",
+        "expanded": "true"
+      },
+      {
+        "label": "周叙，邮局保管人",
+        "expanded": "false"
+      }
+    ],
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t3",
+    "caseId": "c02",
+    "taps": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "沈微澜，水门簿吏",
+        "expanded": "true"
+      },
+      {
+        "label": "陆衡，水门闸工",
+        "expanded": "false"
+      },
+      {
+        "label": "顾砚秋，核验吏",
+        "expanded": "false"
+      }
+    ],
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t3",
+    "caseId": "c03",
+    "taps": [
+      {
+        "label": "林序，司法画像师",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "周衡，现场证人",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林序，司法画像师",
+        "expanded": "true"
+      },
+      {
+        "label": "周衡，现场证人",
+        "expanded": "false"
+      },
+      {
+        "label": "唐栖，修复助理",
+        "expanded": "false"
+      },
+      {
+        "label": "裴岑，第三证人",
+        "expanded": "false"
+      }
+    ],
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t3",
+    "caseId": "c04",
+    "taps": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "沈汐衡，水脉维护师，负责阀环接向和日常检修。",
+        "expanded": "true"
+      },
+      {
+        "label": "陆承岳，总工程师，负责支撑结构与居民转移安排。",
+        "expanded": "false"
+      },
+      {
+        "label": "岑听潮，潜潮巡水员，负责回流和潮井测量。",
+        "expanded": "false"
+      }
+    ],
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t3",
+    "caseId": "c05",
+    "taps": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "梁听澜，录音师，临时接管家中茶餐厅",
+        "expanded": "true"
+      },
+      {
+        "label": "梁见声，码头送货员，协助匿名证人转移",
+        "expanded": "false"
+      },
+      {
+        "label": "苏曼，前新闻剪接员，曾为免曝露证人而删去后半句",
+        "expanded": "false"
+      }
+    ],
+    "escapeWorked": true
+  },
+  {
+    "trialId": "t3",
+    "caseId": "c06",
+    "taps": [
+      {
+        "label": "林照，夜班调度员",
+        "before": "true",
+        "after": "false"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "before": "false",
+        "after": "true"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "before": "false",
+        "after": "true"
+      }
+    ],
+    "initial": [
+      {
+        "label": "林照，夜班调度员",
+        "expanded": "true"
+      },
+      {
+        "label": "夏承，夜班司机",
+        "expanded": "false"
+      },
+      {
+        "label": "唐岑，评审联络员",
+        "expanded": "false"
+      }
+    ],
+    "escapeWorked": true
+  }
+]

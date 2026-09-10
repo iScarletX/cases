@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>明日来信</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="viewport" aria-label="游戏画面">
+    <div id="stage" class="stage"></div>
+  </main>
+  <nav class="utility" aria-label="游戏导航">
+    <button id="back" type="button" aria-label="返回" title="返回"><i data-lucide="arrow-left"></i></button>
+    <button id="home" type="button" aria-label="主菜单" title="主菜单"><i data-lucide="house"></i></button>
+    <button id="sound" type="button" aria-label="播放音乐" title="播放音乐" aria-pressed="false"><i data-lucide="volume-x"></i></button>
+    <button id="screen" type="button" aria-label="全屏" title="全屏"><i data-lucide="maximize"></i></button>
+  </nav>
+  <dialog id="dialog" aria-labelledby="dialog-title">
+    <button class="close" type="button" aria-label="关闭" title="关闭"><i data-lucide="x"></i></button>
+    <h2 id="dialog-title"></h2>
+    <div id="dialog-content"></div>
+    <div id="dialog-actions"></div>
+  </dialog>
+  <div class="sr-only" id="live" aria-live="polite"></div>
+  <script src="vendor/lucide.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+<script src="../../bridge.js" data-comparison-instrumentation="true"></script></body>
+</html>

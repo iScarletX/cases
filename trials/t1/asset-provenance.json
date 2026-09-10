@@ -1,0 +1,1684 @@
+{
+  "assets/c01/menu-background.jpg": {
+    "source": "cases/乙游3D/01-menu-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c01/choice-background.jpg": {
+    "source": "cases/乙游3D/02-choice-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c01/route-background.jpg": {
+    "source": "cases/乙游3D/03-route-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c01/character-background.jpg": {
+    "source": "cases/乙游3D/04-character-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c01/ending-background.jpg": {
+    "source": "cases/乙游3D/05-ending-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c02/menu-background.jpg": {
+    "source": "cases/写实古风/01-menu-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c02/choice-background.jpg": {
+    "source": "cases/写实古风/02-choice-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c02/route-background.jpg": {
+    "source": "cases/写实古风/03-route-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c02/character-background.jpg": {
+    "source": "cases/写实古风/04-character-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c02/ending-background.jpg": {
+    "source": "cases/写实古风/05-ending-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c03/menu-background.jpg": {
+    "source": "cases/半写实真人/01-menu-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c03/choice-background.jpg": {
+    "source": "cases/半写实真人/02-choice-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c03/route-background.jpg": {
+    "source": "cases/半写实真人/03-route-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c03/character-background.jpg": {
+    "source": "cases/半写实真人/04-character-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c03/ending-background.jpg": {
+    "source": "cases/半写实真人/05-ending-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c04/menu-background.jpg": {
+    "source": "cases/国漫3D/01-menu-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c04/choice-background.jpg": {
+    "source": "cases/国漫3D/02-choice-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c04/route-background.jpg": {
+    "source": "cases/国漫3D/03-route-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c04/character-background.jpg": {
+    "source": "cases/国漫3D/04-character-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c04/ending-background.jpg": {
+    "source": "cases/国漫3D/05-ending-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c05/menu-background.jpg": {
+    "source": "cases/复古港风/01-menu-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c05/choice-background.jpg": {
+    "source": "cases/复古港风/02-choice-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c05/route-background.jpg": {
+    "source": "cases/复古港风/03-route-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c05/character-background.jpg": {
+    "source": "cases/复古港风/04-character-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c05/ending-background.jpg": {
+    "source": "cases/复古港风/05-ending-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c06/menu-background.jpg": {
+    "source": "cases/现代都市/01-menu-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c06/choice-background.jpg": {
+    "source": "cases/现代都市/02-choice-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c06/route-background.jpg": {
+    "source": "cases/现代都市/03-route-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c06/character-background.jpg": {
+    "source": "cases/现代都市/04-character-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c06/ending-background.jpg": {
+    "source": "cases/现代都市/05-ending-background.png",
+    "operation": "JPEG conversion of supplied background; no controls flattened"
+  },
+  "assets/c01/menu-0-off.png": {
+    "source": "cases/乙游3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1250,
+      "top": 213,
+      "width": 272,
+      "height": 73
+    }
+  },
+  "assets/c01/menu-0-on.png": {
+    "source": "cases/乙游3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1570,
+      "top": 213,
+      "width": 272,
+      "height": 73
+    }
+  },
+  "assets/c01/menu-1-off.png": {
+    "source": "cases/乙游3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1250,
+      "top": 442,
+      "width": 272,
+      "height": 73
+    }
+  },
+  "assets/c01/menu-1-on.png": {
+    "source": "cases/乙游3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1570,
+      "top": 442,
+      "width": 272,
+      "height": 73
+    }
+  },
+  "assets/c01/menu-2-off.png": {
+    "source": "cases/乙游3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1250,
+      "top": 670,
+      "width": 272,
+      "height": 73
+    }
+  },
+  "assets/c01/menu-2-on.png": {
+    "source": "cases/乙游3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1570,
+      "top": 670,
+      "width": 272,
+      "height": 73
+    }
+  },
+  "assets/c02/menu-0-off.png": {
+    "source": "cases/写实古风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1151,
+      "top": 224,
+      "width": 218,
+      "height": 65
+    }
+  },
+  "assets/c02/menu-0-on.png": {
+    "source": "cases/写实古风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1151,
+      "top": 335,
+      "width": 218,
+      "height": 65
+    }
+  },
+  "assets/c02/menu-1-off.png": {
+    "source": "cases/写实古风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1151,
+      "top": 514,
+      "width": 218,
+      "height": 65
+    }
+  },
+  "assets/c02/menu-1-on.png": {
+    "source": "cases/写实古风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1151,
+      "top": 625,
+      "width": 218,
+      "height": 65
+    }
+  },
+  "assets/c02/menu-2-off.png": {
+    "source": "cases/写实古风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 80,
+      "top": 853,
+      "width": 265,
+      "height": 81
+    }
+  },
+  "assets/c02/menu-2-on.png": {
+    "source": "cases/写实古风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 369,
+      "top": 853,
+      "width": 265,
+      "height": 81
+    }
+  },
+  "assets/c02/choice-0-off.png": {
+    "source": "cases/写实古风/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1259,
+      "top": 541,
+      "width": 247,
+      "height": 75
+    }
+  },
+  "assets/c02/choice-0-on.png": {
+    "source": "cases/写实古风/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1578,
+      "top": 541,
+      "width": 247,
+      "height": 75
+    }
+  },
+  "assets/c02/choice-1-off.png": {
+    "source": "cases/写实古风/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 81,
+      "top": 896,
+      "width": 481,
+      "height": 139
+    }
+  },
+  "assets/c02/choice-1-on.png": {
+    "source": "cases/写实古风/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 701,
+      "top": 896,
+      "width": 481,
+      "height": 139
+    }
+  },
+  "assets/c02/recommend-photo-0.png": {
+    "source": "cases/写实古风/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 389,
+      "top": 898,
+      "width": 197,
+      "height": 71
+    }
+  },
+  "assets/c02/recommend-photo-1.png": {
+    "source": "cases/写实古风/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 114,
+      "top": 531,
+      "width": 218,
+      "height": 71
+    }
+  },
+  "assets/c02/recommend-photo-2.png": {
+    "source": "cases/写实古风/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 114,
+      "top": 628,
+      "width": 218,
+      "height": 71
+    }
+  },
+  "assets/c03/menu-0-off.png": {
+    "source": "cases/半写实真人/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1286,
+      "top": 177,
+      "width": 273,
+      "height": 77
+    }
+  },
+  "assets/c03/menu-0-on.png": {
+    "source": "cases/半写实真人/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1605,
+      "top": 177,
+      "width": 273,
+      "height": 77
+    }
+  },
+  "assets/c03/menu-1-off.png": {
+    "source": "cases/半写实真人/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1286,
+      "top": 448,
+      "width": 252,
+      "height": 65
+    }
+  },
+  "assets/c03/menu-1-on.png": {
+    "source": "cases/半写实真人/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1605,
+      "top": 448,
+      "width": 252,
+      "height": 65
+    }
+  },
+  "assets/c03/menu-2-off.png": {
+    "source": "cases/半写实真人/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1286,
+      "top": 694,
+      "width": 252,
+      "height": 73
+    }
+  },
+  "assets/c03/menu-2-on.png": {
+    "source": "cases/半写实真人/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1605,
+      "top": 694,
+      "width": 252,
+      "height": 73
+    }
+  },
+  "assets/c03/choice-0-off.png": {
+    "source": "cases/半写实真人/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1281,
+      "top": 499,
+      "width": 278,
+      "height": 65
+    }
+  },
+  "assets/c03/choice-0-on.png": {
+    "source": "cases/半写实真人/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1601,
+      "top": 499,
+      "width": 278,
+      "height": 65
+    }
+  },
+  "assets/c03/choice-1-off.png": {
+    "source": "cases/半写实真人/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1281,
+      "top": 737,
+      "width": 278,
+      "height": 65
+    }
+  },
+  "assets/c03/choice-1-on.png": {
+    "source": "cases/半写实真人/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1601,
+      "top": 737,
+      "width": 278,
+      "height": 65
+    }
+  },
+  "assets/c04/menu-0-off.png": {
+    "source": "cases/国漫3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 77,
+      "top": 820,
+      "width": 261,
+      "height": 99
+    }
+  },
+  "assets/c04/menu-0-on.png": {
+    "source": "cases/国漫3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 367,
+      "top": 820,
+      "width": 261,
+      "height": 99
+    }
+  },
+  "assets/c04/menu-1-off.png": {
+    "source": "cases/国漫3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 682,
+      "top": 820,
+      "width": 261,
+      "height": 99
+    }
+  },
+  "assets/c04/menu-1-on.png": {
+    "source": "cases/国漫3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 972,
+      "top": 820,
+      "width": 261,
+      "height": 99
+    }
+  },
+  "assets/c04/menu-2-off.png": {
+    "source": "cases/国漫3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1287,
+      "top": 820,
+      "width": 261,
+      "height": 99
+    }
+  },
+  "assets/c04/menu-2-on.png": {
+    "source": "cases/国漫3D/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1577,
+      "top": 820,
+      "width": 261,
+      "height": 99
+    }
+  },
+  "assets/c04/choice-0-off.png": {
+    "source": "cases/国漫3D/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 77,
+      "top": 861,
+      "width": 414,
+      "height": 77
+    }
+  },
+  "assets/c04/choice-0-on.png": {
+    "source": "cases/国漫3D/02-choice-board.png",
+    "operation": "same default component; RGB feedback restricted to Board-specified upper groove/edge; alpha and all other pixels preserved",
+    "crop": {
+      "left": 77,
+      "top": 861,
+      "width": 414,
+      "height": 77
+    },
+    "feedbackRect": {
+      "left": 32,
+      "top": 14,
+      "width": 352,
+      "height": 4
+    }
+  },
+  "assets/c04/choice-1-off.png": {
+    "source": "cases/国漫3D/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 983,
+      "top": 861,
+      "width": 414,
+      "height": 77
+    }
+  },
+  "assets/c04/choice-1-on.png": {
+    "source": "cases/国漫3D/02-choice-board.png",
+    "operation": "same default component; RGB feedback restricted to Board-specified upper groove/edge; alpha and all other pixels preserved",
+    "crop": {
+      "left": 983,
+      "top": 861,
+      "width": 414,
+      "height": 77
+    },
+    "feedbackRect": {
+      "left": 32,
+      "top": 14,
+      "width": 352,
+      "height": 4
+    }
+  },
+  "assets/c04/route-frame.png": {
+    "source": "cases/国漫3D/03-route-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1200,
+      "top": 195,
+      "width": 296,
+      "height": 174
+    },
+    "transparentWindows": [
+      [
+        69,
+        68,
+        152,
+        66
+      ]
+    ],
+    "blankLabelPatch": [
+      [
+        76,
+        30,
+        150,
+        25,
+        98,
+        19,
+        11,
+        9
+      ]
+    ]
+  },
+  "assets/c04/complete.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1255,
+      "top": 160,
+      "width": 554,
+      "height": 139
+    }
+  },
+  "assets/c04/other-off.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1201,
+      "top": 493,
+      "width": 307,
+      "height": 105
+    }
+  },
+  "assets/c04/other-on.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1533,
+      "top": 493,
+      "width": 307,
+      "height": 105
+    }
+  },
+  "assets/c04/recommend-0-off.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 76,
+      "top": 816,
+      "width": 270,
+      "height": 169
+    }
+  },
+  "assets/c04/recommend-0-on.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 378,
+      "top": 816,
+      "width": 270,
+      "height": 169
+    }
+  },
+  "assets/c04/recommend-1-off.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 679,
+      "top": 816,
+      "width": 270,
+      "height": 169
+    }
+  },
+  "assets/c04/recommend-1-on.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 981,
+      "top": 816,
+      "width": 270,
+      "height": 169
+    }
+  },
+  "assets/c04/recommend-2-off.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1293,
+      "top": 816,
+      "width": 270,
+      "height": 169
+    }
+  },
+  "assets/c04/recommend-2-on.png": {
+    "source": "cases/国漫3D/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1602,
+      "top": 816,
+      "width": 270,
+      "height": 169
+    }
+  },
+  "assets/c05/menu-0-off.png": {
+    "source": "cases/复古港风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 72,
+      "top": 802,
+      "width": 258,
+      "height": 103
+    }
+  },
+  "assets/c05/menu-0-on.png": {
+    "source": "cases/复古港风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 351,
+      "top": 802,
+      "width": 258,
+      "height": 103
+    }
+  },
+  "assets/c05/menu-1-off.png": {
+    "source": "cases/复古港风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 676,
+      "top": 802,
+      "width": 258,
+      "height": 103
+    }
+  },
+  "assets/c05/menu-1-on.png": {
+    "source": "cases/复古港风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 956,
+      "top": 802,
+      "width": 258,
+      "height": 103
+    }
+  },
+  "assets/c05/menu-2-off.png": {
+    "source": "cases/复古港风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1283,
+      "top": 802,
+      "width": 258,
+      "height": 103
+    }
+  },
+  "assets/c05/menu-2-on.png": {
+    "source": "cases/复古港风/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1562,
+      "top": 802,
+      "width": 258,
+      "height": 103
+    }
+  },
+  "assets/c05/choice-0-off.png": {
+    "source": "cases/复古港风/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 78,
+      "top": 808,
+      "width": 416,
+      "height": 75
+    }
+  },
+  "assets/c05/choice-0-on.png": {
+    "source": "cases/复古港风/02-choice-board.png",
+    "operation": "same default component; RGB feedback restricted to Board-specified upper groove/edge; alpha and all other pixels preserved",
+    "crop": {
+      "left": 78,
+      "top": 808,
+      "width": 416,
+      "height": 75
+    },
+    "feedbackRect": {
+      "left": 32,
+      "top": 8,
+      "width": 354,
+      "height": 4
+    }
+  },
+  "assets/c05/choice-1-off.png": {
+    "source": "cases/复古港风/02-choice-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 985,
+      "top": 808,
+      "width": 416,
+      "height": 75
+    }
+  },
+  "assets/c05/choice-1-on.png": {
+    "source": "cases/复古港风/02-choice-board.png",
+    "operation": "same default component; RGB feedback restricted to Board-specified upper groove/edge; alpha and all other pixels preserved",
+    "crop": {
+      "left": 985,
+      "top": 808,
+      "width": 416,
+      "height": 75
+    },
+    "feedbackRect": {
+      "left": 32,
+      "top": 8,
+      "width": 354,
+      "height": 4
+    }
+  },
+  "assets/c05/route-frame.png": {
+    "source": "cases/复古港风/03-route-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1202,
+      "top": 184,
+      "width": 295,
+      "height": 195
+    },
+    "transparentWindows": [
+      [
+        64,
+        43,
+        166,
+        74
+      ]
+    ],
+    "blankLabelPatch": [
+      [
+        65,
+        141,
+        184,
+        34,
+        64,
+        139,
+        28,
+        3
+      ]
+    ]
+  },
+  "assets/c05/complete.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1285,
+      "top": 149,
+      "width": 549,
+      "height": 134
+    }
+  },
+  "assets/c05/other-off.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1209,
+      "top": 501,
+      "width": 326,
+      "height": 87
+    }
+  },
+  "assets/c05/other-on.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1534,
+      "top": 501,
+      "width": 326,
+      "height": 87
+    }
+  },
+  "assets/c05/recommend-0-off.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 76,
+      "top": 808,
+      "width": 272,
+      "height": 107
+    }
+  },
+  "assets/c05/recommend-0-on.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 377,
+      "top": 808,
+      "width": 272,
+      "height": 107
+    }
+  },
+  "assets/c05/recommend-1-off.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 687,
+      "top": 808,
+      "width": 282,
+      "height": 107
+    }
+  },
+  "assets/c05/recommend-1-on.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 988,
+      "top": 808,
+      "width": 282,
+      "height": 107
+    }
+  },
+  "assets/c05/recommend-2-off.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1299,
+      "top": 808,
+      "width": 272,
+      "height": 107
+    }
+  },
+  "assets/c05/recommend-2-on.png": {
+    "source": "cases/复古港风/05-ending-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1600,
+      "top": 808,
+      "width": 272,
+      "height": 107
+    }
+  },
+  "assets/c06/menu-0-off.png": {
+    "source": "cases/现代都市/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1150,
+      "top": 223,
+      "width": 219,
+      "height": 63
+    }
+  },
+  "assets/c06/menu-0-on.png": {
+    "source": "cases/现代都市/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1150,
+      "top": 335,
+      "width": 219,
+      "height": 63
+    }
+  },
+  "assets/c06/menu-1-off.png": {
+    "source": "cases/现代都市/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1150,
+      "top": 513,
+      "width": 219,
+      "height": 63
+    }
+  },
+  "assets/c06/menu-1-on.png": {
+    "source": "cases/现代都市/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 1150,
+      "top": 625,
+      "width": 219,
+      "height": 63
+    }
+  },
+  "assets/c06/menu-2-off.png": {
+    "source": "cases/现代都市/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 80,
+      "top": 850,
+      "width": 266,
+      "height": 81
+    }
+  },
+  "assets/c06/menu-2-on.png": {
+    "source": "cases/现代都市/01-menu-board.png",
+    "operation": "independent component crop with outside background removed",
+    "crop": {
+      "left": 369,
+      "top": 850,
+      "width": 266,
+      "height": 81
+    }
+  },
+  "assets/c06/recommend-photo-1.png": {
+    "source": "cases/现代都市/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 114,
+      "top": 536,
+      "width": 129,
+      "height": 66
+    }
+  },
+  "assets/c06/recommend-photo-2.png": {
+    "source": "cases/现代都市/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 114,
+      "top": 631,
+      "width": 129,
+      "height": 66
+    }
+  },
+  "assets/c01/portrait-0.png": {
+    "source": "cases/乙游3D/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 112,
+      "top": 279,
+      "width": 125,
+      "height": 251
+    }
+  },
+  "assets/c01/portrait-1.png": {
+    "source": "cases/乙游3D/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 331,
+      "top": 284,
+      "width": 127,
+      "height": 246
+    }
+  },
+  "assets/c01/portrait-2.png": {
+    "source": "cases/乙游3D/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 848,
+      "top": 281,
+      "width": 126,
+      "height": 250
+    }
+  },
+  "assets/c02/portrait-0.png": {
+    "source": "cases/写实古风/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 148,
+      "top": 260,
+      "width": 188,
+      "height": 307
+    }
+  },
+  "assets/c02/portrait-1.png": {
+    "source": "cases/写实古风/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 682,
+      "top": 258,
+      "width": 139,
+      "height": 294
+    }
+  },
+  "assets/c02/portrait-2.png": {
+    "source": "cases/写实古风/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 894,
+      "top": 258,
+      "width": 132,
+      "height": 295
+    }
+  },
+  "assets/c03/portrait-0.png": {
+    "source": "cases/半写实真人/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 112,
+      "top": 223,
+      "width": 153,
+      "height": 263
+    }
+  },
+  "assets/c03/portrait-1.png": {
+    "source": "cases/半写实真人/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 708,
+      "top": 227,
+      "width": 103,
+      "height": 211
+    }
+  },
+  "assets/c03/portrait-2.png": {
+    "source": "cases/半写实真人/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 908,
+      "top": 227,
+      "width": 103,
+      "height": 211
+    }
+  },
+  "assets/c03/portrait-3.png": {
+    "source": "cases/半写实真人/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1105,
+      "top": 227,
+      "width": 103,
+      "height": 211
+    }
+  },
+  "assets/c06/portrait-0.png": {
+    "source": "cases/现代都市/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 131,
+      "top": 266,
+      "width": 121,
+      "height": 240
+    }
+  },
+  "assets/c06/portrait-1.png": {
+    "source": "cases/现代都市/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 646,
+      "top": 267,
+      "width": 99,
+      "height": 238
+    }
+  },
+  "assets/c06/portrait-2.png": {
+    "source": "cases/现代都市/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 841,
+      "top": 267,
+      "width": 99,
+      "height": 238
+    }
+  },
+  "assets/c01/paper.png": {
+    "source": "cases/乙游3D/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 532,
+      "top": 572,
+      "width": 130,
+      "height": 42
+    }
+  },
+  "assets/c02/paper.png": {
+    "source": "cases/写实古风/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 399,
+      "top": 600,
+      "width": 112,
+      "height": 30
+    }
+  },
+  "assets/c03/paper.png": {
+    "source": "cases/半写实真人/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 382,
+      "top": 523,
+      "width": 181,
+      "height": 24
+    }
+  },
+  "assets/c04/paper.png": {
+    "source": "cases/国漫3D/UI组件源/character-direct-cards-original.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 522,
+      "top": 1175,
+      "width": 200,
+      "height": 24
+    }
+  },
+  "assets/c05/paper.png": {
+    "source": "cases/复古港风/character-formal-layer.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 564,
+      "top": 803,
+      "width": 300,
+      "height": 24
+    }
+  },
+  "assets/c06/paper.png": {
+    "source": "cases/现代都市/04-character-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 340,
+      "top": 550,
+      "width": 154,
+      "height": 22
+    }
+  },
+  "assets/c01/question-clean.png": {
+    "source": "cases/乙游3D/02-choice-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 425,
+      "top": 193,
+      "width": 392,
+      "height": 53
+    },
+    "silhouetteMaskPercent": [
+      [
+        0,
+        40
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        94,
+        0
+      ],
+      [
+        99,
+        19
+      ],
+      [
+        100,
+        64
+      ],
+      [
+        96,
+        91
+      ],
+      [
+        80,
+        95
+      ],
+      [
+        64,
+        89
+      ],
+      [
+        49,
+        96
+      ],
+      [
+        33,
+        89
+      ],
+      [
+        16,
+        96
+      ],
+      [
+        2,
+        88
+      ]
+    ]
+  },
+  "assets/c02/question-clean.png": {
+    "source": "cases/写实古风/02-choice-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 476,
+      "top": 163,
+      "width": 365,
+      "height": 84
+    },
+    "silhouetteMaskPercent": [
+      [
+        7,
+        0
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        97,
+        10
+      ],
+      [
+        100,
+        20
+      ],
+      [
+        100,
+        77
+      ],
+      [
+        12,
+        78
+      ],
+      [
+        8,
+        68
+      ],
+      [
+        6,
+        91
+      ],
+      [
+        0,
+        100
+      ],
+      [
+        0,
+        86
+      ],
+      [
+        3,
+        67
+      ],
+      [
+        5,
+        40
+      ],
+      [
+        3,
+        26
+      ]
+    ]
+  },
+  "assets/c03/question-clean.png": {
+    "source": "cases/半写实真人/02-choice-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 344,
+      "top": 115,
+      "width": 462,
+      "height": 35
+    },
+    "silhouetteMaskPercent": [
+      [
+        1,
+        0
+      ],
+      [
+        98,
+        0
+      ],
+      [
+        99,
+        15
+      ],
+      [
+        100,
+        75
+      ],
+      [
+        99,
+        100
+      ],
+      [
+        1,
+        100
+      ],
+      [
+        0,
+        75
+      ],
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  "assets/c04/question-clean.png": {
+    "source": "cases/国漫3D/02-choice-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 810,
+      "top": 111,
+      "width": 497,
+      "height": 74
+    },
+    "silhouetteMaskPercent": [
+      [
+        0,
+        42
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        43,
+        8
+      ],
+      [
+        50,
+        0
+      ],
+      [
+        57,
+        8
+      ],
+      [
+        93,
+        5
+      ],
+      [
+        98,
+        22
+      ],
+      [
+        100,
+        50
+      ],
+      [
+        97,
+        82
+      ],
+      [
+        92,
+        93
+      ],
+      [
+        56,
+        91
+      ],
+      [
+        50,
+        100
+      ],
+      [
+        43,
+        92
+      ],
+      [
+        8,
+        93
+      ],
+      [
+        2,
+        78
+      ]
+    ]
+  },
+  "assets/c05/question-clean.png": {
+    "source": "cases/复古港风/02-choice-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 394,
+      "top": 572,
+      "width": 394,
+      "height": 44
+    },
+    "silhouetteMaskPercent": [
+      [
+        4,
+        0
+      ],
+      [
+        96,
+        0
+      ],
+      [
+        100,
+        25
+      ],
+      [
+        96,
+        94
+      ],
+      [
+        2,
+        94
+      ],
+      [
+        0,
+        70
+      ]
+    ]
+  },
+  "assets/c06/question-clean.png": {
+    "source": "cases/现代都市/02-choice-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 483,
+      "top": 171,
+      "width": 334,
+      "height": 43
+    },
+    "silhouetteMaskPercent": [
+      [
+        1,
+        0
+      ],
+      [
+        93,
+        0
+      ],
+      [
+        100,
+        53
+      ],
+      [
+        99,
+        94
+      ],
+      [
+        1,
+        94
+      ],
+      [
+        0,
+        83
+      ],
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  "assets/c01/recommend-photo-0.png": {
+    "source": "cases/乙游3D/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1095,
+      "top": 177,
+      "width": 326,
+      "height": 68
+    }
+  },
+  "assets/c01/recommend-photo-1.png": {
+    "source": "cases/乙游3D/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1095,
+      "top": 494,
+      "width": 326,
+      "height": 68
+    }
+  },
+  "assets/c01/recommend-photo-2.png": {
+    "source": "cases/乙游3D/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1095,
+      "top": 811,
+      "width": 326,
+      "height": 68
+    }
+  },
+  "assets/c03/recommend-photo-0.png": {
+    "source": "cases/半写实真人/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1100,
+      "top": 181,
+      "width": 193,
+      "height": 78
+    }
+  },
+  "assets/c03/recommend-photo-1.png": {
+    "source": "cases/半写实真人/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1100,
+      "top": 498,
+      "width": 193,
+      "height": 78
+    }
+  },
+  "assets/c03/recommend-photo-2.png": {
+    "source": "cases/半写实真人/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1100,
+      "top": 815,
+      "width": 193,
+      "height": 78
+    }
+  },
+  "assets/c06/recommend-photo-0.png": {
+    "source": "cases/现代都市/05-ending-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 390,
+      "top": 901,
+      "width": 153,
+      "height": 84
+    }
+  },
+  "assets/c01/route-photo.png": {
+    "source": "cases/乙游3D/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 88,
+      "top": 421,
+      "width": 143,
+      "height": 79
+    }
+  },
+  "assets/c02/route-photo.png": {
+    "source": "cases/写实古风/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 123,
+      "top": 419,
+      "width": 190,
+      "height": 106
+    }
+  },
+  "assets/c03/route-photo.png": {
+    "source": "cases/半写实真人/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 104,
+      "top": 377,
+      "width": 121,
+      "height": 67
+    }
+  },
+  "assets/c04/route-photo.png": {
+    "source": "cases/国漫3D/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 137,
+      "top": 533,
+      "width": 90,
+      "height": 34
+    }
+  },
+  "assets/c05/route-photo.png": {
+    "source": "cases/复古港风/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 140,
+      "top": 484,
+      "width": 110,
+      "height": 48
+    }
+  },
+  "assets/c06/route-photo.png": {
+    "source": "cases/现代都市/03-route-board.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 141,
+      "top": 393,
+      "width": 133,
+      "height": 75
+    }
+  },
+  "assets/c04/char-art-0.png": {
+    "source": "cases/国漫3D/UI组件源/character-direct-cards-original.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 152,
+      "top": 5,
+      "width": 302,
+      "height": 670
+    }
+  },
+  "assets/c04/char-art-1.png": {
+    "source": "cases/国漫3D/UI组件源/character-direct-cards-original.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 487,
+      "top": 5,
+      "width": 309,
+      "height": 670
+    }
+  },
+  "assets/c04/char-art-2.png": {
+    "source": "cases/国漫3D/UI组件源/character-direct-cards-original.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 841,
+      "top": 5,
+      "width": 309,
+      "height": 670
+    }
+  },
+  "assets/c04/char-open.png": {
+    "source": "cases/国漫3D/UI组件源/character-direct-cards-original.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 126,
+      "top": 676,
+      "width": 1034,
+      "height": 558
+    }
+  },
+  "assets/c05/char-art-0.png": {
+    "source": "cases/复古港风/character-formal-layer.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 95,
+      "top": 329,
+      "width": 425,
+      "height": 537
+    }
+  },
+  "assets/c05/char-art-1.png": {
+    "source": "cases/复古港风/character-formal-layer.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1090,
+      "top": 188,
+      "width": 344,
+      "height": 682
+    }
+  },
+  "assets/c05/char-art-2.png": {
+    "source": "cases/复古港风/character-formal-layer.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 1488,
+      "top": 188,
+      "width": 350,
+      "height": 682
+    }
+  },
+  "assets/c05/char-open.png": {
+    "source": "cases/复古港风/character-formal-layer.png",
+    "operation": "individual portrait/photo/material crop",
+    "crop": {
+      "left": 94,
+      "top": 326,
+      "width": 931,
+      "height": 543
+    }
+  }
+}

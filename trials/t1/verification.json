@@ -1,0 +1,1145 @@
+{
+  "startedAt": "2026-09-10T08:20:29.936Z",
+  "finishedAt": "2026-09-10T08:21:51.524Z",
+  "checks": 155,
+  "passed": 149,
+  "failed": 6,
+  "results": [
+    {
+      "name": "c01/menu file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c01/menu pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "menuDestinations": 3,
+        "keyboard": true,
+        "back": true
+      }
+    },
+    {
+      "name": "c01/choice file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c01/choice pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "choices": 2,
+        "confirm": true,
+        "escape": true,
+        "keyboard": true
+      }
+    },
+    {
+      "name": "c01/route file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 6
+      }
+    },
+    {
+      "name": "c01/route pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "nodes": 5,
+        "oneSelectedConnection": true,
+        "chapterDialog": true
+      }
+    },
+    {
+      "name": "c01/character file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 7
+      }
+    },
+    {
+      "name": "c01/character pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "characters": 3,
+        "expanded": true,
+        "collapse": true,
+        "noTextClipping": true
+      }
+    },
+    {
+      "name": "c01/ending file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 5
+      }
+    },
+    {
+      "name": "c01/ending pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "recommendations": 3,
+        "preview": true,
+        "otherEndingsRoute": true
+      }
+    },
+    {
+      "name": "c02/menu file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c02/menu pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "menuDestinations": 3,
+        "keyboard": true,
+        "back": true
+      }
+    },
+    {
+      "name": "c02/choice file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c02/choice pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "choices": 2,
+        "confirm": true,
+        "escape": true,
+        "keyboard": true
+      }
+    },
+    {
+      "name": "c02/route file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 6
+      }
+    },
+    {
+      "name": "c02/route pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "nodes": 5,
+        "oneSelectedConnection": true,
+        "chapterDialog": true
+      }
+    },
+    {
+      "name": "c02/character file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 7
+      }
+    },
+    {
+      "name": "c02/character pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "characters": 3,
+        "expanded": true,
+        "collapse": true,
+        "noTextClipping": true
+      }
+    },
+    {
+      "name": "c02/ending file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 5
+      }
+    },
+    {
+      "name": "c02/ending pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "recommendations": 3,
+        "preview": true,
+        "otherEndingsRoute": true
+      }
+    },
+    {
+      "name": "c03/menu file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c03/menu pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "menuDestinations": 3,
+        "keyboard": true,
+        "back": true
+      }
+    },
+    {
+      "name": "c03/choice file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c03/choice pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "choices": 2,
+        "confirm": true,
+        "escape": true,
+        "keyboard": true
+      }
+    },
+    {
+      "name": "c03/route file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 6
+      }
+    },
+    {
+      "name": "c03/route pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "nodes": 5,
+        "oneSelectedConnection": true,
+        "chapterDialog": true
+      }
+    },
+    {
+      "name": "c03/character file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 9
+      }
+    },
+    {
+      "name": "c03/character pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "characters": 4,
+        "expanded": true,
+        "collapse": true,
+        "noTextClipping": true
+      }
+    },
+    {
+      "name": "c03/ending file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 5
+      }
+    },
+    {
+      "name": "c03/ending pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "recommendations": 3,
+        "preview": true,
+        "otherEndingsRoute": true
+      }
+    },
+    {
+      "name": "c04/menu file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c04/menu pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "menuDestinations": 3,
+        "keyboard": true,
+        "back": true
+      }
+    },
+    {
+      "name": "c04/choice file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c04/choice pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "choices": 2,
+        "confirm": true,
+        "escape": true,
+        "keyboard": true
+      }
+    },
+    {
+      "name": "c04/route file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 6
+      }
+    },
+    {
+      "name": "c04/route pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "nodes": 5,
+        "oneSelectedConnection": true,
+        "chapterDialog": true
+      }
+    },
+    {
+      "name": "c04/character file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 7
+      }
+    },
+    {
+      "name": "c04/character pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "characters": 3,
+        "expanded": true,
+        "collapse": true,
+        "noTextClipping": true
+      }
+    },
+    {
+      "name": "c04/ending file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 5
+      }
+    },
+    {
+      "name": "c04/ending pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "recommendations": 3,
+        "preview": true,
+        "otherEndingsRoute": true
+      }
+    },
+    {
+      "name": "c05/menu file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c05/menu pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "menuDestinations": 3,
+        "keyboard": true,
+        "back": true
+      }
+    },
+    {
+      "name": "c05/choice file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c05/choice pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "choices": 2,
+        "confirm": true,
+        "escape": true,
+        "keyboard": true
+      }
+    },
+    {
+      "name": "c05/route file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 6
+      }
+    },
+    {
+      "name": "c05/route pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "nodes": 5,
+        "oneSelectedConnection": true,
+        "chapterDialog": true
+      }
+    },
+    {
+      "name": "c05/character file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 7
+      }
+    },
+    {
+      "name": "c05/character pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "characters": 3,
+        "expanded": true,
+        "collapse": true,
+        "noTextClipping": true
+      }
+    },
+    {
+      "name": "c05/ending file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 5
+      }
+    },
+    {
+      "name": "c05/ending pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "recommendations": 3,
+        "preview": true,
+        "otherEndingsRoute": true
+      }
+    },
+    {
+      "name": "c06/menu file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c06/menu pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "menuDestinations": 3,
+        "keyboard": true,
+        "back": true
+      }
+    },
+    {
+      "name": "c06/choice file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 3
+      }
+    },
+    {
+      "name": "c06/choice pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "choices": 2,
+        "confirm": true,
+        "escape": true,
+        "keyboard": true
+      }
+    },
+    {
+      "name": "c06/route file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 6
+      }
+    },
+    {
+      "name": "c06/route pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "nodes": 5,
+        "oneSelectedConnection": true,
+        "chapterDialog": true
+      }
+    },
+    {
+      "name": "c06/character file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 7
+      }
+    },
+    {
+      "name": "c06/character pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "characters": 3,
+        "expanded": true,
+        "collapse": true,
+        "noTextClipping": true
+      }
+    },
+    {
+      "name": "c06/ending file offline, assets and viewport",
+      "passed": true,
+      "detail": {
+        "buttons": 5
+      }
+    },
+    {
+      "name": "c06/ending pointer and keyboard",
+      "passed": true,
+      "detail": {
+        "recommendations": 3,
+        "preview": true,
+        "otherEndingsRoute": true
+      }
+    },
+    {
+      "name": "c01/menu static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c01/choice static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c01/route static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c01/character static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c01/ending static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c02/menu static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c02/choice static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c02/route static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c02/character static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c02/ending static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c03/menu static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c03/choice static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c03/route static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c03/character static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c03/ending static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c04/menu static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c04/choice static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c04/route static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c04/character static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c04/ending static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c05/menu static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c05/choice static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c05/route static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c05/character static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c05/ending static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c06/menu static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c06/choice static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c06/route static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c06/character static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c06/ending static HTTP",
+      "passed": true
+    },
+    {
+      "name": "c01/menu mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c01/choice mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 2,
+        "touch": true
+      }
+    },
+    {
+      "name": "c01/route mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 5,
+        "touch": true
+      }
+    },
+    {
+      "name": "c01/character mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c01/ending mobile portrait",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(await touch.locator('dialog').isVisible())\n"
+    },
+    {
+      "name": "c02/menu mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c02/choice mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 2,
+        "touch": true
+      }
+    },
+    {
+      "name": "c02/route mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 5,
+        "touch": true
+      }
+    },
+    {
+      "name": "c02/character mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c02/ending mobile portrait",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(await touch.locator('dialog').isVisible())\n"
+    },
+    {
+      "name": "c03/menu mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c03/choice mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 2,
+        "touch": true
+      }
+    },
+    {
+      "name": "c03/route mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 5,
+        "touch": true
+      }
+    },
+    {
+      "name": "c03/character mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 4,
+        "touch": true
+      }
+    },
+    {
+      "name": "c03/ending mobile portrait",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(await touch.locator('dialog').isVisible())\n"
+    },
+    {
+      "name": "c04/menu mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c04/choice mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 2,
+        "touch": true
+      }
+    },
+    {
+      "name": "c04/route mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 5,
+        "touch": true
+      }
+    },
+    {
+      "name": "c04/character mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c04/ending mobile portrait",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(await touch.locator('dialog').isVisible())\n"
+    },
+    {
+      "name": "c05/menu mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c05/choice mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 2,
+        "touch": true
+      }
+    },
+    {
+      "name": "c05/route mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 5,
+        "touch": true
+      }
+    },
+    {
+      "name": "c05/character mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c05/ending mobile portrait",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(await touch.locator('dialog').isVisible())\n"
+    },
+    {
+      "name": "c06/menu mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c06/choice mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 2,
+        "touch": true
+      }
+    },
+    {
+      "name": "c06/route mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 5,
+        "touch": true
+      }
+    },
+    {
+      "name": "c06/character mobile portrait",
+      "passed": true,
+      "detail": {
+        "aspectRatio": "16:9",
+        "horizontalPan": true,
+        "controls": 3,
+        "touch": true
+      }
+    },
+    {
+      "name": "c06/ending mobile portrait",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(await touch.locator('dialog').isVisible())\n"
+    },
+    {
+      "name": "c01/menu mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c01/choice mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c01/route mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c01/character mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c01/ending mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c02/menu mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c02/choice mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c02/route mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c02/character mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c02/ending mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c03/menu mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c03/choice mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c03/route mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c03/character mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c03/ending mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c04/menu mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c04/choice mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c04/route mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c04/character mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c04/ending mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c05/menu mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c05/choice mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c05/route mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c05/character mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c05/ending mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c06/menu mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c06/choice mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c06/route mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c06/character mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c06/ending mobile landscape",
+      "passed": true
+    },
+    {
+      "name": "c04/choice-0 exact feedback pixel region",
+      "passed": true,
+      "detail": {
+        "changed": 1384,
+        "changedOutsideFeedbackRegion": 0,
+        "alphaDifferences": 0
+      }
+    },
+    {
+      "name": "c04/choice-1 exact feedback pixel region",
+      "passed": true,
+      "detail": {
+        "changed": 1380,
+        "changedOutsideFeedbackRegion": 0,
+        "alphaDifferences": 0
+      }
+    },
+    {
+      "name": "c05/choice-0 exact feedback pixel region",
+      "passed": true,
+      "detail": {
+        "changed": 1409,
+        "changedOutsideFeedbackRegion": 0,
+        "alphaDifferences": 0
+      }
+    },
+    {
+      "name": "c05/choice-1 exact feedback pixel region",
+      "passed": true,
+      "detail": {
+        "changed": 1416,
+        "changedOutsideFeedbackRegion": 0,
+        "alphaDifferences": 0
+      }
+    },
+    {
+      "name": "no runtime errors and no external network dependencies",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "inspection/screenshots/c01-menu.png",
+    "inspection/screenshots/c01-choice.png",
+    "inspection/screenshots/c01-route.png",
+    "inspection/screenshots/c01-character.png",
+    "inspection/screenshots/c01-ending.png",
+    "inspection/screenshots/c02-menu.png",
+    "inspection/screenshots/c02-choice.png",
+    "inspection/screenshots/c02-route.png",
+    "inspection/screenshots/c02-character.png",
+    "inspection/screenshots/c02-ending.png",
+    "inspection/screenshots/c03-menu.png",
+    "inspection/screenshots/c03-choice.png",
+    "inspection/screenshots/c03-route.png",
+    "inspection/screenshots/c03-character.png",
+    "inspection/screenshots/c03-ending.png",
+    "inspection/screenshots/c04-menu.png",
+    "inspection/screenshots/c04-choice.png",
+    "inspection/screenshots/c04-route.png",
+    "inspection/screenshots/c04-character.png",
+    "inspection/screenshots/c04-ending.png",
+    "inspection/screenshots/c05-menu.png",
+    "inspection/screenshots/c05-choice.png",
+    "inspection/screenshots/c05-route.png",
+    "inspection/screenshots/c05-character.png",
+    "inspection/screenshots/c05-ending.png",
+    "inspection/screenshots/c06-menu.png",
+    "inspection/screenshots/c06-choice.png",
+    "inspection/screenshots/c06-route.png",
+    "inspection/screenshots/c06-character.png",
+    "inspection/screenshots/c06-ending.png",
+    "inspection/screenshots/c01-menu-mobile.png",
+    "inspection/screenshots/c01-choice-mobile.png",
+    "inspection/screenshots/c01-route-mobile.png",
+    "inspection/screenshots/c01-character-mobile.png",
+    "inspection/screenshots/c01-ending-mobile.png",
+    "inspection/screenshots/c02-menu-mobile.png",
+    "inspection/screenshots/c02-choice-mobile.png",
+    "inspection/screenshots/c02-route-mobile.png",
+    "inspection/screenshots/c02-character-mobile.png",
+    "inspection/screenshots/c02-ending-mobile.png",
+    "inspection/screenshots/c03-menu-mobile.png",
+    "inspection/screenshots/c03-choice-mobile.png",
+    "inspection/screenshots/c03-route-mobile.png",
+    "inspection/screenshots/c03-character-mobile.png",
+    "inspection/screenshots/c03-ending-mobile.png",
+    "inspection/screenshots/c04-menu-mobile.png",
+    "inspection/screenshots/c04-choice-mobile.png",
+    "inspection/screenshots/c04-route-mobile.png",
+    "inspection/screenshots/c04-character-mobile.png",
+    "inspection/screenshots/c04-ending-mobile.png",
+    "inspection/screenshots/c05-menu-mobile.png",
+    "inspection/screenshots/c05-choice-mobile.png",
+    "inspection/screenshots/c05-route-mobile.png",
+    "inspection/screenshots/c05-character-mobile.png",
+    "inspection/screenshots/c05-ending-mobile.png",
+    "inspection/screenshots/c06-menu-mobile.png",
+    "inspection/screenshots/c06-choice-mobile.png",
+    "inspection/screenshots/c06-route-mobile.png",
+    "inspection/screenshots/c06-character-mobile.png",
+    "inspection/screenshots/c06-ending-mobile.png",
+    "inspection/screenshots/c01-menu-landscape.png",
+    "inspection/screenshots/c01-choice-landscape.png",
+    "inspection/screenshots/c01-route-landscape.png",
+    "inspection/screenshots/c01-character-landscape.png",
+    "inspection/screenshots/c01-ending-landscape.png",
+    "inspection/screenshots/c02-menu-landscape.png",
+    "inspection/screenshots/c02-choice-landscape.png",
+    "inspection/screenshots/c02-route-landscape.png",
+    "inspection/screenshots/c02-character-landscape.png",
+    "inspection/screenshots/c02-ending-landscape.png",
+    "inspection/screenshots/c03-menu-landscape.png",
+    "inspection/screenshots/c03-choice-landscape.png",
+    "inspection/screenshots/c03-route-landscape.png",
+    "inspection/screenshots/c03-character-landscape.png",
+    "inspection/screenshots/c03-ending-landscape.png",
+    "inspection/screenshots/c04-menu-landscape.png",
+    "inspection/screenshots/c04-choice-landscape.png",
+    "inspection/screenshots/c04-route-landscape.png",
+    "inspection/screenshots/c04-character-landscape.png",
+    "inspection/screenshots/c04-ending-landscape.png",
+    "inspection/screenshots/c05-menu-landscape.png",
+    "inspection/screenshots/c05-choice-landscape.png",
+    "inspection/screenshots/c05-route-landscape.png",
+    "inspection/screenshots/c05-character-landscape.png",
+    "inspection/screenshots/c05-ending-landscape.png",
+    "inspection/screenshots/c06-menu-landscape.png",
+    "inspection/screenshots/c06-choice-landscape.png",
+    "inspection/screenshots/c06-route-landscape.png",
+    "inspection/screenshots/c06-character-landscape.png",
+    "inspection/screenshots/c06-ending-landscape.png"
+  ],
+  "testServerStopped": true
+}

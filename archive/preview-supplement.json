@@ -1,0 +1,2320 @@
+{
+  "capturedAt": "2026-09-10T07:58:53.189Z",
+  "formal": false,
+  "flows": [
+    {
+      "trialId": "t1",
+      "caseId": "c01",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c02",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c03",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c04",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c05",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c06",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c01",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c02",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c03",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c04",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c05",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c06",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c01",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c02",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c03",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c04",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c05",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c06",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c01",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c02",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c03",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c04",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c05",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c06",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c01",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c02",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c03",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c04",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c05",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c06",
+      "mobile": false,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c01",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c02",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c03",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c04",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c05",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c06",
+      "mobile": true,
+      "checks": [
+        {
+          "name": "choice-dialog",
+          "passed": true
+        },
+        {
+          "name": "choice-continue-ending",
+          "passed": true
+        },
+        {
+          "name": "recommendation-dialog",
+          "passed": true
+        },
+        {
+          "name": "dialog-escape-close",
+          "passed": true
+        },
+        {
+          "name": "other-ending-route",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-0",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-1",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-2",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-3",
+          "passed": true
+        },
+        {
+          "name": "route-node-dialog-4",
+          "passed": true
+        },
+        {
+          "name": "route-escape-menu",
+          "passed": true
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "mobileCharacters": [
+    {
+      "trialId": "t1",
+      "caseId": "c01",
+      "label": "林澄，旧信修复师",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "true"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "true"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c01",
+      "label": "裴砚，交接工程师",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "trialId": "t1",
+      "caseId": "c01",
+      "label": "周叙，邮局保管人",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "true"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "true"
+        }
+      ]
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c01",
+      "label": "林澄，旧信修复师",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "true"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c01",
+      "label": "裴砚，交接工程师",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "trialId": "t2",
+      "caseId": "c01",
+      "label": "周叙，邮局保管人",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "true"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c01",
+      "label": "林澄，旧信修复师",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "true"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c01",
+      "label": "裴砚，交接工程师",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "trialId": "t3",
+      "caseId": "c01",
+      "label": "周叙，邮局保管人",
+      "before": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "true"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterFirst": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "false"
+        }
+      ],
+      "afterSecond": [
+        {
+          "label": "林澄，旧信修复师",
+          "expanded": "false"
+        },
+        {
+          "label": "裴砚，交接工程师",
+          "expanded": "false"
+        },
+        {
+          "label": "周叙，邮局保管人",
+          "expanded": "true"
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "trialId": "t1",
+      "entries": 199,
+      "crossCaseMappings": []
+    },
+    {
+      "trialId": "t2",
+      "entries": 207,
+      "crossCaseMappings": []
+    },
+    {
+      "trialId": "t3",
+      "entries": 217,
+      "crossCaseMappings": []
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "testedAt": "2026-09-10T08:42:27.226Z",
+  "base": "https://iscarletx.github.io/cases",
+  "error": "frame.waitForFunction: Timeout 90000ms exceeded.",
+  "states": [
+    {
+      "url": "https://iscarletx.github.io/cases/#compare?case=c01&board=menu",
+      "images": [
+        {
+          "src": "",
+          "complete": true,
+          "width": 0
+        }
+      ],
+      "text": "界面研究室\nBOARD STUDY\n评测总览\n逐张对比\nBOARD COMPARISON / 01\n乙游3D / Menu\n当前案例\n乙游3D\n写实古风\n半写实真人\n国漫3D\n复古港风\n现代都市\nMenu\nChoice\nRoute\nCharacter\nEnding\n同步鼠标\n同步点击\n盲测\n三版同屏\n大图预览\n查看原图\n沉浸预览\nA\ngame-ui-frontend\n—\n原样预览 · 运行未结束\n评分详情\nB\ngame-ui-design\n—\n原样预览 · 运行未结束\n评分详情\nC\ngame-ui-ux\n—\n原样预览 · 运行未结束\n评分详情\n\n参考原图与三个独立网页 · 统一 16 : 9 "
+    },
+    {
+      "url": "https://iscarletx.github.io/cases/previews/t1/index.html?case=c01&board=menu",
+      "images": [
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t1/assets/c01/menu-0-off.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t1/assets/c01/menu-0-on.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t1/assets/c01/menu-1-off.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t1/assets/c01/menu-1-on.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t1/assets/c01/menu-2-off.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t1/assets/c01/menu-2-on.png",
+          "complete": false,
+          "width": 0
+        }
+      ],
+      "text": "开始游戏\n故事路线\n角色列表"
+    },
+    {
+      "url": "https://iscarletx.github.io/cases/previews/t2/index.html?case=c01&board=menu",
+      "images": [
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t2/assets/c01/menu-start.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t2/assets/c01/menu-start-selected.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t2/assets/c01/menu-route.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t2/assets/c01/menu-route-selected.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t2/assets/c01/menu-character.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t2/assets/c01/menu-character-selected.png",
+          "complete": false,
+          "width": 0
+        }
+      ],
+      "text": "明日来信 · 主菜单\n开始游戏\n故事路线\n角色列表"
+    },
+    {
+      "url": "https://iscarletx.github.io/cases/previews/t3/index.html?case=c01&board=menu",
+      "images": [
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/assets/c01/menu-background.jpg",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/assets/c01/menu-0-0.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/assets/c01/menu-0-1.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/assets/c01/menu-1-0.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/assets/c01/menu-1-1.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/assets/c01/menu-2-0.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/assets/c01/menu-2-1.png",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "src": "https://iscarletx.github.io/cases/previews/t3/icons/volume-x.svg",
+          "complete": false,
+          "width": 0
+        }
+      ],
+      "text": "开始游戏\n故事路线\n角色列表"
+    }
+  ]
+}
